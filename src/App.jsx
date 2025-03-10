@@ -12,7 +12,7 @@ const App = () => {
 
       <Navigation />
       <LandingPage />
-      <Footer />
+      {/* <Footer /> */}
       </div>
     </>
   );

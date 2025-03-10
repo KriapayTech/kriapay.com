@@ -10,11 +10,11 @@ const LandingPage = () => {
   return (
     <div className="div-fluid" >
       <Hero />
-      <Partners />
+      {/* <Partners />
       <Features />
       <Testimonials />
       <ComingSoon />
-      <FAQ />
+      <FAQ /> */}
     </ div>
   );
 };

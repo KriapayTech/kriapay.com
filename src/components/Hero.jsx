@@ -1,9 +1,11 @@
 import React from "react";
 import {Row, Col, Card } from "react-bootstrap";
+import "./Hero.css"; // Import the CSS file for animations
+
 
 const Hero = () => {
   return (
-    <div className="text-center py-5 container-fluid" style={{ backgroundColor: "#072a30",zIndex:'12' }}>
+    <div className="text-center py-5 container-fluid" style={{ backgroundColor: "#072a30" }} >
     {/* Centered Content Wrapper */}
     <div className="mx-auto" style={{ maxWidth: "754px"}}>
       <h1 style={{ fontSize: "62px", color: "white", zIndex:'20' }}>
@@ -15,6 +17,7 @@ const Hero = () => {
     </div>
   
     {/* Wallet Balance Card */}
+    <div className="pulsing-wrapper">
     <Card className="mx-auto p-3 text-dark" style={{ width: "520px", height: "280px", marginTop: "90px", padding: "20px 30px", borderRadius: "30px", backgroundColor: "#1b4f56", opacity: 1, overlay:'black',   overflow: "hidden", // Ensures overflow is hidden
  }}>
   <Card.Body>
@@ -76,8 +79,10 @@ const Hero = () => {
       </div>
     </div>
   </Card.Body>
-</Card>
+</Card></div>
 <div  style={{marginTop:'80px'}} className="text-center"  >< p style={{width:'326px', height:'27px',fontSize:'20px',color:'white', marginTop:'60px', margin: "0 auto"}}>Leading Brands, Proudly Partnered:</p></div>
+
+ 
   </div>
   
   

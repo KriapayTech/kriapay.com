@@ -37,10 +37,10 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="d-flex">
           <Nav className="mx-auto d-flex align-items-center ps-5 text-white"  >
-            <Nav.Link style={{fontSize:'16px',color:'white'}} href="#">KriaCard</Nav.Link>
-            <Nav.Link style={{fontSize:'16px',color:'white'}} href="#">Company</Nav.Link>
-            <Nav.Link style={{fontSize:'16px',color:'white'}} href="#">Ask Kriapay</Nav.Link>
-            <Nav.Link style={{fontSize:'16px',color:'white'}} href="#">Login</Nav.Link>
+            <Nav.Link style={{fontSize:'16px',color:'white', marginLeft:'10px'}} href="#">KriaCard</Nav.Link>
+            <Nav.Link style={{fontSize:'16px',color:'white' , marginLeft:'10px'}} href="#">Company</Nav.Link>
+            <Nav.Link style={{fontSize:'16px',color:'white' , marginLeft:'10px'}} href="#">Ask Kriapay</Nav.Link>
+            <Nav.Link style={{fontSize:'16px',color:'white' , marginLeft:'10px'}} href="#">Login</Nav.Link>
           </Nav>
           <Button  className="ms-auto" style={{width:"146px", height:'46px' , backgroundColor:'#1b4f56', border:'none'}}>Sign Up</Button>
         </Navbar.Collapse>
