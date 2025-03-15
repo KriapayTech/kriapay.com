@@ -9,7 +9,7 @@ const Hero = () => {
     {/* Centered Content Wrapper */}
     <div className="mx-auto" style={{ maxWidth: "754px"}}>
       <h1 style={{ fontSize: "62px", color: "white", zIndex:'20' }}>
-        You Can Pay Less To Send More.
+        You Can Pay Less To Send More
       </h1>
       <p className="mx-auto " style={{ fontSize: "18px", color: "white", maxWidth: "650px", marginTop:'45px', zIndex:'20' }}>
         Send and receive money across Africa with ease, low cost, and competitive exchange rates.

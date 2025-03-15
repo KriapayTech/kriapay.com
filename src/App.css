@@ -41,3 +41,19 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.accordion-button {
+  background-color: #B2BEB5 !important; /* Ash color */
+  color: #000 !important; /* Ensure text is visible */
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #B2BEB5 !important;
+  color: #000 !important;
+  box-shadow: none !important; /* Removes blue shadow */
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}

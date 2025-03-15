@@ -1,0 +1,25 @@
+.accordion-button {
+  background-color: #e0e0e0 !important; /* Ash background */
+  color: #000 !important; /* Ensure text is visible */
+  border: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #e0e0e0 !important; /* Ensure active item stays ash */
+  color: #000 !important;
+  box-shadow: none !important; /* Remove Bootstrap's default focus glow */
+}
+
+.accordion-button:focus {
+  box-shadow: none !important; /* Remove blue outline */
+}
+
+.accordion-item {
+  background-color: #e0e0e0 !important; /* Ensure item background matches */
+  border: none;
+}
+
+.accordion-body {
+  background-color: #e0e0e0 !important; /* Ensure body background matches */
+  color: #000 !important;
+}

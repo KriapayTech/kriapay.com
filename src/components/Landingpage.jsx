@@ -5,16 +5,18 @@ import Features from "./Features";
 import Testimonials from "./Testimonials";
 import ComingSoon from "./ComingSoon";
 import FAQ from "./FAQ";
+import Borderless from "./Borderless";
 
 const LandingPage = () => {
   return (
     <div className="div-fluid" >
       <Hero />
-      {/* <Partners />
+
       <Features />
       <Testimonials />
       <ComingSoon />
-      <FAQ /> */}
+      <FAQ />
+      <Borderless/>
     </ div>
   );
 };
