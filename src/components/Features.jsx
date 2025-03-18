@@ -90,7 +90,7 @@ const Features = () => {
   borderBottom: "none", // Removes bottom border
   borderRadius: "10px 10px 0 0", // Adds border-radius only to the top corners
   width: "1140px",
-  textAlign: "center",
+  textAlign: "left",
   margin: "0 auto", // Centers the div horizontally
 }}
 

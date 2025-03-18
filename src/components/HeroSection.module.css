@@ -1,0 +1,38 @@
+/* HeroSection.module.css */
+.container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .textSection {
+    flex: 1;
+    z-index: 20;
+    margin-top: 100px;
+  }
+  
+  .textSection h1 {
+    font-size: 40px;
+    margin-bottom: 70px;
+    color: white;
+  }
+  
+  .textSection p {
+    font-size: 19px;
+    max-width: 650px;
+    color: white;
+  }
+  
+  .imageSection {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .imageSection img {
+    transform: rotate(35deg);
+    width: 790px;
+    height: 540px;
+    max-width: 100%;
+    margin-top: 49px;
+    margin-left: 130px;
+  }
+  
