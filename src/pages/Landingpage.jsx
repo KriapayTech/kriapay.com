@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 import Partners from "../components/Partners";
 import Features from "../components/Features";
 import Testimonials from "../components/Testimonials";
-import ComingSoon from "../components/ComingSoon";
+import Comingsoon from "../components/Comingsoon";
 import FAQ from "../components/FAQ";
 import Borderless from "../components/Borderless";
 import Navigation from "../components/Navbar";
@@ -16,7 +16,7 @@ const LandingPage = () => {
       <Hero />
       <Features />
       <Testimonials />
-      <ComingSoon />
+      <Comingsoon />
       <FAQ />
       <Borderless/>
       <Footer/>

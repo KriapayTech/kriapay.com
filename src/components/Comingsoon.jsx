@@ -1,6 +1,6 @@
 import React from "react";
 
-const ComingSoon = () => {
+const Comingsoon = () => {
   return (
 
     <div style={{}}>
@@ -42,4 +42,4 @@ Spend in Confidence with Kriacard</p>
   );
 };
 
-export default ComingSoon;
+export default Comingsoon;
