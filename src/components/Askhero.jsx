@@ -20,11 +20,10 @@ const Hero = () => {
               marginTop:'200px'
             }}
           >
-            Redefining Financial Connectivity <br/> for Africa
+           Kriapay 101 – Everything You <br/> Need to Know
           </h1>
           <p style={{ fontSize: "17px", Width: "600px", marginTop:'50px' }}>
-            We are pioneers of borderless financial access for Africans, with a vision to <br/> facilitate financial transactions that are frictionless, inclusive, and accessible<br/> to all.
-          </p>
+          Questions pertaining sign-up, deposits, transfers or currency swap? We’ve <br/> got all the answers you need.          </p>
 
           <img
             src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1742306015/Company_coins_ldrnrh.svg"

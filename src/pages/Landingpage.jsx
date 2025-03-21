@@ -19,6 +19,8 @@ const LandingPage = () => {
       <ComingSoon />
       <FAQ />
       <Borderless/>
+      <Footer/>
+
     </ div>
   );
 };

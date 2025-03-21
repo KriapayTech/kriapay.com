@@ -3,6 +3,7 @@ import  Companyhero from "../components/Companyhero"
 import Navigation from "../components/Navbar";
 import Team from "../components/Team";
 import Barriers from "../components/Barriers";
+import Footer from "../components/Footer";
 
 
 const Company = () => {
@@ -12,6 +13,7 @@ const Company = () => {
         <Companyhero/>
         <Team/>
         <Barriers/>
+        <Footer/>
 
 
      
