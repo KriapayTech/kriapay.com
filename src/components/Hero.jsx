@@ -5,7 +5,7 @@ import "./Hero.css"; // Import the CSS file for animations
 
 const Hero = () => {
   return (
-    <div className="text-center py-5 container-fluid" style={{ backgroundColor: "#072a30" }} >
+    <div className="text-center py-5 container-fluid bg-[#072a30]">
     {/* Centered Content Wrapper */}
     <div className="mx-auto" style={{ maxWidth: "754px"}}>
       <h1 style={{ fontSize: "62px", color: "white", zIndex:'20' }}>
