@@ -1,14 +1,14 @@
-.pulsing-wrapper {
+/* .pulsing-wrapper {
     position: relative;
     display: flex;
     justify-content: center;
     overflow: hidden; 
 
     align-items: center;
-  }
+  } */
   
   /* /* .pulsing-wrapper::before, */
-  .pulsing-wrapper::after {
+  /* .pulsing-wrapper::after {
     content: "";
     position: absolute;
     width: 500px;
@@ -18,7 +18,7 @@
     clip-path: inset(30% 0 10% 0);
 
     animation: pulse-outline 2.0s infinite ease-in-out;
-  } */
+  } */ */
   
   .pulsing-wrapper::after {
     width: 400px;
@@ -26,7 +26,7 @@
     animation-delay: 1s;
   }
   
-  @keyframes pulse-outline {
+  /* @keyframes pulse-outline {
     0% {
       transform: scale(1);
       opacity: 0.8;
@@ -39,7 +39,7 @@
       transform: scale(1.6);
       opacity: 0;
     }
-  }
+  } */
   
   /* .wallet-card {
     width: 520px;
@@ -50,4 +50,44 @@
     z-index: 2;
     position: relative;
   } */
+  
+
+  @keyframes pulseExpandUp {
+    0% {
+      transform: scale(1);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(4);
+      opacity: 0;
+      transform-origin: bottom; /* Ensures expansion is only upwards */
+    }
+  }
+  
+  /* Medium pulse animation */
+  .pulse-medium {
+    animation: pulseExpandUp 1.8s linear infinite;
+  }
+  
+  /* Large pulse animation */
+  .pulse-large {
+    animation: pulseExpandUp 1.5s linear infinite;
+  }
+  
+  /* Outline Circle Styles */
+  .outline-circle {
+    border: 2px solid rgba(255, 255, 255, 0.25); /* White outline */
+    border-radius: 50%;
+  }
+  
+  /* Container for positioning */
+  .relative-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+  }
   

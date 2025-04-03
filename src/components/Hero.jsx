@@ -17,7 +17,22 @@ const Hero = () => {
     </div>
   
     {/* Wallet Balance Card */}
-    <div className="pulsing-wrapper">
+    <div className="pulsing-wrapper relative">
+    {/* <!-- Container for pulse effect --> */}
+<div class="absolute w-full h-[500px] bottom-[-0px] flex items-end justify-center overflow-hidden">
+  {/* <!-- Pulsing Outline Circles Positioned Below --> */}
+  <div class="absolute bottom-[-30px] flex items-center justify-center">
+    {/* <!-- Small static outline circle --> */}
+    <div class="w-[80px] h-[80px] outline-circle absolute"></div>
+
+    {/* <!-- Medium pulsing outline circle --> */}
+    <div class="w-[200px] h-[200px] outline-circle absolute pulse-medium"></div>
+
+    {/* <!-- Large pulsing outline circle --> */}
+    <div class="w-[400px] h-[400px] outline-circle absolute pulse-large"></div>
+  </div>
+</div>
+
     <Card className="mx-auto p-3 text-dark !w-[80%] !h-[190px] md:!w-[408px] md:!h-[220px] lg:!w-[520px] lg:!h-[280px] mt-[70px] py- px-7 !rounded-[30px] !bg-[#1b4f56] backdrop-opacity-100 overflow-hidden" style={{overlay:'black', // Ensures overflow is hidden
  }}>
   <Card.Body className="p-0 m-0">
@@ -66,8 +81,14 @@ const Hero = () => {
           />
       </div>
     </div>
+    <div class="relative flex items-center justify-center">
+</div>
   </Card.Body>
-</Card></div>
+
+</Card>
+
+</div>
+
 <div  style={{marginTop:'80px'}} className="text-center"  >< p style={{width:'326px', height:'27px',fontSize:'20px',color:'white', marginTop:'60px', margin: "0 auto"}}>Leading Brands, Proudly Partnered:</p></div>
 
  
