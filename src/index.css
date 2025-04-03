@@ -15,11 +15,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-a {
+/* a {
   font-weight: 500;
   color: #1b4f56;
   text-decoration: inherit;
-}
+} */
 a:hover {
   color: #1b4f56;
 }
@@ -33,10 +33,10 @@ body {
 
 }
 
-h1 {
+/* h1 {
   font-size: 3.2em;
   line-height: 1.1;
-}
+} */
 
 /* button {
   border-radius: 8px;

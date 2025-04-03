@@ -7,10 +7,10 @@ const Navigation = () => {
 
   return (
     <Navbar className="w-full max-w-[1900px] h-[90px] bg-[#072a30]" expand="lg" variant="dark">
-      <div className="w-full flex justify-between px-[20px] md:px-[80px] py-[20px] relative items-center">
+      <div className="w-full flex justify-between px-[20px] md:px-[24px] lg:px-[80px] py-[20px] relative items-center">
         
         {/* Logo */}
-        <a href="/" className="w-[96px] h-[35px] md:w-[130px] md:h-[48px]">
+        <a href="/" className="w-[96px] h-[35px] md:w-[118px] mdh-[43px] lg::w-[130px] lg:h-[48px]">
           <img src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1741440756/Kriapay_Logo_nm8w7f.svg" alt="Kriapay Logo" />
         </a>
 

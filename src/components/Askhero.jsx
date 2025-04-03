@@ -11,7 +11,7 @@ const Hero = () => {
       {/* Text Section */}
       <Container className="text-white d-flex flex-column align-items-center">
         <div className="mx-auto">
-          <h1
+          {/* <h1
             style={{
               fontSize: "44px",
               fontWeight: "bold",
@@ -21,7 +21,7 @@ const Hero = () => {
             }}
           >
            Kriapay 101 – Everything You <br/> Need to Know
-          </h1>
+          </h1> */}
           <p style={{ fontSize: "17px", Width: "600px", marginTop:'50px' }}>
           Questions pertaining sign-up, deposits, transfers or currency swap? We’ve <br/> got all the answers you need.          </p>
 
