@@ -14,7 +14,7 @@ const LandingPage = () => {
     <div className="bg-white max-w-full" >
     <Navigation />
       <Hero />
-      {/* <Features /> */}
+      <Features />
       {/* <Testimonials /> */}
       {/* <Comingsoon /> */}
       {/* <FAQ /> */}

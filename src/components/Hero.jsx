@@ -6,16 +6,6 @@ import "slick-carousel/slick/slick-theme.css";
 import "./Hero.css"; // Import the CSS file for animations
 
 
-const logos = [
-  "https://res.cloudinary.com/dhap3isd2/image/upload/v1743763208/Kriapay%20website/ur5z6of5fhqbieuo92qu.svg",
-  "https://res.cloudinary.com/dhap3isd2/image/upload/v1743763311/Kriapay%20website/hwr9zfaay7gkpgmpremq.svg",
-  "https://res.cloudinary.com/dhap3isd2/image/upload/v1743763586/Kriapay%20website/daks0hz8qbexrhgku5gx.svg",
-  "https://res.cloudinary.com/dhap3isd2/image/upload/v1743763587/Kriapay%20website/h4enxjfrzxnb0poqgzcz.svg",
-  "https://res.cloudinary.com/dhap3isd2/image/upload/v1743763730/Kriapay%20website/im8csspn7usuttc2xlqo.svg",
-  "https://res.cloudinary.com/dhap3isd2/image/upload/v1743763852/Kriapay%20website/ahnmlal4epf08uegxmwt.svg",
-  "https://res.cloudinary.com/dhap3isd2/image/upload/v1743763910/Kriapay%20website/ngvzew85ywnex7ctjpyg.svg",
-];
-
 const Hero = () => {
   const LogoTicker = () => {
     const scrollingLogos = [...logos, ...logos]; // Repeat for seamless loop

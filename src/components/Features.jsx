@@ -1,190 +1,198 @@
 import React from "react";
-import {  Row, Col, Card } from "react-bootstrap";
+import { Row, Col, Card } from "react-bootstrap";
 
 const slidesData = [
   {
     title: "Effortless Currency Swap",
     description:
       "Convert Naira to Leones, Cedis to Rands, or any other African currency with ease—no hidden fees, just great rates at your fingertips.",
-    descriptionbelow:"Swaps are processed instantly.",
-    
-      image: "https://res.cloudinary.com/dw7w2at8k/image/upload/v1741875528/CurrencySwap_g9dbtt.svg",
+    descriptionbelow: "Swaps are processed instantly.",
+
+    image:
+      "https://res.cloudinary.com/dw7w2at8k/image/upload/v1741875528/CurrencySwap_g9dbtt.svg",
   },
   {
     title: "Security You Can Trust",
-    description:
-      "Your money’s safety is our top priority.",
-      descriptionbelow:"Our strict KYC process, keeps fraudsters out, so you can send and receive funds with peace of mind.",
+    description: "Your money’s safety is our top priority.",
+    descriptionbelow:
+      "Our strict KYC process, keeps fraudsters out, so you can send and receive funds with peace of mind.",
 
-    image: "https://res.cloudinary.com/dw7w2at8k/image/upload/v1742043085/Shield_rvfthx.svg",
+    image:
+      "https://res.cloudinary.com/dw7w2at8k/image/upload/v1742043085/Shield_rvfthx.svg",
   },
 
-  
   {
     title: "Seamless & Time-Saving Transactions",
     description:
       " Time is money, and with Kriapay, you don’t have to waste either! ",
-      descriptionbelow:"     Our intuitive platform ensures that deposits and transfers happen in seconds, so you can focus on what truly matters.",
+    descriptionbelow:
+      "     Our intuitive platform ensures that deposits and transfers happen in seconds, so you can focus on what truly matters.",
 
-    image: "https://res.cloudinary.com/dw7w2at8k/image/upload/v1742043045/HourGlass_grwzbn.svg",
+    image: 
+      "https://res.cloudinary.com/dw7w2at8k/image/upload/v1742043045/HourGlass_grwzbn.svg",
   },
-
 ];
 
 const Features = () => {
   return (
-    <div className="py-5 container-fluid">
-<div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "20px" }}>
-  <div style={{ flex: 1 }}>
-    <p style={{ fontSize: "41px", color:'#072A30', width:'1fr' ,paddingBottom:'150px',paddingTop:'150px',paddingLeft:'150px' }}>Send and receive money on your terms - built for you, and Africa.</p>
-  </div>
-  <div style={{ flex: 1 }}>
-    <img src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1741820101/SendAndReceive_m9n8zg.svg" alt="" style={{ Width: "172%", height: "200px", marginLeft:'161px',marginRight:'140px',marginBottom:'39px' }} />
-  </div>
-</div>
-
-      <div style={{}}>
-        <div style={{margin:'95px', backgroundColor:'#072a30',height:'774px', borderRadius:'20px', overflow: "hidden"}} >
-          <div className="p-4">
-            <div>
-            <div className="d-flex justify-content-center align-items-center ">
-  <h4 className="text-center"style={{marginLeft:'327px',marginRight:'327px', marginTop:'70px', marginBottom:'60px', fontSize:'45px', color:'white', width:'45%'}}>One Wallet, Multiple Currencies</h4>
-</div>
-
-<div style={{ display: "flex", gap: "20px" }}>
-  <div style={{overflow: "hidden"}}>
-    <img
-      src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1742041315/AfricaGlobe_q9y4ub.svg"
-      alt="Abuja Landmark"
-      style={{ width: "590px", height: "460px",   overflow:'hidden'}}
-    />
-  </div>
-  <div>
-    <p style={{ fontSize: "33px", width: "479px", color: "white" }}>
-      Say goodbye to currency restrictions.
-    </p>
-    <p style={{ fontSize: "17px", width: "410px", color: "white" }}>
-    Kriapay’s multi-currency wallet lets you hold, send, and receive money in multiple currencies—all in one place.
-    </p>
-  </div>
-</div>
-
-              
-            </div>
-          </div>
+    <div className="flex flex-col items-center justify-center border-2 border-yellow-400 w-full">
+      <div className="flex items-center justify-between gap-[20px] mt-[80px] mb-[50px]">
+        <div className="flex-1">
+          <p className="text-[41px] tracking-[-3px] leading-[150%] font-medium text-[#072A30] pl-[150px] ">
+            Send and receive money on your terms - built for you, and Africa.
+          </p>
         </div>
-        
+        <div className="flex-1 items-center justify-center pr-6">
+          <img
+            src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1741820101/SendAndReceive_m9n8zg.svg"
+            alt="Hero-coins"
+            className="w-[170%] h-[235px]"
+          />
+        </div>
       </div>
 
-      <div style={{ display: "flex", justifyContent: "center", alignItems: "center", textAlign: "center", height: "244px" }}>
-  <p style={{ width: "50%", fontSize: "45px" , height:'94px'}}>
-    Affordable transfers,<br/> every time.
-  </p>
-</div>
+      <div className="w-full">
+        <div className="w-[85%] h-[766px] bg-[#072a30] rounded-[20px] overflow-hidden mx-auto "
+        >
+          <div className="h-[766px]">
+              <div className="d-flex justify-content-center align-items-center">
+                <h4
+                  className="text-center !ml-[327px] !mr-[327px] !mt-[70px] !mb-[60px] !text-[45px] !text-white w-[45%] tracking-[-3px] !font-medium !leading-[45px]"
+                >
+                  One wallet, multiple currencies.
+                </h4>
+              </div>
 
-<div
- style={{
-  display: "flex",
-  justifyContent: "center",
-  border: "1px solid #c6d3d5",
-  borderBottom: "none", // Removes bottom border
-  borderRadius: "10px 10px 0 0", // Adds border-radius only to the top corners
-  width: "1140px",
-  textAlign: "left",
-  margin: "0 auto", // Centers the div horizontally
-}}
-
->
-  <div>
-    <img
-      src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1741855192/Affordable_transfers_efvv8t.svg"
-      alt=""
-      style={{ marginRight: "248px", marginTop: "81px", marginBottom: "49px" }}
-    />
-  </div>
-  <div>
-    <p
-      style={{
-        width: "475px",
-        height: "60px",
-        color: "#072A30",
-        fontSize: "26px",
-        marginTop: "50px",
-      }}
-    >
-      From the buzzling streets of Lagos, to the breezy shores of Freetown,
-    </p>
-    <p
-      style={{
-        width: "475px",
-        height: "50px",
-        color: "#072A30",
-        fontSize: "22px",
-        marginTop: "70px",
-      }}
-    >
-      From the buzzling streets of Lagos, to the breezy shores of Freetown,
-    </p>
-  </div>
-</div>
-
-
-<div
-  style={{
-    height: "744px",
-    backgroundColor: "#072a30",
-    width: "1140px",
-    margin: "0 auto",
-    marginTop: "210px",
-    borderRadius: "20px",
-    display: "flex", // Enables flexbox
-    flexDirection: "column", // Aligns children in a column
-    alignItems: "center", // Centers items horizontally
-    textAlign: "center" // Ensures text inside is centered
-  }}
->
-  <p
-    style={{
-      fontSize: "45px",
-      color: "white",
-      marginTop:'60px',
-    }}
-  >
-    In-app benefits
-  </p>
-
-  <div>
-  <div className="container my-5" style={{height:'580px', borderTop:'solid 1px white'}}>
-      <div id="currencyCarousel" className="carousel slide" data-bs-ride="carousel">
-        <div className="carousel-inner">
-          {slidesData.map((slide, index) => (
-            <div className={`carousel-item ${index === 0 ? "active" : ""}`} key={index}>
-              <div className="row d-flex align-items-center " style={{ textAlign: 'left' }}>
-                <div className="col-md-6 text-white">
-                  <h2 style={{fontSize:'33px', marginLeft:'150px'}}>{slide.title}</h2>
-                  <p style={{fontSize:'17px', marginRight:'119px', marginTop:'50px', marginLeft:'150px'}}>{slide.description}</p>
-                  <p style={{fontSize:'17px', marginRight:'119px', marginTop:'20px', marginLeft:'150px'}}>{slide.descriptionbelow}</p>
-
+              <div className="flex gap-[20px] pt-4 ">
+                <div className="overflow-hidden">
+                  <img
+                    src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1742041315/AfricaGlobe_q9y4ub.svg"
+                    alt="Abuja Landmark"
+                    className="w-[691px] h-[470px] overflow-hidden "
+                  />
                 </div>
-                <div className="col-md-6">
-                  <img src={slide.image} alt={slide.title} style={{marginLeft:'62px',marginTop:'50px',marginBottom:'44px', width:'574px', height:'391px'}} className="img-fluid" />
+                <div className="flex flex-col gap-[40px] h-fit mt-10">
+                  <p className="text-[31px] w-[479px] text-white tracking-[-1.5px] leading-[33px] font-medium "
+                  >
+                    Say goodbye to currency restrictions.
+                  </p>
+                  <p className="text-[17px] w-[410px] text-white tracking-[-0.9px] leading-[33px] font-normal opacity-85"
+                  >
+                    Kriapay’s multi-currency wallet lets you hold, send, and
+                    receive money in multiple currencies—all in one place.
+                  </p>
                 </div>
               </div>
-            </div>
-          ))}
+          </div>
         </div>
-        {/* Carousel Controls */}
-        <button className="carousel-control-prev" type="button" data-bs-target="#currencyCarousel" data-bs-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          </button>
-          <button className="carousel-control-next" type="button" data-bs-target="#currencyCarousel" data-bs-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          </button>
       </div>
-    </div>
-  </div>
-</div>
 
+      <div className="flex items-center justify-center text-center h-[244px] w-full mt-5"
+      >
+        <p className="text-[45px] w-fit tracking-[-3px] font-medium text-[#072A30] ">
+          Affordable transfers, every time.
+        </p>
+      </div>
+
+      <div className="flex justify-around w-[85%] mt-12 mb-[110px]"
+      >
+        <div className="mt-10 w-fit h-fit">
+          <img className="w-[445px] h-[310px] rotate-[-9deg]"
+            src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1741855192/Affordable_transfers_efvv8t.svg"
+            alt="Transfer-coins"
+          />
+        </div>
+        <div className="w-[480px] flex flex-col gap-5 h-fit mr-10">
+          <p className="text-[28px] text-[#072A30] tracking-[-1.5px] font-medium "
+          >
+            From the buzzling streets of Lagos, to the breezy shores of
+            Freetown,
+          </p>
+          <p className="text-[23px] text-[#072A30] tracking-[-1.5px] font-normal "
+          >
+            Kriapay makes sending money across Africa effortless and affordable.
+          </p>
+        </div>
+      </div>
+
+      <div className=" w-[85%] bg-[#072a30] rounded-[20px] fledx flex-col items-center text-center mt-[100px] mb-[100px] "
+      >
+        <p className="text-[45px] text-white pt-[60px] tracking-[-3px] font-medium  "
+        >
+          In-app benefits
+        </p>
+
+
+          <div
+            className=" w-[100%] h-[530px] mt-4"
+          >
+            <div
+              id="currencyCarousel"
+              className="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div className="carousel-inner">
+                {slidesData.map((slide, index) => (
+                  <div
+                    className={`carousel-item ${index === 0 ? "active" : ""}`}
+                    key={index}
+                  >
+                    <div
+                      className="row d-flex align-items-center "
+                      style={{ textAlign: "left" }}
+                    >
+                      <div className="col-md-6 text-white">
+                        <h2 className="text-[33px] ml-[150px] tracking-[-2px] font-medium ">
+                          {slide.title}
+                        </h2>
+                        <p className="text-[17px] tracking-[-0.9px] mr-[119px] ml-[150px] !mt-[50px] "
+                        >
+                          {slide.description}
+                        </p>
+                        <p className="text-[17px] tracking-[-0.9px] mr-[119px] ml-[150px] !mt-[40px]"
+                        >
+                          {slide.descriptionbelow}
+                        </p>
+                      </div>
+                      <div className="col-md-6">
+                        <img
+                          src={slide.image}
+                          alt={slide.title}
+                          style={{
+                          }}
+                          className="ml-[62px] !w-[560px] !h-[380px] mt-[50px] "
+                        />
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              {/* Carousel Controls */}
+              <button
+                className="carousel-control-prev relative"
+                type="button"
+                data-bs-target="#currencyCarousel"
+                data-bs-slide="prev"
+              >
+                <span
+                  className="carousel-control-prev-icon !w-[25px] !h-[45px] absolute left-15"
+                  aria-hidden="true"
+                ></span>
+              </button>
+              <button
+                className="carousel-control-next relative"
+                type="button"
+                data-bs-target="#currencyCarousel"
+                data-bs-slide="next"
+              >
+                <span
+                  className="carousel-control-next-icon !w-[25px] !h-[45px] absolute right-15"
+                  aria-hidden="true"
+                ></span>
+              </button>
+            </div>
+        </div>
+      </div>
     </div>
   );
 };
