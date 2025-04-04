@@ -1,9 +1,37 @@
 import React from "react";
 import {Row, Col, Card } from "react-bootstrap";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "./Hero.css"; // Import the CSS file for animations
 
 
+const logos = [
+  "https://res.cloudinary.com/dhap3isd2/image/upload/v1743763208/Kriapay%20website/ur5z6of5fhqbieuo92qu.svg",
+  "https://res.cloudinary.com/dhap3isd2/image/upload/v1743763311/Kriapay%20website/hwr9zfaay7gkpgmpremq.svg",
+  "https://res.cloudinary.com/dhap3isd2/image/upload/v1743763586/Kriapay%20website/daks0hz8qbexrhgku5gx.svg",
+  "https://res.cloudinary.com/dhap3isd2/image/upload/v1743763587/Kriapay%20website/h4enxjfrzxnb0poqgzcz.svg",
+  "https://res.cloudinary.com/dhap3isd2/image/upload/v1743763730/Kriapay%20website/im8csspn7usuttc2xlqo.svg",
+  "https://res.cloudinary.com/dhap3isd2/image/upload/v1743763852/Kriapay%20website/ahnmlal4epf08uegxmwt.svg",
+  "https://res.cloudinary.com/dhap3isd2/image/upload/v1743763910/Kriapay%20website/ngvzew85ywnex7ctjpyg.svg",
+];
+
 const Hero = () => {
+  const LogoTicker = () => {
+    const scrollingLogos = [...logos, ...logos]; // Repeat for seamless loop
+  
+    return (
+      <div className="logo-ticker-container">
+        <div className="logo-ticker-track">
+          {scrollingLogos.map((logo, index) => (
+            <div className="logo-ticker-item" key={index}>
+              <img src={logo} alt={`logo-${index}`} />
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  };
   return (
     <div className="text-center py-5 bg-[#072a30]">
     {/* Centered Content Wrapper */}
@@ -17,21 +45,19 @@ const Hero = () => {
     </div>
   
     {/* Wallet Balance Card */}
-    <div className="pulsing-wrapper relative">
-    {/* <!-- Container for pulse effect --> */}
-<div class="absolute w-full h-[500px] bottom-[-0px] flex items-end justify-center overflow-hidden">
-  {/* <!-- Pulsing Outline Circles Positioned Below --> */}
+<div className="pulsing-wrapper relative">
+ 
+{/* <div class="absolute w-full h-[500px] bottom-[-0px] flex items-end justify-center overflow-hidden">
+
   <div class="absolute bottom-[-30px] flex items-center justify-center">
-    {/* <!-- Small static outline circle --> */}
+
     <div class="w-[80px] h-[80px] outline-circle absolute"></div>
 
-    {/* <!-- Medium pulsing outline circle --> */}
     <div class="w-[200px] h-[200px] outline-circle absolute pulse-medium"></div>
 
-    {/* <!-- Large pulsing outline circle --> */}
     <div class="w-[400px] h-[400px] outline-circle absolute pulse-large"></div>
   </div>
-</div>
+</div> */}
 
     <Card className="mx-auto p-3 text-dark !w-[80%] !h-[190px] md:!w-[408px] md:!h-[220px] lg:!w-[520px] lg:!h-[280px] mt-[70px] py- px-7 !rounded-[30px] !bg-[#1b4f56] backdrop-opacity-100 overflow-hidden" style={{overlay:'black', // Ensures overflow is hidden
  }}>
@@ -89,7 +115,14 @@ const Hero = () => {
 
 </div>
 
-<div  style={{marginTop:'80px'}} className="text-center"  >< p style={{width:'326px', height:'27px',fontSize:'20px',color:'white', marginTop:'60px', margin: "0 auto"}}>Leading Brands, Proudly Partnered:</p></div>
+{/* CAROUSEL SECTION */}
+<div className="text-center mt-[80px] flex flex-col items-center justify-center">
+        <p className="w-fit h-fit text-[16px] lg:text-[20px] tracking-[-0.5px] text-white mt-[60px] mx-0 my-auto">
+          Leading Brands, Proudly Partnered:
+        </p>
+        {/* Carousel Component */}
+        <LogoCarousel />
+      </div>
 
  
   </div>
@@ -98,4 +131,60 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+const LogoCarousel = () => {
+  const settings = {
+    infinite: true,
+    speed: 8000, // slower speed for smooth scroll
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 0, // zero delay to eliminate pause
+    cssEase: "linear",
+    arrows: false,
+    pauseOnHover: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: { slidesToShow: 3 },
+      },
+      {
+        breakpoint: 768,
+        settings: { slidesToShow: 2 },
+      },
+      {
+        breakpoint: 480,
+        settings: { slidesToShow: 1 },
+      },
+    ],
+  };
+
+  const logos = [
+    "https://res.cloudinary.com/dhap3isd2/image/upload/v1743763208/Kriapay%20website/ur5z6of5fhqbieuo92qu.svg",
+    "https://res.cloudinary.com/dhap3isd2/image/upload/v1743763311/Kriapay%20website/hwr9zfaay7gkpgmpremq.svg",
+    "https://res.cloudinary.com/dhap3isd2/image/upload/v1743763586/Kriapay%20website/daks0hz8qbexrhgku5gx.svg",
+    "https://res.cloudinary.com/dhap3isd2/image/upload/v1743763587/Kriapay%20website/h4enxjfrzxnb0poqgzcz.svg",
+    "https://res.cloudinary.com/dhap3isd2/image/upload/v1743763730/Kriapay%20website/im8csspn7usuttc2xlqo.svg",
+    "https://res.cloudinary.com/dhap3isd2/image/upload/v1743763852/Kriapay%20website/ahnmlal4epf08uegxmwt.svg",
+    "https://res.cloudinary.com/dhap3isd2/image/upload/v1743763910/Kriapay%20website/ngvzew85ywnex7ctjpyg.svg",
+  ];
+
+  return (
+    <div className="w-full max-w-[300px] md:max-w-[700px]  lg:max-w-[1200px] mx-auto mt-5 overflow-hidden">
+      <Slider {...settings}>
+        {logos.concat(logos).map((logo, index) => (
+          <div key={index} className="flex !justify-center !items-center" >
+            <img
+              src={logo}
+              alt={`Logo ${index + 1}`}
+              className={index === 3 ? "w-[120px] h-[35px] md:w-[140px] md:h-[45px] lg:w-[170px] lg:h-[60px] object-contain cursor-pointer" : "w-[120px] h-[45px] md:w-[130px] md:h-[45px] lg:w-[150px] lg:h-[55px] object-contain cursor-pointer"}
+            />
+          </div>
+        ))}
+      </Slider>
+    </div>
+  );
+  
+};
+
+
+export default Hero; LogoCarousel;

@@ -90,4 +90,47 @@
     justify-content: center;
     overflow: hidden;
   }
+
+
+  .logo-ticker-container {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    background-color: white;
+    padding: 1rem 0;
+  }
+  
+  .logo-ticker-track {
+    display: flex;
+    width: max-content;
+    animation: scroll-left 30s linear infinite;
+  }
+  
+  .logo-ticker-container:hover .logo-ticker-track {
+    animation-duration: 60s; /* Slows down on hover */
+  }
+  
+  .logo-ticker-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1.5rem;
+    min-width: 160px;
+  }
+  
+  .logo-ticker-item img {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
   
