@@ -8,31 +8,31 @@ const testimonials = [
     message:
     "With Kriapay, I get paid from buyers from Sierra Leone, while receiving the funds in minutes and can and convert easily. It's a game-changer for remote delears like me.",
     image:
+      "https://res.cloudinary.com/dhap3isd2/image/upload/v1743859203/Kriapay%20website/cmui19kwibn15b4sdpko.png",
+  },
+  {
+    name: "Ebuka U.",
+    position: "Technical specialist, Atcomm Technologies",
+    message:
+    "Kriapay offline transactions has been a great help for my business. Their low fee and practical exchange rate has saved me time and money. I look forward to their mobile launch",
+    image:
       "https://res.cloudinary.com/dhap3isd2/image/upload/v1743859061/Kriapay%20website/wabsldnjfjpsjv9dadbr.png",
   },
   {
     name: "David D.",
-    position: "CEO @ Locate Realities.",
+    position: "Co-Founder @ Locate Realities",
     message:
-      "As a business owner, Kriapay gives me peace of mind with their reliable offline payments. All the transactions with them were processed swiftly with a decent transfer rate. I am optimistic their mobile platforms would make things even easier.",
-    image:
-      "https://res.cloudinary.com/dhap3isd2/image/upload/v1743859203/Kriapay%20website/cmui19kwibn15b4sdpko.png",
-  },
-  {
-    name: "Michael A.",
-    position: "Freelancer, Remote Africa",
-    message:
-      "With Kriapay, I can get paid from anywhere in the world and convert easily. It's a game-changer for remote professionals like me.",
+      "As a business owner, Kriapay gives me peace of mind with their reliable offline payments. All the transactions with them were processed swiftly wth a decent transfer rate. I am certain their mobile platforms would make things 10x easier.",
     image:
       "https://res.cloudinary.com/dhap3isd2/image/upload/v1743859313/Kriapay%20website/t7e58w9fhjewm5rx7man.png",
   },
   {
-    name: "Emmanuel G.",
-    position: "Spare Part Dealer, Lagos, Nigeria",
+    name: "Akinyemi B.",
+    position: "HR Associate @ Daily Delights",
     message:
-      "With Kriapay, I get paid from buyers from Sierra Leone, while receiving the funds in minutes and can and convert easily. It's a game-changer for remote delears like me.",
+    "Despite being offline, Kriapay comes through when I make transactions to Sierra Leone. I wait in great anticipation for their mobile launch. Can't wait to use features like the currency swap and the exchange rate calculator.",
     image:
-      "https://res.cloudinary.com/dhap3isd2/image/upload/v1743859313/Kriapay%20website/t7e58w9fhjewm5rx7man.png",
+      "https://res.cloudinary.com/dhap3isd2/image/upload/v1743862715/Kriapay%20website/ijks7kgwoobvwwrutbn8.png",
   },
 ];
 
@@ -62,7 +62,7 @@ const Testimonials = () => {
             <div
               key={index}
               className={`flex-shrink-0 !w-[900px] items-center !h-[380px]  md:w-[60vw] lg:w-[50vw] rounded-2xl overflow-hidden shadow-md flex ${
-                index % 2 === 0 ? "bg-[#f5f5f5]" : "bg-[#002F34]"
+                index % 2 === 0 ? "bg-[#F7F7F7]" : "bg-[#002F34]"
               }`}
             >
               {/* Left side: Image */}

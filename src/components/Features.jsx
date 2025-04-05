@@ -89,7 +89,7 @@ const Features = () => {
 
       <div className="flex items-center justify-center text-center mt-[100px] mb-5 md:mb-0 md:h-[230px] w-full md:mt-5"
       >
-        <p className="text-[30px] px-[50px] md:text-[40px] md:w-[60%] lg:text-[45px] 2xl:w-[40%] tracking-[-3px] leading-[32px] md:leading-[45px] font-medium text-[#072A30] ">
+        <p className="text-[30px] px-[50px] md:text-[40px] md:w-[60%] lg:w-[50%] lg:text-[45px] 2xl:w-[40%] tracking-[-3px] leading-[32px] md:leading-[45px] font-medium text-[#072A30] ">
           Affordable transfers, everytime.
         </p>
       </div>
