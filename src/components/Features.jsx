@@ -245,7 +245,7 @@ const Features = () => {
                 data-bs-slide="prev"
               >
                 <span
-                  className="carousel-control-prev-icon lg:!w-[22px] lg:!h-[40px] 2xl:!w-[25px] 2xl:!h-[45px] absolute md:left-3 lg:left-10 2xl:left-15 !hidden md:block"
+                  className="carousel-control-prev-icon md:!w-[20px] md:!h-[30px] lg:!w-[22px] lg:!h-[40px] 2xl:!w-[25px] 2xl:!h-[45px] absolute md:left-3 lg:left-10 2xl:left-15 !hidden md:block"
                   aria-hidden="true"
                 ></span>
               </button>
@@ -256,7 +256,7 @@ const Features = () => {
                 data-bs-slide="next"
               >
                 <span
-                  className="carousel-control-next-icon lg:!w-[22px] lg:!h-[40px] 2xl:!w-[25px] 2xl:!h-[45px] absolute md:right-3 lg:right-10 2xl:right-15 !hidden md:block"
+                  className="carousel-control-next-icon md:!w-[20px] md:!h-[30px] lg:!w-[22px] lg:!h-[40px] 2xl:!w-[25px] 2xl:!h-[45px] absolute md:right-3 lg:right-10 2xl:right-15 !hidden md:block"
                   aria-hidden="true"
                 ></span>
               </button>

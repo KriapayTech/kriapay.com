@@ -41,11 +41,11 @@ const Navigation = () => {
 
           {/* Sidebar Menu */}
           <div className="flex flex-col items-center gap-6 mt-16">
-            <Nav.Link className="text-white text-lg" href="/kriacard" onClick={() => setIsSidebarOpen(false)}>Kriacard</Nav.Link>
-            <Nav.Link className="text-white text-lg" href="/company" onClick={() => setIsSidebarOpen(false)}>Company</Nav.Link>
-            <Nav.Link className="text-white text-lg" href="/ask" onClick={() => setIsSidebarOpen(false)}>Ask Kriapay</Nav.Link>
-            <Nav.Link className="text-white text-lg" href="#" onClick={() => setIsSidebarOpen(false)}>Login</Nav.Link>
-            <button className="w-[146px] h-[46px] tracking-[-1px] bg-[#1B4F56] text-white font-medium rounded">
+            <Nav.Link className="text-white !text-[17px] tracking-[-1px] leading-[19px] !font-medium" href="/kriacard" onClick={() => setIsSidebarOpen(false)}>Kriacard</Nav.Link>
+            <Nav.Link className="text-white !text-[17px] tracking-[-1px] leading-[19px] !font-medium" href="/company" onClick={() => setIsSidebarOpen(false)}>Company</Nav.Link>
+            <Nav.Link className="text-white !text-[17px] tracking-[-1px] leading-[19px] !font-medium" href="/ask" onClick={() => setIsSidebarOpen(false)}>Ask Kriapay</Nav.Link>
+            <Nav.Link className="text-white !text-[17px] tracking-[-1px] leading-[19px] !font-medium" href="#" onClick={() => setIsSidebarOpen(false)}>Login</Nav.Link>
+            <button className="w-[146px] h-[46px] tracking-[-1px] bg-[#1B4F56] text-white font-medium leading-[19px] rounded">
               Sign up
             </button>
           </div>
