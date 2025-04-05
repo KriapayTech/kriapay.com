@@ -159,14 +159,14 @@ const LogoCarousel = () => {
   ];
 
   return (
-    <div className="w-full max-w-[300px] md:max-w-[700px]  lg:max-w-[1200px] mx-auto mt-5 overflow-hidden">
+    <div className="w-full max-w-[300px] md:max-w-[700px] lg:max-w-[900px]  2xl:max-w-[1200px] mx-auto mt-5 overflow-hidden">
       <Slider {...settings}>
         {logos.concat(logos).map((logo, index) => (
           <div key={index} className="flex !justify-center !items-center" >
             <img
               src={logo}
               alt={`Logo ${index + 1}`}
-              className={index === 3 ? "w-[120px] h-[35px] md:w-[140px] md:h-[45px] lg:w-[170px] lg:h-[60px] object-contain cursor-pointer" : "w-[120px] h-[45px] md:w-[130px] md:h-[45px] lg:w-[150px] lg:h-[55px] object-contain cursor-pointer"}
+              className={index === 3 ? "w-[120px] h-[35px] md:w-[140px] md:h-[45px] lg:w-[160px] lg:h-[50px] 2xl:w-[170px] 2xl:h-[60px] object-contain cursor-pointer" : "w-[120px] h-[45px] md:w-[130px] md:h-[45px] 2xl:w-[150px] 2xl:h-[55px] object-contain cursor-pointer"}
             />
           </div>
         ))}

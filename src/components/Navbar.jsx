@@ -33,7 +33,7 @@ const Navigation = () => {
         </button>
 
         {/* Sidebar (Mobile Navigation) */}
-        <div className={`fixed top-0 left-0 w-full h-screen bg-[#072a30] p-6 transform ${isSidebarOpen ? "translate-y-0" : "-translate-y-full"} transition-transform duration-300 md:hidden`}>
+        <div className={`fixed top-0 left-0 w-full h-screen bg-[#072a30] z-50 p-6 transform ${isSidebarOpen ? "translate-y-0" : "-translate-y-full"} transition-transform duration-300 md:hidden`}>
           {/* Close Button */}
           <button className="absolute top-4 right-6 text-white" onClick={() => setIsSidebarOpen(false)}>
             <X size={32} />
