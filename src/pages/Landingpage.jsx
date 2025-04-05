@@ -15,9 +15,9 @@ const LandingPage = () => {
     <Navigation />
       <Hero />
       <Features />
-      {/* <Testimonials /> */}
-      {/* <Comingsoon /> */}
-      {/* <FAQ /> */}
+      <Testimonials />
+      <Comingsoon />
+      <FAQ />
       {/* <Borderless/> */}
       {/* <Footer/> */}
 
