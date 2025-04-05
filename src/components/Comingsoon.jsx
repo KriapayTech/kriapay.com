@@ -3,38 +3,36 @@ import React from "react";
 const Comingsoon = () => {
   return (
 
-    <div style={{}}>
-    <div style={{margin:'95px', backgroundColor:'#072a30',height:'679px', borderRadius:'20px', overflow: "hidden"}} >
-      <div className="p-4">
+    <div className=" w-full flex pt-[100px]">
+    <div className="bg-[#072a30] w-[85%] rounded-[20px] overflow-hidden mx-auto">
         <div>
         <div className="d-flex justify-content-center align-items-center ">
-<h4 className="text-center"style={{marginLeft:'327px',marginRight:'327px', marginTop:'70px', marginBottom:'60px', fontSize:'45px', color:'white', width:'45%'}}>Coming soon <br/>Kriacard.</h4>
+<h4 className="text-center !text-[45px] text-white !mt-[70px] !mb-[40px] tracking-[-3px] !leading-[47px] "> Coming soon <br/>Kriacard.</h4>
 </div>
 
-<div style={{ display: "flex", gap: "20px" }}>
-<div style={{overflow: "hidden"}}>
+<div className="flex gap-[20px]">
+<div className="overflow-hidden relative w-[48%] h-[560px] ">
 <img
   src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1742049980/ComingSoon-KriaCard_djn7wa.svg"
   alt="Abuja Landmark"
-  style={{ width: "645px", height: "560px",   overflow:'hidden'}}
+  className="w-[650px] h-[800px] overflow-hidden absolute bottom-[-250px] object-cover"
 />
 </div>
-<div>
-<p style={{ fontSize: "33px", width: "479px", color: "white" }}>
+<div className="w-[40%] pt-[50px]">
+<p className="text-[30px] text-white tracking-[-2px] leading-[40px] font-medium">
 International transactions, local convinience
 </p>
-<p style={{ fontSize: "17px", width: "410px", color: "white" }}>
+<p className="text-[17px] text-white tracking-[-0.5px] leading-[30px] opacity-90 !mt-[30px]">
 Kriacard empowers you to make global payments in your local currency, eliminating the hassel of currency conversion and hidden charges.
 </p>
-<p style={{ fontSize: "17px", width: "410px", color: "white", marginTop:'30px' }}>
-Spend in Confidence with Kriacard</p>
-<button  className="text-white" style={{backgroundColor:'#1B4F56', width:'138px', height:'49px', marginTop:'40PX', borderRadius:'8px', border:'none', marginBottom:'106px'}}>Get started</button>
+<p className="text-[17px] text-white !mt-[30px] tracking-[-0.5px] leading-[30px] opacity-90 ">
+Spend in confidence with Kriacard.</p>
+<button  className="text-white bg-[#1B4F56] w-[138px] h-[49px] !mt-[40px] border-0 !rounded-[8px] ">Get started</button>
 </div>
 </div>
 
           
         </div>
-      </div>
     </div>
     
   </div>
