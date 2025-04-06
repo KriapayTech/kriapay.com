@@ -19,7 +19,7 @@ const LandingPage = () => {
       <Comingsoon />
       <FAQ />
       <Borderless/>
-      {/* <Footer/> */}
+      <Footer/>
 
     </ div>
   );
