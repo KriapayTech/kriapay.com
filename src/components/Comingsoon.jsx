@@ -3,7 +3,7 @@ import React from "react";
 const Comingsoon = () => {
   return (
 
-    <div className=" w-full flex pt-[20px] md:pt-[100px] mb-[400px] ">
+    <div className=" w-full flex pt-[20px] md:pt-[100px] mb-[100px] ">
     <div className="bg-[#072a30] w-[85%] rounded-[20px] overflow-hidden mx-auto">
         <div>
         <div className="d-flex justify-content-center align-items-center ">
