@@ -15,7 +15,7 @@ const Navigation = () => {
         </a>
 
         {/* Desktop Nav (Hidden on mobile) */}
-        <div className="hidden md:flex flex-row gap-8 p-0 font-medium">
+        <div className="hidden md:flex flex-row gap-8 p-0 font-medium ml-6">
           <Nav.Link className="text-white text-[16px] tracking-[-1px]" href="/kriacard">Kriacard</Nav.Link>
           <Nav.Link className="text-white text-[16px] tracking-[-1px]" href="/company">Company</Nav.Link>
           <Nav.Link className="text-white text-[16px] tracking-[-1px]" href="/ask">Ask Kriapay</Nav.Link>
