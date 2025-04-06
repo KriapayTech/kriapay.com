@@ -18,7 +18,7 @@ const LandingPage = () => {
       <Testimonials />
       <Comingsoon />
       <FAQ />
-      {/* <Borderless/> */}
+      <Borderless/>
       {/* <Footer/> */}
 
     </ div>
