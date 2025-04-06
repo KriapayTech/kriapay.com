@@ -34,12 +34,12 @@ const FAQ = () => {
 
   return (
     <div className="py-5text-centerw-full flex items-center flex-col gap-[80px] ">
-      <h3 className="text-center !text-[45px] !text-[#072A30] tracking-[-3px] leading-[48px] ">
+      <h3 className="text-center !text-[30px] md:!text-[40px] lg:!text-[45px] !text-[#072A30] tracking-[-3px] leading-[48px] ">
         Still not convinced? <br /> We’ve got the answers
       </h3>
 
       <Accordion
-  className="w-[49%] bg-[#F7F7F7] rounded-[20px] overflow-hidden !border-none px-4 py-2"
+  className="w-[85%] md:w-[70%] lg:w-[69%] 2xl:w-[49%] bg-[#F7F7F7] rounded-[20px] overflow-hidden !border-none px-4 py-2"
   activeKey={activeKey}
 >
   {faqs.map((item, index) => {
@@ -47,6 +47,7 @@ const FAQ = () => {
     const isLast = index === faqs.length - 1;
 
     return (
+      // Accordion tab & desktop
       <Accordion.Item
         key={index}
         eventKey={index.toString()}
@@ -62,27 +63,30 @@ const FAQ = () => {
       >
         <Accordion.Header
           onClick={() => handleToggle(index.toString())}
-          className={`tracking-[-0.5px] leading-[26px] !text-[#0F1728] relative py-1 ${
+          className={`tracking-[-0.5px] leading-[26px] !text-[#0F1728] relative  md:!py-[5px] md!px-1${
             isOpen ? "border-none" : ""
           }`}
-          style={{fontSize: "30px"}}
         >
           {item.question}
           <span
             style={{ borderRadius: "20px" }}
-            className={`toggle-icon ${isOpen ? "open" : "closed"}`}
+            className={`toggle-icon  ${isOpen ? "open" : "closed"}`}
           >
             {isOpen ? "×" : "+"}
           </span>
         </Accordion.Header>
 
-        <Accordion.Body className="px-4 py-3 !bg-[#F7F7F7] !text-[#475466] font-normal !text-[18px] tracking-[-0.5px] leading-[26px] ">
+        <Accordion.Body className="!m-0 !p-0 !pb-3 md:!px-4 lg:!px-4 2xl:!px-4 py-3 md:mr-5 !bg-[#F7F7F7] !text-[#475466] font-normal  md:!text-[17px] tracking-[-0.5px] leading-[26px] ">
           {item.answer}
         </Accordion.Body>
       </Accordion.Item>
     );
   })}
 </Accordion>
+
+
+{/* Accordion mobile */}
+
 
 
 

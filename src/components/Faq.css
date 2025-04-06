@@ -1,11 +1,26 @@
 .accordion-button {
-  background-color: #F7F7F7 !important;
-  color: #0F1728 !important;
+  background-color: #f7f7f7 !important;
+  color: #0f1728 !important;
   border: none;
-  font-size: 18px !important; 
+  font-size: 15px !important;
   font-weight: 500;
   position: relative;
-  padding-right: 40px;
+  padding-left: 0 !important;
+  padding-right: 32px !important;
+  margin-bottom: 5px;
+}
+
+/* Tablet styles */
+@media (min-width: 768px) {
+  .accordion-button {
+    font-size: 17px !important; /* Tablet size for questions */
+    padding-left: 17px !important;
+    margin-bottom: 0;
+  }
+
+  .accordion-body {
+    font-size: 16px; /* Tablet size for answers */
+  }
 }
 
 .accordion-button::after {
@@ -20,8 +35,8 @@
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #F7F7F7 !important;
-  color: #0F1728 !important;
+  background-color: #f7f7f7 !important;
+  color: #0f1728 !important;
   box-shadow: none !important;
 }
 
@@ -30,26 +45,26 @@
 }
 
 .accordion-item {
-  background-color: #F7F7F7 !important;
+  background-color: #f7f7f7 !important;
   border: none;
 }
-
-/* .accordion-body {
-  background-color: #F7F7F7 !important;
-  color: #000 !important;
-  font-size: 18px;
-  text-align: left;
-} */
 
 /* Add a transition to the toggle icon */
 .toggle-icon {
   position: absolute;
-  right: 20px;
+  right: 5px;
   font-size: 24px;
   font-weight: 500;
   transition: all 0.3s ease-in-out;
   transform-origin: center;
   display: inline-block;
+}
+
+/* Tablet styles */
+@media (min-width: 768px) {
+  .toggle-icon {
+    right: 20px;
+  }
 }
 
 /* Optional rotation or fade effect when toggled */
@@ -65,11 +80,11 @@
 
 .accordion-item {
   border: none !important;
-  background-color: #F7F7F7 !important;
+  background-color: #f7f7f7 !important;
 }
 
 .accordion-body {
-  background-color: #F7F7F7 !important;
-  color: #0F1728 !important;
-  font-size: 18px;
+  background-color: #f7f7f7 !important;
+  color: #0f1728 !important;
+  font-size: 15px;
 }
