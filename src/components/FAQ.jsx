@@ -1,30 +1,97 @@
-import React from "react";
-import { Accordion} from "react-bootstrap";
-import "./Faq.css"
+import React, { useState } from "react";
+import { Accordion } from "react-bootstrap";
+import "./Faq.css";
 
 const FAQ = () => {
+  const [activeKey, setActiveKey] = useState(null);
+
+  const handleToggle = (key) => {
+    setActiveKey(activeKey === key ? null : key);
+  };
+
+  const faqs = [
+    {
+      question: "How much does it cost to transfer money with Kriapay?",
+      answer:
+        "Kriapay keeps costs low with competitive transaction fees, often up to 50% less than traditional banks and money transfer services, so you can send more and save more.",
+    },
+    {
+      question: "Is my money safe with Kriapay?",
+      answer:
+        "Absolutely! Kriapay uses cutting-edge encryption, secure servers, and strict compliance protocols to protect your transactions and personal data.",
+    },
+    {
+      question:
+        "How long does international money transfers take with Kriapay?",
+      answer:
+        "Kriapay's fast and efficient network enables most transfers to be processed within 4-5mins, with some curriences arriving even earlier.",
+    },
+    {
+      question: "What kind of support can I expect from Kriapay?",
+      answer:
+        "Our dedicated customer support team is available 24/7 via live chat, email or phone to assist with any questions or concerns, ensuring  seamless experience.",
+    },
+  ];
+
   return (
-    <div className="py-5 container-fluid text-center" style={{width:'790px'}}>
-      <h3 className="text-center" style={{fontSize:'45px', color:'#072A30',marginBottom:'80px'}}>Still not convinced? <br/> We’ve got the answers</h3>
-      <Accordion style={{ backgroundColor: "#B2BEB5", borderRadius:'30px'}}>
-        <Accordion.Item eventKey="0">
-          <Accordion.Header style={{fontSize:'18px'}}>How much does it cost to transfer money?</Accordion.Header>
-          <Accordion.Body style={{fontSize:'18px'}}>Our transfer fees are the lowest in the market.</Accordion.Body>
-        </Accordion.Item>
-        <Accordion.Item eventKey="1">
-          <Accordion.Header style={{fontSize:'18px'}}>Is my money Safe with Kriapay</Accordion.Header>
-          <Accordion.Body style={{fontSize:'18px'}}>Instant for most transactions.</Accordion.Body>
-        </Accordion.Item>
-        <Accordion.Item eventKey="2">
-          <Accordion.Header style={{fontSize:'18px'}}>How long does international money transfer take in Kriapay?</Accordion.Header>
-          <Accordion.Body style={{fontSize:'18px'}}>Instant for most transactions.</Accordion.Body>
-        </Accordion.Item>
-        <Accordion.Item eventKey="3">
-          <Accordion.Header style={{fontSize:'18px'}}>What kind of support can i expect from Kriapay?</Accordion.Header>
-          <Accordion.Body style={{fontSize:'18px'}}>Instant for most transactions.</Accordion.Body>
-        </Accordion.Item>
+    <div className="py-5 w-full flex items-center flex-col gap-[80px] ">
+      <h3 className="text-center !text-[30px] md:!text-[40px] lg:!text-[45px] !text-[#072A30] tracking-[-3px] leading-[48px] ">
+        Still not convinced? <br /> We’ve got the answers
+      </h3>
+
+      <Accordion
+        className="w-[85%] md:w-[70%] lg:w-[69%] 2xl:w-[49%] bg-[#F7F7F7] rounded-[20px] overflow-hidden !border-none px-4 py-2"
+        activeKey={activeKey}
+      >
+        {faqs.map((item, index) => {
+          const isOpen = activeKey === index.toString();
+          const isLast = index === faqs.length - 1;
+
+          return (
+            // Accordion tab & desktop
+            <Accordion.Item
+              key={index}
+              eventKey={index.toString()}
+              className={`${
+                isOpen
+                  ? !isLast
+                    ? "!border-b-2 !border-[#f1f1f1]"
+                    : ""
+                  : !isLast
+                  ? "!border-b-2 !border-[#f1f1f1]"
+                  : ""
+              }`}
+            >
+              <Accordion.Header
+                onClick={() => handleToggle(index.toString())}
+                className={`tracking-[-0.5px] leading-[26px] !text-[#0F1728] relative  md:!py-[5px] md!px-1${
+                  isOpen ? "border-none" : ""
+                }`}
+              >
+                {item.question}
+                <span
+                  style={{ borderRadius: "20px" }}
+                  className={`toggle-icon  ${isOpen ? "open" : "closed"}`}
+                >
+                  {isOpen ? "×" : "+"}
+                </span>
+              </Accordion.Header>
+
+              <Accordion.Body className="!m-0 !p-0 !pb-3 md:!px-[17px] lg:!px-[17px] 2xl:!px-[17px] py-3 md:mr-5 !bg-[#F7F7F7] !text-[#475466] font-normal  md:!text-[17px] tracking-[-0.5px] leading-[26px] ">
+                {item.answer}
+              </Accordion.Body>
+            </Accordion.Item>
+          );
+        })}
       </Accordion>
-      <p style={{fontSize:'18px', marginTop:'104px'}}>Still have more questions? Chat with us in-app or email support@kriapay.com</p>
+
+      {/* Contact support */}
+      <div className="w-full flex justify-center px-[24px] md:px-0 ">
+        <p className="text-[16px] md:text-[18px] md:w-[70%] text-center 2xl:w-full text-[#0F1728] tracking-[-0.5px] leading-[30px] !pt-[15px] ">
+          Still have more questions? Chat with us in-app or email{" "}
+          <span className="font-semibold underline cursor-pointer">support@kriapay.com </span>
+        </p>
+      </div>
     </div>
   );
 };

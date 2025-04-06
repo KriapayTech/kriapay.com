@@ -11,7 +11,7 @@ import Footer from "../components/Footer";
 
 const LandingPage = () => {
   return (
-    <div className="div-fluid" >
+    <div className="bg-white max-w-full" >
     <Navigation />
       <Hero />
       <Features />

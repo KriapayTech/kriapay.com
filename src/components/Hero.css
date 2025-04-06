@@ -1,24 +1,24 @@
-.pulsing-wrapper {
+/* .pulsing-wrapper {
     position: relative;
     display: flex;
     justify-content: center;
-    overflow: hidden; /* Ensures pulses are contained */
+    overflow: hidden; 
 
     align-items: center;
-  }
+  } */
   
-  .pulsing-wrapper::before,
-  .pulsing-wrapper::after {
+  /* /* .pulsing-wrapper::before, */
+  /* .pulsing-wrapper::after {
     content: "";
     position: absolute;
     width: 500px;
     height: 500px;
-    border: 3px solid rgba(255, 255, 255, 0.3); /* Transparent border */
+    border: 3px solid rgba(255, 255, 255, 0.3);
     border-radius: 50%;
-    clip-path: inset(30% 0 10% 0); /* Cuts off the bottom */
+    clip-path: inset(30% 0 10% 0);
 
     animation: pulse-outline 2.0s infinite ease-in-out;
-  }
+  } */ */
   
   .pulsing-wrapper::after {
     width: 400px;
@@ -26,7 +26,7 @@
     animation-delay: 1s;
   }
   
-  @keyframes pulse-outline {
+  /* @keyframes pulse-outline {
     0% {
       transform: scale(1);
       opacity: 0.8;
@@ -39,9 +39,9 @@
       transform: scale(1.6);
       opacity: 0;
     }
-  }
+  } */
   
-  .wallet-card {
+  /* .wallet-card {
     width: 520px;
     height: 280px;
     padding: 20px 30px;
@@ -49,5 +49,88 @@
     background-color: #1b4f56;
     z-index: 2;
     position: relative;
+  } */
+  
+
+  @keyframes pulseExpandUp {
+    0% {
+      transform: scale(1);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(4);
+      opacity: 0;
+      transform-origin: bottom; /* Ensures expansion is only upwards */
+    }
   }
+  
+  /* Medium pulse animation */
+  .pulse-medium {
+    animation: pulseExpandUp 1.8s linear infinite;
+  }
+  
+  /* Large pulse animation */
+  .pulse-large {
+    animation: pulseExpandUp 1.5s linear infinite;
+  }
+  
+  /* Outline Circle Styles */
+  .outline-circle {
+    border: 2px solid rgba(255, 255, 255, 0.25); /* White outline */
+    border-radius: 50%;
+  }
+  
+  /* Container for positioning */
+  .relative-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+
+  .logo-ticker-container {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    background-color: white;
+    padding: 1rem 0;
+  }
+  
+  .logo-ticker-track {
+    display: flex;
+    width: max-content;
+    animation: scroll-left 30s linear infinite;
+  }
+  
+  .logo-ticker-container:hover .logo-ticker-track {
+    animation-duration: 60s; /* Slows down on hover */
+  }
+  
+  .logo-ticker-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1.5rem;
+    min-width: 160px;
+  }
+  
+  .logo-ticker-item img {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
   
