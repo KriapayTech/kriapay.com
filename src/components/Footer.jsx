@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="w-full pt-[90px] md:pt-[150px]">
       <div className="bg-[#072a30] w-full h-fit pb-[60px]">
-        <div className="text-white text-[15px] md:text-[17px] tracking-[-1px] leading-[32px] lg:leading-[33px] flex flex-col gap-[20px] pt-[100px] ">
+        <div className="text-white text-[15px] md:text-[17px] tracking-[-1px] leading-[32px] lg:leading-[34px] flex flex-col gap-[20px] pt-[100px] ">
           <div className="w-full gap-[50px] md:gap-0 flex flex-col px-[24px] md:flex-row md:justify-between md:items-center md:px-[50px] lg:px-[80px] ">
             {/* Navs */}
             <div className="flex flex-col gap-[15px] md:gap-[30px]">
@@ -25,7 +25,7 @@ const Footer = () => {
             <div className="flex flex-col gap-[15px] md:gap-[30px]">
               <h4 className="!text-[21px]">Connect</h4>
               <div className="flex !flex-row md:!flex-col gap-[18px] 2xl:!flex-row 2xl:gap-[15px]">
-                <div className="flex gap-[10px]">
+                <div className="flex gap-[10px] leading-[20px] ">
                   <img
                     className="w-[22px] h-[22px] object-cover "
                     src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1742553795/FaceBook_fwhfmj.svg"
@@ -33,7 +33,7 @@ const Footer = () => {
                   />
                   <p className="underline cursor-pointer">Facebook</p>
                 </div>
-                <div className="flex gap-[10px]">
+                <div className="flex gap-[10px]  leading-[20px]">
                   <img
                     className="w-[22px] h-[22px] object-cover "
                     src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1742553806/X_or_Twitter_drnhcz.svg"
@@ -41,7 +41,7 @@ const Footer = () => {
                   />
                   X
                 </div>
-                <div className="flex gap-[10px]">
+                <div className="flex gap-[10px]  leading-[20px]">
                   <img
                     className="w-[22px] h-[22px] object-cover "
                     src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1742553804/Instagram_aeil0t.svg"
@@ -74,7 +74,7 @@ const Footer = () => {
                 financial partners across regions.
               </div>
               <div className="pt-[20px] md:hidden ">All rights reserved. © 2025.</div>
-              <div className="pt-[30px] md:pt-[20px] flex gap-[10px] w-full">
+              <div className="pt-[30px] md:pt-[20px] flex gap-[10px] w-full  leading-[22px]">
                 <img
                   className="w-[25px] h-[25px] "
                   src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1742553804/Location_pin_qefazd.svg"
@@ -83,7 +83,7 @@ const Footer = () => {
                 Onijanikin Street, Alasia, Lagos, Nigeria. - Not open to the
                 public.
               </div>
-              <div className="flex pt-[8px] md:pt-0 gap-[10px] w-full">
+              <div className="flex pt-[14px] md:pt-[14px] gap-[10px] w-full leading-[22px]">
                 <img
                   className="w-[25px] h-[25px] "
                   src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1742508820/mail-alt-3-svgrepo-com_1_b8rfqw.svg"
