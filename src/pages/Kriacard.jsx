@@ -12,7 +12,7 @@ const KriaCard = () => {
       <Navigation />
       <Kriacardhero />
       <Fortified />
-      {/* <Setup /> */}
+      <Setup />
 
       {/* <Borderless /> */}
 
