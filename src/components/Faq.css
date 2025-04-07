@@ -53,8 +53,8 @@
 .toggle-icon {
   position: absolute;
   right: 5px;
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 23px;
+  font-weight: 400;
   transition: all 0.3s ease-in-out;
   transform-origin: center;
   display: inline-block;
