@@ -1,71 +1,67 @@
 import React from "react";
 
-
 const slidesData = [
-  
-    {
-      title: "Kriacard is Protected with Advanced Security Features",
-      description:
-        "Encryption , Dynamic CW and Fraud Detection all to provide a safe payment experience for you",
-  
-      image: "https://res.cloudinary.com/dw7w2at8k/image/upload/v1742043085/Shield_rvfthx.svg",
-    },
+  {
+    title: "Kriacard is protected with advanced security features",
+    description:
+      "Encryption, dynamic CW, and fraud detection, all to provide a safe payment experience for you.",
 
-  
-  ];
+    image:
+      "https://res.cloudinary.com/dw7w2at8k/image/upload/v1742043085/Shield_rvfthx.svg",
+  },
+];
 
-  const Fortified = () => {
-    return(
-<div
-  style={{
-    height: "744px",
-    backgroundColor: "#072a30",
-    width: "1140px",
-    margin: "0 auto",
-    marginTop: "210px",
-    borderRadius: "20px",
-    display: "flex", // Enables flexbox
-    flexDirection: "column", // Aligns children in a column
-    alignItems: "center", // Centers items horizontally
-    textAlign: "center" // Ensures text inside is centered
-  }}
->
-  <p
-    style={{
-      fontSize: "43px",
-      color: "white",
-      marginTop:'60px',
-    }}
-  >
-    Fortified for Safety, Designed for <br/> You
-  </p>
+const Fortified = () => {
+  return (
+    // Container
+    <div className="w-full h-fit mt-[100px]  md:mt-[210px]">
+      <div className="w-[85%] bg-[#072a30] mx-auto rounded-[20px] flex flex-col items-center">
+        <p className="text-[27px] md:text-[33px] lg:text-[39px] 2xl:text-[41px] w-[90%] md:w-[60%] lg:w-[55%] 2xl:w-[40%] text-[white] tracking-[-3px] md:leading-[46px] font-medium pt-[60px] text-center ">
+          Fortified for Safety, Designed <br className="" /> for You
+        </p>
 
-  <div>
-  <div className="container my-5" style={{height:'580px', borderTop:'solid 1px white'}}>
-      <div id="currencyCarousel" className="carousel slide" data-bs-ride="carousel">
-        <div className="carousel-inner">
-          {slidesData.map((slide, index) => (
-            <div className={`carousel-item ${index === 0 ? "active" : ""}`} key={index}>
-              <div className="row d-flex align-items-center " style={{ textAlign: 'left' }}>
-                <div className="col-md-6 text-white">
-                  <h2 style={{fontSize:'31px', marginLeft:'150px'}}>{slide.title}</h2>
-                  <p style={{fontSize:'17px', marginRight:'119px', marginTop:'50px', marginLeft:'150px'}}>{slide.description}</p>
-                  <p style={{fontSize:'17px', marginRight:'119px', marginTop:'20px', marginLeft:'150px'}}>{slide.descriptionbelow}</p>
-
-                </div>
-                <div className="col-md-6">
-                  <img src={slide.image} alt={slide.title} style={{marginLeft:'62px',marginTop:'50px',marginBottom:'44px', width:'574px', height:'391px'}} className="img-fluid" />
-                </div>
+          <div
+            className="w-full lg:h-[530px]  2xl:h-[560px] "
+          >
+            <div
+              id="currencyCarousel"
+              className="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div className=" h-fit flex items-center">
+                {slidesData.map((slide, index) => (
+                  <div
+                    className={`carousel-item ${index === 0 ? "active" : ""}`}
+                    key={index}
+                  >
+                    <div
+                      className="flex w-full flex-col-reverse md:flex-row gap-[50px] md:px-[50px] lg:px-[65px] 2xl:px-[100px] items-center pb-[45px] lg:pb-0 "
+                    >
+                      <div className="flex flex-col gap-[35px] w-full px-[20px] md:px-0 md:w-[45%] text-white pt-[20px] md:pt-0  ">
+                        <h2 className="!text-[24px] md:!text-[25px] lg:!text-[29px] !tracking-[-2px] !leading-[35px]  ">
+                          {slide.title}
+                        </h2>
+                        <p className="!text-[15px] md:!text-[17px] tracking-[-1px] leading-[27px]  "
+                        >
+                          {slide.description}
+                        </p>
+                      </div>
+                      <div className="w-full md:w-[50%] pt-[50px] lg:pt-[50px] md:pl-[35px] lg:pl-[40px] flex items-center justify-center ">
+                        <img
+                          src={slide.image}
+                          alt={slide.title}
+                          className="w-[90%] h-[240px] md:w-[550px] md:h-[340px] lg:h-[350px] 2xl:h-[380px] "
+                        />
+                      </div>
+                    </div>
+                  </div>
+                ))}
               </div>
+              {/* Carousel Controls */}
             </div>
-          ))}
-        </div>
-        {/* Carousel Controls */}
-      
+          </div>
       </div>
     </div>
-  </div>
-</div>
-    )
-  }
-  export default Fortified
+  );
+};
+export default Fortified;

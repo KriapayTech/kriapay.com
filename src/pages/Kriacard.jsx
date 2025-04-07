@@ -11,7 +11,7 @@ const KriaCard = () => {
     <div className="div-fluid">
       <Navigation />
       <Kriacardhero />
-      {/* <Fortified /> */}
+      <Fortified />
       {/* <Setup /> */}
 
       {/* <Borderless /> */}
