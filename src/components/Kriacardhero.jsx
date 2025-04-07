@@ -24,7 +24,7 @@ const Hero = () => {
         <img
           src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1742129677/ATM_-_Kriacard_hhywbw.svg"
           alt="Kriapay Kriacard"
-          className="absolute w-full h-[87%] md:h-[90%] lg:h-[92%] 2xl:h-[92%] rotate-[34deg] 2xl:rotate-[36deg] right-[-125px] md:right-[-340px] lg:right-[-420px] 2xl:right-[-550px] bottom-[-115px] md:bottom-[-100px] lg:bottom-[-80px] 2xl:bottom-[-70px] "
+          className="absolute w-full h-[87%] md:h-[90%] lg:h-[90%] 2xl:h-[92%] rotate-[34deg] 2xl:rotate-[36deg] right-[-125px] md:right-[-340px] lg:right-[-420px] 2xl:right-[-550px] bottom-[-115px] md:bottom-[-100px] lg:bottom-[-80px] 2xl:bottom-[-70px] "
         />
       </div>
     </div>

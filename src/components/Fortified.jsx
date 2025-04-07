@@ -50,7 +50,7 @@ const Fortified = () => {
                         <img
                           src={slide.image}
                           alt={slide.title}
-                          className="w-[90%] h-[240px] md:w-[550px] md:h-[340px] lg:h-[350px] 2xl:h-[380px] "
+                          className="w-[90%] h-[240px] md:w-[550px] md:h-[340px] lg:h-[340px] 2xl:h-[380px] "
                         />
                       </div>
                     </div>

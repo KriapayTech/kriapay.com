@@ -108,7 +108,7 @@ const Features = () => {
             From the buzzling streets of Lagos, to the breezy shores of
             Freetown,
           </p>
-          <p className="text-[18px] md:text-[21px] lg:text-[23px] text-[#072A30] tracking-[-1px] md:tracking-[-1.5px] font-normal "
+          <p className="text-[19px] md:text-[21px] lg:text-[23px] text-[#072A30] tracking-[-1px] md:tracking-[-1.5px] font-normal "
           >
             Kriapay makes sending money across Africa effortless and affordable.
           </p>
