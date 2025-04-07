@@ -1,5 +1,5 @@
 import React from "react";
-import Kriacardhero from "../components/Kriacardhero"
+import Kriacardhero from "../components/Kriacardhero";
 import Borderless from "../components/Borderless";
 import Navigation from "../components/Navbar";
 import Setup from "../components/Setup";
@@ -8,19 +8,16 @@ import Footer from "../components/Footer";
 
 const KriaCard = () => {
   return (
-    <div className="div-fluid" >
-        <Navigation/>
-      <Kriacardhero  />
-<Fortified/>
-      <Setup />
+    <div className="div-fluid">
+      <Navigation />
+      <Kriacardhero />
+      {/* <Fortified /> */}
+      {/* <Setup /> */}
 
+      {/* <Borderless /> */}
 
-      
-      <Borderless/>
-
-      <Footer/>
-
-    </ div>
+      <Footer />
+    </div>
   );
 };
 
