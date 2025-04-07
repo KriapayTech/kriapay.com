@@ -38,10 +38,10 @@ const Fortified = () => {
                       className="flex w-full flex-col-reverse md:flex-row gap-[50px] md:px-[50px] lg:px-[65px] 2xl:px-[100px] items-center pb-[45px] lg:pb-0 "
                     >
                       <div className="flex flex-col gap-[35px] w-full px-[20px] md:px-0 md:w-[45%] text-white pt-[20px] md:pt-0  ">
-                        <h2 className="!text-[24px] md:!text-[25px] lg:!text-[29px] !tracking-[-2px] !leading-[35px]  ">
+                        <h2 className="!text-[23px] md:!text-[25px] lg:!text-[29px] !tracking-[-2px] !leading-[35px]  ">
                           {slide.title}
                         </h2>
-                        <p className="!text-[15px] md:!text-[17px] tracking-[-1px] leading-[27px]  "
+                        <p className="!text-[14px] md:!text-[17px] tracking-[-1px] leading-[27px]  "
                         >
                           {slide.description}
                         </p>
