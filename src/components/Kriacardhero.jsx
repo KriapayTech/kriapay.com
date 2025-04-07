@@ -13,7 +13,7 @@ const Hero = () => {
         >
           Your Global Spending Power in Local Currency
         </h1>
-        <p className="text-[15px] md:text-[16px] lg:text-[18px] z-20 font-normal tracking-[-0.6px] md:tracking-[-0.7px] opacity-90 ">
+        <p className="text-[14px] md:text-[16px] lg:text-[18px] z-20 font-normal tracking-[-0.6px] md:tracking-[-0.7px] opacity-90 ">
           Kriacard gives you the freedom to shop, subscribe, and transact
           globally while spending in your local currency.
         </p>
