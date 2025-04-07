@@ -29,7 +29,7 @@ const Hero = () => {
       <h1 className="text-white z-20 tracking-[-2px] md:tracking-[-3px] !text-[38px] md:!text-[53px] lg:!text-[62px] !leading-[105%]">
         You Can Pay Less To Send More.
       </h1>
-      <p className="mx-auto text-[13.5px] w-[83%] md:text-[18px] text-white max-w-[650px] !mt-[45px] z-20 tracking-[-0.7px] md:tracking-[-1px] opacity-80 !leading-[135%]">
+      <p className="mx-auto text-[14px] w-[83%] md:text-[18px] text-white max-w-[650px] !mt-[45px] z-20 tracking-[-0.7px] md:tracking-[-1px] opacity-80 !leading-[135%]">
         Send and receive money across Africa with ease, low cost, and competitive exchange rates.
       </p>
     </div>
