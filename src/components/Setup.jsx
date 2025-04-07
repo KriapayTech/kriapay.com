@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 
 const Setup = () => {
   return (
-    <div className="bg-[#FFFFFF] overflow-hidden mt-[150px]">
+    <div className="bg-[#FFFFFF] overflow-hidden mt-[80px] md:mt-[150px]">
       <div className="flex flex-col lg:flex-row justify-between items-center w-full md:px-[80px] 2xl:px-[100px] gap-[20px]  2xl:gap-[20px] lg:mt-[50px]  ">
         <div className="overflow-hidden  px-[30px] md:px-0 relative h-[350px] lg:h-[450px] 2xl:h-[500px] w-full lg:w-[54%]  ">
           <img
