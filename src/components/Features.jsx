@@ -76,7 +76,7 @@ const Features = () => {
                   >
                     Say goodbye to currency restrictions.
                   </p>
-                  <p className="text-[17px] px-[30px] md:px-14 2xl:pl-0 md:w-[80%] lg:w-[80%] 2xl:w-[410px] text-white tracking-[-0.9px] leading-[33px] font-normal opacity-85"
+                  <p className="text-[17px] px-[30px] md:px-14 2xl:pl-0 md:w-[80%] lg:w-[80%] 2xl:w-[410px] text-white tracking-[-1px] leading-[33px] font-normal opacity-85"
                   >
                     Kriapay’s multi-currency wallet lets you hold, send, and
                     receive money in multiple currencies—all in one place.
@@ -108,7 +108,7 @@ const Features = () => {
             From the buzzling streets of Lagos, to the breezy shores of
             Freetown,
           </p>
-          <p className="text-[17px] md:text-[21px] lg:text-[23px] text-[#072A30] tracking-[-1.5px] font-normal "
+          <p className="text-[18px] md:text-[21px] lg:text-[23px] text-[#072A30] tracking-[-1px] md:tracking-[-1.5px] font-normal "
           >
             Kriapay makes sending money across Africa effortless and affordable.
           </p>

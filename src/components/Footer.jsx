@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="w-full pt-[90px] md:pt-[150px]">
       <div className="bg-[#072a30] w-full h-fit pb-[60px]">
-        <div className="text-white text-[15px] md:text-[17px] tracking-[-1px] flex flex-col gap-[20px] pt-[100px] ">
+        <div className="text-white text-[15px] md:text-[17px] tracking-[-1px] leading-[32px] lg:leading-[33px] flex flex-col gap-[20px] pt-[100px] ">
           <div className="w-full gap-[50px] md:gap-0 flex flex-col px-[24px] md:flex-row md:justify-between md:items-center md:px-[50px] lg:px-[80px] ">
             {/* Navs */}
             <div className="flex flex-col gap-[15px] md:gap-[30px]">
@@ -64,8 +64,8 @@ const Footer = () => {
           {/* Company details & Exchange rate */}
 
           <div className="w-full mt-[25px] flex flex-col md:flex-row justify-between items-center px-[24px] md:px-[50px] lg:px-[80px] ">
-            <div className="w-full md:w-[50%] flex flex-col gap-[10px]">
-              <div className="w-full">
+            <div className="w-full md:w-[45%] flex flex-col gap-[10px]">
+              <div className="w-full lg:leading-[33px]">
                 <span className="font-semibold mr-1">
                   Kria Technologies Ltd.
                 </span>
