@@ -21,11 +21,11 @@ const App = () => {
         <Route path="/kriacard" element={<Kriacard/>} />
         <Route path="/company" element={<Company/>} />
         <Route path="/ask" element={<Askkriapay/>} />
-        <SpeedInsights/>
 
 
 
       </Routes>
+      <SpeedInsights/>
     </div>
   </Router>
   );
