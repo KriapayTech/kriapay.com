@@ -7,6 +7,8 @@ import Company from "./pages/Company";
 import Askkriapay from "./pages/Ask.jsx"
 
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 
 
 
@@ -19,6 +21,7 @@ const App = () => {
         <Route path="/kriacard" element={<Kriacard/>} />
         <Route path="/company" element={<Company/>} />
         <Route path="/ask" element={<Askkriapay/>} />
+        <SpeedInsights/>
 
 
 

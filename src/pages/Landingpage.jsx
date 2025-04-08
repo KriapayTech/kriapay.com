@@ -8,6 +8,8 @@ import FAQ from "../components/FAQ";
 import Borderless from "../components/Borderless";
 import Navigation from "../components/Navbar";
 import Footer from "../components/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 
 const LandingPage = () => {
   return (
