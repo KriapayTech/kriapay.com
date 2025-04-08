@@ -7,7 +7,6 @@ import Company from "./pages/Company";
 import Askkriapay from "./pages/Ask.jsx"
 
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
 
 
@@ -25,7 +24,6 @@ const App = () => {
 
 
       </Routes>
-      <SpeedInsights/>
     </div>
   </Router>
   );
