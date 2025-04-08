@@ -60,8 +60,8 @@ const slidesData = [
 
 const Team = () => {
   return (
-    <div className="w-full flex justify-center mt-[210px]">
-      <div className=" w-[85%] bg-[#072a30] rounded-[20px] fledx flex-col items-center text-center mt-[100px] mb-[100px] md:pb-[20px] lg:pb-[10px] 2xl:pb-[20px] ">
+    <div className="w-full flex justify-center mt-[120px] lg:mt-[150px]">
+      <div className=" w-[85%] bg-[#072a30] rounded-[20px] flex flex-col items-center text-center mt-[100px] mb-[100px] md:pb-[20px] lg:pb-[10px] 2xl:pb-[20px] ">
         <p className="text-[30px] md:text-[40px] 2xl:text-[45px] text-white pt-[60px] tracking-[-3px] font-medium  ">
           Meet the team
         </p>
@@ -129,7 +129,7 @@ const Team = () => {
         </div>
 
         {/* Mobile swiper */}
-        <div className=" w-[100%] h-[650px] mt-10 md:hidden">
+        <div className=" w-[100%] h-[550px] mt-10 md:hidden">
           <div
             id="currencyCarouselmobile"
             className="carousel slide"
@@ -142,23 +142,20 @@ const Team = () => {
                   key={index}
                 >
                   <div className="row md:d-flex align-items-center text-left ">
-                    <div className="col-md-6  flex justify-center mb-16">
+                    <div className="col-md-6  flex justify-center mb-16  w-full">
                       <img
                         src={slide.image}
                         alt={slide.title}
                         style={{}}
-                        className="!w-[310px] !h-[210px] 2xl:ml-[62px] md:!w-[450px] md:!h-[320px] lg:!w-[490px] lg:!h-[345px] 2xl:!w-[560px] 2xl:!h-[380px] mt-[50px] "
+                        className="!w-[310px] !h-[240px] object-contain "
                       />
                     </div>
-                    <div className="col-md-6 text-white">
-                      <h2 className="text-[24] mx-[30px] md:text-[29px] 2xl:text-[33px] md:ml-[50px] lg:ml-[100px] 2xl:ml-[150px] tracking-[-2px] font-medium ">
+                    <div className="col-md-6 text-white pt-[30px]">
+                      <h2 className="!text-[23px] mx-[30px] tracking-[-2px] font-medium ">
                         {slide.title}
                       </h2>
-                      <p className="text-[16px] mx-[30px] md:text-[17px] tracking-[-0.9px] md:mr-[50px] 2xl:mr-[119px] md:ml-[50px] lg:ml-[100px] 2xl:ml-[150px] !mt-[50px] ">
+                      <p className="text-[16px] mx-[30px]  tracking-[-0.9px]  !mt-[20px] ">
                         {slide.description}
-                      </p>
-                      <p className="text-[16px] mx-[30px] md:text-[17px] tracking-[-0.9px] lg:mr-[50px] 2xl:mr-[119px] md:ml-[50px] lg:ml-[100px] 2xl:ml-[150px] !mt-[40px]">
-                        {slide.descriptionbelow}
                       </p>
                     </div>
                   </div>
