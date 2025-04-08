@@ -11,8 +11,8 @@ const Company = () => {
     <div className="div-fluid" >
         <Navigation/>
         <Companyhero/>
-        <Team/>
-        <Barriers/>
+        {/* <Team/> */}
+        {/* <Barriers/> */}
         <Footer/>
 
 

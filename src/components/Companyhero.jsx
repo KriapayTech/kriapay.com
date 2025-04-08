@@ -4,42 +4,29 @@ import "./Hero.css"; // Import the CSS file for animations
 
 const Hero = () => {
   return (
-    <div
-      className="py-5 d-flex align-items-center justify-content-center text-center container-fluid"
-      style={{ backgroundColor: "#072a30", height: "655px", overflow: "hidden" }}
-    >
+    <div className=" bg-[#072a30] overflow-hidden w-full ">
       {/* Text Section */}
-      <Container className="text-white d-flex flex-column align-items-center">
-        <div className="mx-auto">
-          <h1
-            style={{
-              fontSize: "44px",
-              fontWeight: "bold",
-              marginBottom: "20px",
-              Width: "700px",
-              marginTop:'200px'
-            }}
-          >
-            Redefining Financial Connectivity <br/> for Africa
+      <div className="text-white flex flex-col items-center  pt-[30px]">
+        <div className=" text-center flex flex-col gap-[40px] pt-[30px] ">
+          <h1 className="!text-[44px] !font-medium tracking-[-1.5px] leading-[48px]  ">
+            Redefining Financial Connectivity <br /> for Africa
           </h1>
-          <p style={{ fontSize: "17px", Width: "600px", marginTop:'50px' }}>
-            We are pioneers of borderless financial access for Africans, with a vision to <br/> facilitate financial transactions that are frictionless, inclusive, and accessible<br/> to all.
+          <p className="text-[18px] font-normal opacity-90 tracking-[-0.5px] leading-[28px] ">
+            We are pioneers of borderless financial access for Africans, with a
+            vision to <br /> facilitate financial transactions that are
+            frictionless, inclusive, and accessible
+            <br /> to all.
           </p>
+        </div>
 
+        <div className="w-full h-[320px] flex items-center justify-center relative">
           <img
             src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1742306015/Company_coins_ldrnrh.svg"
-            alt="Payment Illustration"
-            className="img-fluid mt-4"
-            style={{
-              transform: "rotate(7deg)",
-              width: "100%",
-              maxWidth: "640px",
-              height: "430px",
-              marginTop: "160px",
-            }}
+            alt="Kriapay company"
+            className="rotate-[7deg] w-[41%] absolute bottom-[-120px] "
           />
         </div>
-      </Container>
+      </div>
     </div>
   );
 };
