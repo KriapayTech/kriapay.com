@@ -154,7 +154,7 @@ const Team = () => {
                       <h2 className="!text-[23px] mx-[30px] tracking-[-2px] font-medium ">
                         {slide.title}
                       </h2>
-                      <p className="text-[16px] mx-[30px]  tracking-[-0.9px]  !mt-[20px] ">
+                      <p className="text-[15px] mx-[30px]  tracking-[-0.9px]  !mt-[20px] ">
                         {slide.description}
                       </p>
                     </div>
