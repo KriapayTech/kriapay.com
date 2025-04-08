@@ -129,7 +129,7 @@ const Team = () => {
         </div>
 
         {/* Mobile swiper */}
-        <div className=" w-[100%] h-[550px] mt-10 md:hidden">
+        <div className=" w-[100%] h-[500px] mt-10 md:hidden">
           <div
             id="currencyCarouselmobile"
             className="carousel slide"
