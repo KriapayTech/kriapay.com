@@ -14,7 +14,7 @@ const KriaCard = () => {
       <Fortified />
       <Setup />
 
-      {/* <Borderless /> */}
+      <Borderless />
 
       <Footer />
     </div>
