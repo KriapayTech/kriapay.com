@@ -239,51 +239,51 @@ const Features = () => {
               </div>
               {/* Carousel Controls desktop and tab*/}
               <button
-                className="carousel-control-prev relative !hidden md:block"
+                className="carousel-control-prev relative !hidden lg:!block "
                 type="button"
                 data-bs-target="#currencyCarousel"
                 data-bs-slide="prev"
               >
                 <span
-                  className="carousel-control-prev-icon md:!w-[20px] md:!h-[30px] lg:!w-[22px] lg:!h-[40px] 2xl:!w-[25px] 2xl:!h-[45px] absolute md:left-3 lg:left-10 2xl:left-15 !hidden md:block"
+                  className="carousel-control-prev-icon md:!w-[20px] md:!h-[20px] lg:!w-[22px] lg:!h-[40px] 2xl:!w-[25px] 2xl:!h-[45px] absolute md:left-[20px]lg:left-10 2xl:left-15 !hidden lg:!block"
                   aria-hidden="true"
                 ></span>
               </button>
               <button
-                className="carousel-control-next relative md:block border-2"
+                className="carousel-control-next relative !hidden lg:!block "
                 type="button"
                 data-bs-target="#currencyCarousel"
                 data-bs-slide="next"
               >
                 <span
-                  className="carousel-control-next-icon md:!w-[20px] md:!h-[30px] lg:!w-[22px] lg:!h-[40px] 2xl:!w-[25px] 2xl:!h-[45px] absolute md:right-3 lg:right-10 2xl:right-15 !hidden md:block"
+                  className="carousel-control-next-icon !hidden lg:!block  md:!w-[20px] lg:!w-[22px] lg:!h-[40px] 2xl:!w-[25px] 2xl:!h-[45px] absolute md:right-3 lg:right-10 2xl:right-15 "
                   aria-hidden="true"
                 ></span>
               </button>
 
               {/* Carousel controls mobile */}
               <button
-                className="carousel-control-prev relative md:!hidden"
-                type="button"
-                data-bs-target="#currencyCarouselmobile"
-                data-bs-slide="prev"
-              >
-                <span
-                  className="carousel-control-prev-icon  !w-[20px] !h-[30px] absolute left-3 md:!hidden"
-                  aria-hidden="true"
-                ></span>
-              </button>
-              <button
-                className="carousel-control-next relative md:!hidden"
-                type="button"
-                data-bs-target="#currencyCarouselmobile"
-                data-bs-slide="next"
-              >
-                <span
-                  className="carousel-control-next-icon !w-[20px] !h-[30px]  absolute right-3 md:!hidden"
-                  aria-hidden="true"
-                ></span>
-              </button>
+              className="carousel-control-prev relative lg:!hidden"
+              type="button"
+              data-bs-target="#currencyCarouselmobile"
+              data-bs-slide="prev"
+            >
+              <span
+                className="carousel-control-prev-icon  !w-[20px] !h-[30px] absolute left-3 md:!hidden"
+                aria-hidden="true"
+              ></span>
+            </button>
+            <button
+              className="carousel-control-next relative lg:!hidden"
+              type="button"
+              data-bs-target="#currencyCarouselmobile"
+              data-bs-slide="next"
+            >
+              <span
+                className="carousel-control-next-icon !w-[20px] !h-[30px]  absolute right-3 md:!hidden"
+                aria-hidden="true"
+              ></span>
+            </button>
             </div>
         </div>
       </div>
