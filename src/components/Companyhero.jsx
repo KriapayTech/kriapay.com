@@ -21,12 +21,12 @@ const Hero = () => {
             vision to
             <span className="hidden lg:inline">
               <br />
-            </span>
+            </span>{" "}
             facilitate financial transactions that are frictionless, inclusive,
             and accessible
             <span className="hidden lg:inline">
               <br />
-            </span>
+            </span>{" "}
             to all.
           </p>
         </div>
