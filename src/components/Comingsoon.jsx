@@ -19,15 +19,15 @@ const Comingsoon = () => {
 />
 </div>
 <div className="px-[20px] md:px-0 md:w-[44%] lg:w-[37%]  lg:ml-[23px] 2xl:w-[39%] pt-[50px] ">
-<p className="text-[24px] md:text-[27px] lg:text-[30px] text-white tracking-[-2px] leading-[40px] font-medium">
+<p className="text-[24px] md:text-[27px] lg:text-[30px] text-white tracking-[-2px] leading-[37px] md:leading-[40px] font-medium">
 International transactions, local convinience
 </p>
-<p className="text-[15px] md:text-[16px] lg:text-[17px] text-white tracking-[-0.5px] leading-[30px] opacity-90 !mt-[30px]">
+<p className="text-[15px] md:text-[16px] lg:text-[17px] text-white tracking-[-0.6px] md:tracking-[-0.5px] leading-[30px] opacity-90 !mt-[30px]">
 Kriacard empowers you to make global payments in your local currency, eliminating the hassel of currency conversion and hidden charges.
 </p>
-<p className="md:text-[16px] lg:text-[17px] text-white !mt-[35px] md:!mt-[30px] tracking-[-0.5px] leading-[30px] opacity-90 ">
+<p className="md:text-[16px] lg:text-[17px] text-white !mt-[35px] md:!mt-[30px] tracking-[-0.6px] md:tracking-[-0.5px] leading-[30px] opacity-90 ">
 Spend in confidence with Kriacard.</p>
-<button  className="text-white !text-[14px] lg:!text-[16px] bg-[#1B4F56] w-[111px] h-[35px] md:h-[39px] lg:w-[138px] lg:h-[49px] !mt-[53px] md:!mt-[40px] border-0 !rounded-[8px] ">Get started</button>
+<button  className="text-white !text-[14px] lg:!text-[16px] bg-[#1B4F56] w-[111px] h-[35px] md:h-[39px] lg:w-[138px] lg:h-[49px] !mt-[53px] md:!mt-[40px] border-0 !rounded-[8px] tracking-[-0.6px] md:tracking-[-0.5px] ">Get started</button>
 </div>
 </div>
 

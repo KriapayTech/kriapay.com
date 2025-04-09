@@ -36,7 +36,7 @@ const slidesData = [
 const Features = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full">
-      <div className="flex flex-col md:flex-row items-center justify-between gap-[20px] px-[15px] md:px-10 lg:px-0 mt-[100px] mb-[100px]">
+      <div className="flex flex-col md:flex-row items-center justify-between gap-[20px] px-[15px] md:px-10 lg:px-0 mt-[50px] md:mt-[100px] mb-[80px] md:mb-[100px]">
         <div className="flex-1">
           <p className="text-[29px] md:text-[36px] lg:text-[41px] tracking-[-3px] leading-[150%] font-medium text-[#072A30] md:pl-[40px] lg:pl-[100px] 2xl:pl-[130px] ">
             Send and receive money on your terms - built for you, and Africa.
@@ -76,7 +76,7 @@ const Features = () => {
                   >
                     Say goodbye to currency restrictions.
                   </p>
-                  <p className="text-[17px] px-[30px] md:px-14 2xl:pl-0 md:w-[80%] lg:w-[80%] 2xl:w-[410px] text-white tracking-[-1px] leading-[33px] font-normal opacity-85"
+                  <p className="text-[17px] px-[30px] md:px-14 2xl:pl-0 md:w-[80%] lg:w-[80%] 2xl:w-[410px] text-white tracking-[-1.1px] md:tracking-[-1px] leading-[33px] font-normal opacity-85"
                   >
                     Kriapay’s multi-currency wallet lets you hold, send, and
                     receive money in multiple currencies—all in one place.
@@ -108,7 +108,7 @@ const Features = () => {
             From the buzzling streets of Lagos, to the breezy shores of
             Freetown,
           </p>
-          <p className="text-[20px] md:text-[23px] lg:text-[23px] text-[#072A30] tracking-[-1px] lg:tracking-[-1.5px] font-normal "
+          <p className="text-[18px] md:text-[23px] lg:text-[23px] text-[#072A30] tracking-[-1px] lg:tracking-[-1.5px] font-normal "
           >
             Kriapay makes sending money across Africa effortless and affordable.
           </p>
