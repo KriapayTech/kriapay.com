@@ -16,7 +16,7 @@ const Setup = () => {
           <p className="text-left md:w-[80%] flex lg:w-full  text-[#072A30] text-[23px] md:text-[27px] lg:text-[28px] tracking-[-1.5px] leading-[33px] font-medium   ">
             Use Kriacard anywhere Visa or Verve is accepted
           </p>
-          <p className="text-left md:w-[90%] lg:w-full  text-[#072A30] text-[16px] md:text-[21px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] font-normal  ">
+          <p className="text-left md:w-[90%] lg:w-full  text-[#072A30] text-[17px] md:text-[21px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] font-normal  ">
             Shop online, subscribe to services like Netflix and Spotify, and
             make payments on international platforms with no hidden fees and
             currency barriers.

@@ -8,7 +8,7 @@ const Hero = () => {
       {/* Text Section */}
       <div className="text-white flex flex-col items-center  pt-[30px]">
         <div className="text-center flex flex-col gap-[40px] pt-[30px] w-[85%] md:w-[70%] lg:w-[75%] 2xl:w-full">
-          <h1 className="!text-[26px] md:!text-[30px] lg:!text-[40px] !font-medium tracking-[-1.5px] !leading-[33px] md:!leading-[39px] lg:!leading-[45px] 2xl:!leading-[48px]">
+          <h1 className="!text-[27px] md:!text-[30px] lg:!text-[40px] !font-medium tracking-[-1.5px] !leading-[33px] md:!leading-[39px] lg:!leading-[45px] 2xl:!leading-[48px]">
             Redefining Financial Connectivity
             <span className="hidden md:inline">
               <br />
