@@ -120,12 +120,13 @@ const Create = () => {
                   </div>
                 </div>
               ))}
-              <img
+              
+            </div>
+            <img
                 className="md:w-[450px] lg:w-[550px] 2xl:w-[600px] 2xl:h-[600px] absolute right-0 bottom-[-200px] opacity-25 "
                 src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1741523154/Abuja_Landmark_1_exzagr.svg"
                 alt="Kriapay landmark"
               />
-            </div>
             
             {/* Carousel Controls desktop and tab*/}
             <button
@@ -181,7 +182,7 @@ const Create = () => {
         <div className=" w-[100%] h-[620px] mt-10 md:hidden">
           <div
             id="currencyCarouselmobile"
-            className="carousel slide"
+            className="carousel slide relative"
             data-bs-ride="carousel"
           >
             <div className="carousel-inner overflow-visible ">
@@ -215,11 +216,6 @@ const Create = () => {
                         )}
                       </h2>
                       <div className="w-full pl-[15px]">
-                        {index !== 2 && slide.subTitle && (
-                          <h4 className="!text-[17px] tracking-[-1.5px] leading-[32px] pt-[30px]">
-                            {slide.subTitle}
-                          </h4>
-                        )}
 
                         <p
                           className={`!text-[15px] tracking-[-1px] leading-[32px] ${
@@ -257,12 +253,14 @@ const Create = () => {
                   </div>
                 </div>
               ))}
-              <img
+              
+            </div>
+            <img
                 className="w-[300px] h-[400px] absolute right-0 bottom-[-250px] opacity-25 "
                 src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1741523154/Abuja_Landmark_1_exzagr.svg"
                 alt="Kriapay landmark"
               />
-            </div>
+              
             {/* Carousel Controls desktop and tab*/}
             <button
               className="carousel-control-prev relative !hidden md:block"
