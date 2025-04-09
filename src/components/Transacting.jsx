@@ -90,7 +90,7 @@ const Transacting = () => {
                         </p>
 
                         <p  className={`md:!text-[16px] lg:!text-[18px] tracking-[-0.5px] leading-[32px] ${
-                            index === 2 ? "pt-[40px] font-medium " : "pt-[0px]"
+                            index === 2 ? "pt-[40px] font-medium tracking-[-0.7px] " : "pt-[0px]"
                           }`}>
                           {slide.step5}
                         </p>

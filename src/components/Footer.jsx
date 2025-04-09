@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="w-full gap-[50px] md:gap-0 flex flex-col px-[24px] md:flex-row md:justify-between md:items-center md:px-[50px] lg:px-[80px] ">
             {/* Navs */}
             <div className="flex flex-col gap-[15px] md:gap-[30px]">
-              <h4 className="!text-[21px]">Legal</h4>
+              <h4 className="!text-[20px] md:!text-[21px]">Legal</h4>
               <div className="flex !flex-row md:!flex-col gap-[18px] 2xl:!flex-row 2xl:gap-[15px]">
                 <p className="underline cursor-pointer">Privacy policies</p>
                 <p className="underline cursor-pointer">Terms and conditions</p>
@@ -23,7 +23,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex flex-col gap-[15px] md:gap-[30px]">
-              <h4 className="!text-[21px]">Connect</h4>
+              <h4 className="!text-[20px] md:!text-[21px]">Connect</h4>
               <div className="flex !flex-row md:!flex-col gap-[18px] 2xl:!flex-row 2xl:gap-[15px]">
                 <div className="flex gap-[10px] leading-[20px] ">
                   <img
