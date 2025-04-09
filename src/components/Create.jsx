@@ -36,7 +36,7 @@ const slidesData = [
 const Create = () => {
   return (
     <div className="w-full flex justify-center mt-[70px] md:mt-[100px] lg:mt-[150px]">
-      <div className="w-[85%] bg-[#072a30] rounded-[20px] flex flex-col items-center text-center mt-[100px] mb-[100px] md:pb-[20px] lg:pb-[50px] 2xl:pb-[20px] relative overflow-hidden">
+      <div className="w-[85%] bg-[#072a30] rounded-[20px] flex flex-col items-center text-center mt-[100px] mb-[50px] md:pb-[20px] lg:pb-[50px] 2xl:pb-[20px] relative overflow-hidden">
         <p className="text-[26px] md:text-[33px] lg:text-[39px] 2xl:text-[40px] text-white pt-[60px] tracking-[-3px] font-medium  ">
           Creating an account{" "}
         </p>
@@ -70,8 +70,7 @@ const Create = () => {
 
                         {index === 0 ? (
                           <>
-                            Visit https://kriapay.com and navigate to {" "}
-                            <span className="font-semibold ">Signup</span>
+                            Visit https://kriapay.com and navigate to Signup 
                           </>
                         ) : (
                           slide.title
@@ -120,12 +119,13 @@ const Create = () => {
                   </div>
                 </div>
               ))}
-              <img
+              
+            </div>
+            <img
                 className="md:w-[450px] lg:w-[550px] 2xl:w-[600px] 2xl:h-[600px] absolute right-0 bottom-[-200px] opacity-25 "
                 src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1741523154/Abuja_Landmark_1_exzagr.svg"
                 alt="Kriapay landmark"
               />
-            </div>
             
             {/* Carousel Controls desktop and tab*/}
             <button
@@ -178,10 +178,10 @@ const Create = () => {
 
 
         {/* Mobile swiper */}
-        <div className=" w-[100%] h-[620px] mt-10 md:hidden">
+        <div className=" w-[100%] h-[610px] mt-10 md:hidden">
           <div
             id="currencyCarouselmobile"
-            className="carousel slide"
+            className="carousel slide relative"
             data-bs-ride="carousel"
           >
             <div className="carousel-inner overflow-visible ">
@@ -207,19 +207,13 @@ const Create = () => {
 
                         {index === 0 ? (
                           <>
-                            Visit https://kriapay.com and navigate to {" "}
-                            <span className="font-semibold ">Signup</span>
+                            Visit https://kriapay.com and navigate to Signup
                           </>
                         ) : (
                           slide.title
                         )}
                       </h2>
                       <div className="w-full pl-[15px]">
-                        {index !== 2 && slide.subTitle && (
-                          <h4 className="!text-[17px] tracking-[-1.5px] leading-[32px] pt-[30px]">
-                            {slide.subTitle}
-                          </h4>
-                        )}
 
                         <p
                           className={`!text-[15px] tracking-[-1px] leading-[32px] ${
@@ -257,12 +251,14 @@ const Create = () => {
                   </div>
                 </div>
               ))}
-              <img
+              
+            </div>
+            <img
                 className="w-[300px] h-[400px] absolute right-0 bottom-[-250px] opacity-25 "
                 src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1741523154/Abuja_Landmark_1_exzagr.svg"
                 alt="Kriapay landmark"
               />
-            </div>
+              
             {/* Carousel Controls desktop and tab*/}
             <button
               className="carousel-control-prev relative !hidden md:block"
