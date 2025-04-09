@@ -28,7 +28,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="w-full h-[297px] md:h-[327px] lg:h-[347px] flex items-center justify-center relative">
+        <div className="w-full h-[270px] md:h-[327px] lg:h-[347px] flex items-center justify-center relative">
           <img
             src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1742306015/Company_coins_ldrnrh.svg"
             alt="Kriapay company"
