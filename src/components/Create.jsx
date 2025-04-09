@@ -2,99 +2,150 @@ import React from "react";
 
 const slidesData = [
   {
-    title: "Signup Requirements",
-    step1: "Visit https://kriapay.com and navigate to Signup",
-    step2: "Full name",
-    step3: "Date of birth",
-    step4:"Email address",
-    step5: "Phone number",
-    step6: "New password",
-    step7: "New transaction PIN"
-
-
+    title: "Visit https://kriapay.com and navigate to Signup",
+    subTitle: "The following details are needed",
+    step1: "• Full name",
+    step2: "• Date of birth",
+    step3: "• Email address",
+    step4: "• Phone number",
+    step5: "• New password",
+    step6: "• New transaction PIN",
   },
   {
     title: "KYC Verification",
-    step1: "Government issued ID (National ID, Passport, Driver’s license, etc.) Tier 1",
+    step1:
+      "Government issued ID (National ID, Passport, Driver’s license, etc.) Tier 1",
     step2: "Proof of address (Utility bill or bank statement) Tier 2",
     step3: "Proof of funds Tier 3",
-    step4: "These documents are verified against the information provided during signup.",
+    step4:
+      "These documents are verified against the information provided during signup.",
   },
   {
     title: "Protecting Your Account & Transactions",
     step1: "Use a strong, unique password to keep your account secure.",
-    step2: "Create a secure transaction PIN for quick and safe payments during signup",
-    step3: "If you forget your password or PIN, you can easily reset them in-app with a few simple steps.",
-    step4: "Never share your password or PIN. Always reset them immediately if you suspect any unauthorized access.",
-  }
+    step2:
+      "Create a secure transaction PIN for quick and safe payments during signup",
+    step3:
+      "If you forget your password or PIN, you can easily reset them in-app with a few simple steps.",
+    step4:
+      "Never share your password or PIN. Always reset them immediately if you suspect any unauthorized access.",
+  },
 ];
 
+const Create = () => {
+  return (
+    <div className="w-full flex justify-center mt-[70px] md:mt-[100px] lg:mt-[150px] border-2 border-red-500">
+      <div className="w-[85%] bg-[#072a30] rounded-[20px] flex flex-col items-center text-center mt-[100px] mb-[100px] md:pb-[20px] lg:pb-[10px] 2xl:pb-[20px] relative overflow-hidden">
+        <p className="text-[30px] md:text-[33px] lg:text-[39px] 2xl:text-[40px] text-white pt-[60px] tracking-[-3px] font-medium  ">
+          Creating an account{" "}
+        </p>
+        
 
-  const Create = () =>{
-    return(
-        <div
-  style={{
-    height: "705px",
-    backgroundColor: "#072a30",
-    width: "1140px",
-    margin: "0 auto",
-    marginTop: "210px",
-    borderRadius: "20px",
-    display: "flex", // Enables flexbox
-    flexDirection: "column", // Aligns children in a column
-    alignItems: "center", // Centers items horizontally
-    textAlign: "center", // Ensures text inside is centered
-    position: 'relative',
-  }}
->
-  <p
-    style={{
-      fontSize: "45px",
-      color: "white",
-      marginTop:'60px',
-      marginBottom:'60px'
-    }}
-  >
-Creating an account </p>
+        <div className="hidden md:block w-[100%] md:h-[450px] lg:h-[530px] mt-16 md:mt-12 2xl:mt-4 ">
+          <div
+            id="currencyCarousel"
+            className="carousel slide"
+            data-bs-ride="carousel"
+          >
+            
+            <div className="carousel-inner overflow-visible ">
+              {slidesData.map((slide, index) => (
+                <div
+                  className={`carousel-item ${index === 0 ? "active" : ""}`} 
+                  key={index}
+                >
+                  <div className="flex-row flex align-items-center text-left w-full overflow-visible ">
+                    <div className="col-md-6 text-white  !w-[49%] !pl-[120px] pt-[20px] ">
+                      <h2
+                        className={`flex items-center gap-2 ${
+                          index === 0
+                            ? "!text-[18px] tracking-[-0.6px] leading-[25px] !font-normal"
+                            : "text-[21px] font-semibold"
+                        }`}
+                      >
+                        <img
+                          src="https://res.cloudinary.com/dhap3isd2/image/upload/v1744198707/Kriapay%20website/qtifdmgqsmyoxsrysdnb.svg"
+                          alt="Kriapay coin"
+                          className="w-[50px] h-[50px]"
+                        />
 
-  <div>
-  <div className="container mb-5" style={{height:'560px', overflow:''}}>
-      <div id="currencyCarousel" className="carousel slide" data-bs-ride="carousel">
-        <div className="carousel-inner">
-          {slidesData.map((slide, index) => (
-            <div className={`carousel-item ${index === 0 ? "active" : ""}`} key={index}>
-              <div className="row d-flex align-items-center " style={{ textAlign: 'left' }}>
-                <div className="col-md-6 text-white">
-                  <h2 style={{fontSize:'29px', marginLeft:'150px'}}>{slide.title}</h2>
-                  <p style={{fontSize:'16px',  marginTop:'30px', marginLeft:'150px'}}>{slide.step1}</p>
-                  <p style={{fontSize:'17px', marginRight:'119px', marginTop:'5px', marginLeft:'150px'}}>{slide.step2}</p>
-                  <p style={{fontSize:'17px', marginRight:'119px', marginTop:'5px', marginLeft:'150px'}}>{slide.step3}</p>
-                  <p style={{fontSize:'17px', marginRight:'119px', marginTop:'5px', marginLeft:'150px'}}>{slide.step4}</p>
-                  <p style={{fontSize:'17px', marginRight:'119px', marginTop:'5px', marginLeft:'150px'}}>{slide.step5}</p>
-                  <p style={{fontSize:'17px', marginRight:'119px', marginTop:'5px', marginLeft:'150px'}}>{slide.step6}</p>
-                  <p style={{fontSize:'17px', marginRight:'119px', marginTop:'5px', marginLeft:'150px'}}>{slide.step7}</p>
-
-
-
+                        {index === 0 ? (
+                          <>
+                            Visit https://kriapay.com and navigate to{" "}
+                            <span className="font-semibold">Signup</span>
+                          </>
+                        ) : (
+                          slide.title
+                        )}
+                      </h2>
+                      <div className="w-full pl-[15px]">
+                      <h4 className="!text-[21px] tracking-[-1px] leading-[31px] pt-[30px] ">{slide.subTitle} </h4>
+                      <p className="text-[18px] tracking-[-0.5px] leading-[31px] pt-[20px]">{slide.step1}</p>
+                      <p className="text-[18px] tracking-[-0.5px] leading-[31px]">{slide.step3}</p>
+                      <p className="text-[18px] tracking-[-0.5px] leading-[31px] ">{slide.step2}</p>
+                      <p className="text-[18px] tracking-[-0.5px] leading-[31px]">{slide.step4}</p>
+                      <p className="text-[18px] tracking-[-0.5px] leading-[31px]">{slide.step5}</p>
+                      <p className="text-[18px] tracking-[-0.5px] leading-[31px]">{slide.step6}</p>
+                      <p className="text-[18px] tracking-[-0.5px] leading-[31px]">{slide.step7}</p>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  
                 </div>
-                <div className="col-md-6" style={{overflow:'hidden',position: 'relative',}}>
-                  <img src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1741523154/Abuja_Landmark_1_exzagr.svg" alt={slide.title} style={{marginLeft:'62px',marginTop:'50px',marginBottom:'-84px', width:'514px', height:'549px', objectFit: "contain",overflow:'hidden',opacity:0.5}} className="img-fluid" />
-                </div>
-              </div>
+              ))}
+              <img className="w-[600px] h-[600px] absolute right-0 bottom-[-200px] opacity-25 " src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1741523154/Abuja_Landmark_1_exzagr.svg" alt="Kriapay landmark" />
             </div>
-          ))}
+            {/* Carousel Controls desktop and tab*/}
+            <button
+              className="carousel-control-prev relative !hidden md:!block"
+              type="button"
+              data-bs-target="#currencyCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                className="carousel-control-prev-icon md:!w-[20px] md:!h-[30px] lg:!w-[22px] lg:!h-[40px] 2xl:!w-[25px] 2xl:!h-[45px] absolute md:left-3 lg:left-10 2xl:left-15 !hidden md:!block"
+                aria-hidden="true"
+              ></span>
+            </button>
+            <button
+              className="carousel-control-next relative md:block "
+              type="button"
+              data-bs-target="#currencyCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                className="carousel-control-next-icon md:!w-[20px] md:!h-[30px] lg:!w-[22px] lg:!h-[40px] 2xl:!w-[25px] 2xl:!h-[45px] absolute md:right-3 lg:right-10 2xl:right-15 !hidden md:!block"
+                aria-hidden="true"
+              ></span>
+            </button>
+            {/* Carousel controls mobile */}
+            <button
+              className="carousel-control-prev relative md:!hidden"
+              type="button"
+              data-bs-target="#currencyCarouselmobile"
+              data-bs-slide="prev"
+            >
+              <span
+                className="carousel-control-prev-icon  !w-[20px] !h-[30px] absolute left-3 md:!hidden"
+                aria-hidden="true"
+              ></span>
+            </button>
+            <button
+              className="carousel-control-next relative md:!hidden"
+              type="button"
+              data-bs-target="#currencyCarouselmobile"
+              data-bs-slide="next"
+            >
+              <span
+                className="carousel-control-next-icon !w-[20px] !h-[30px]  absolute right-3 md:!hidden"
+                aria-hidden="true"
+              ></span>
+            </button>
+          </div>
         </div>
-        {/* Carousel Controls */}
-        <button className="carousel-control-prev" type="button" data-bs-target="#currencyCarousel" data-bs-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          </button>
-          <button className="carousel-control-next" type="button" data-bs-target="#currencyCarousel" data-bs-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          </button>
       </div>
     </div>
-  </div>
-</div>
-     )
-  }
-  export default Create;
+  );
+};
+export default Create;
