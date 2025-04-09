@@ -1,7 +1,7 @@
 import React from "react";
 const SupportContact = () => {
   return (
-    <div className="w-full flex justify-center mt-[70px] md:mt-[100px] lg:mt-[100px] lg:mb-[100px] ">
+    <div className="w-full flex justify-center mb-[70px] md:mb-[50px] md:mt-[100px] lg:mt-[100px] lg:mb-[130px] ">
       <div className="w-[85%] md:h-[700px] 2xl:h-[600px] bg-[#072a30] rounded-[20px] flex flex-col items-center justify-center text-center mt-[100px] relative overflow-hidden text-white">
   
           <div className=" flex w-full justify-between flex-col md:flex-row">
