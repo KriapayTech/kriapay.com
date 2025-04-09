@@ -12,7 +12,7 @@ const Company = () => {
         <Navigation/>
         <Companyhero/>
         <Team/>
-        {/* <Barriers/> */}
+        <Barriers/>
         <Footer/>
 
 

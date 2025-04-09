@@ -60,9 +60,9 @@ const slidesData = [
 
 const Team = () => {
   return (
-    <div className="w-full flex justify-center mt-[120px] lg:mt-[150px]">
+    <div className="w-full flex justify-center mt-[70px] md:mt-[100px] lg:mt-[150px]">
       <div className=" w-[85%] bg-[#072a30] rounded-[20px] flex flex-col items-center text-center mt-[100px] mb-[100px] md:pb-[20px] lg:pb-[10px] 2xl:pb-[20px] ">
-        <p className="text-[30px] md:text-[40px] 2xl:text-[45px] text-white pt-[60px] tracking-[-3px] font-medium  ">
+        <p className="text-[30px] md:text-[33px] lg:text-[39px] 2xl:text-[40px] text-white pt-[60px] tracking-[-3px] font-medium  ">
           Meet the team
         </p>
         <div className="hidden md:block w-[100%] md:h-[450px] lg:h-[530px] mt-16 md:mt-12 2xl:mt-4">

@@ -36,9 +36,9 @@ const slidesData = [
 const Features = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full">
-      <div className="flex flex-col md:flex-row items-center justify-between gap-[20px] px-[15px] md:px-10 lg:px-0 mt-[80px] mb-[50px]">
+      <div className="flex flex-col md:flex-row items-center justify-between gap-[20px] px-[15px] md:px-10 lg:px-0 mt-[100px] mb-[100px]">
         <div className="flex-1">
-          <p className="text-[29px] md:text-[36px] lg:text-[41px] tracking-[-3px] leading-[150%] font-medium text-[#072A30] md:pl-[40px] lg:pl-[100px] 2xl:pl-[150px] ">
+          <p className="text-[29px] md:text-[36px] lg:text-[41px] tracking-[-3px] leading-[150%] font-medium text-[#072A30] md:pl-[40px] lg:pl-[100px] 2xl:pl-[130px] ">
             Send and receive money on your terms - built for you, and Africa.
           </p>
         </div>
@@ -57,7 +57,7 @@ const Features = () => {
           <div className="h-[766px]">
               <div className="d-flex justify-content-center align-items-center">
                 <h4
-                  className=" md:w-[70%] lg:w-[50%] text-center 2xl:!ml-[327px] 2xl:!mr-[327px] !mt-[50px] !mb-[35px] md:!mt-[50px] 2xl:!mt-[70px] 2xl:!mb-[60px] !text-[30px] md:!text-[39px] lg:!text-[45px] !text-white 2xl:w-[45%] tracking-[-3px] !font-medium !leading-[45px]"
+                  className=" md:w-[70%] lg:w-[50%] text-center 2xl:!ml-[327px] 2xl:!mr-[327px] !mt-[50px] !mb-[35px] md:!mt-[50px] 2xl:!mt-[70px] 2xl:!mb-[60px] !text-[30px] md:!text-[39px] lg:!text-[45px] !text-white 2xl:w-[45%] tracking-[-3px] !font-medium !leading-[35px] md:!leading-[45px]"
                 >
                   One wallet, multiple currencies.
                 </h4>
@@ -108,7 +108,7 @@ const Features = () => {
             From the buzzling streets of Lagos, to the breezy shores of
             Freetown,
           </p>
-          <p className="text-[19px] md:text-[21px] lg:text-[23px] text-[#072A30] tracking-[-1px] md:tracking-[-1.5px] font-normal "
+          <p className="text-[20px] md:text-[23px] lg:text-[23px] text-[#072A30] tracking-[-1px] lg:tracking-[-1.5px] font-normal "
           >
             Kriapay makes sending money across Africa effortless and affordable.
           </p>
