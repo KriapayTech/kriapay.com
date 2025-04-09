@@ -11,7 +11,7 @@ const Ask = () => {
     <div className="div-fluid">
       <Navigation />
       <Askhero />
-      {/* <Create/> */}
+      <Create/>
 
       {/* <Transacting/> */}
       {/* <SupportContact/> */}
