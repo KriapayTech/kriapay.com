@@ -36,7 +36,7 @@ const slidesData = [
 
 const Transacting = () => {
   return (
-    <div className="w-full flex justify-center mt-[70px] md:mt-[100px] lg:mt-[150px]">
+    <div className="w-full flex justify-center  mt-[50px] md:mt-[100px] lg:mt-[150px]">
       <div className="w-[85%] bg-[#072a30] rounded-[20px] flex flex-col items-center text-center mt-[100px] mb-[100px] md:pb-[20px] lg:pb-[50px] 2xl:pb-[20px] relative overflow-hidden">
         <p className="text-[26px] md:text-[33px] lg:text-[39px] 2xl:text-[40px] text-white pt-[60px] tracking-[-3px] font-medium  ">
           Transacting on Kriapay{" "}
@@ -162,7 +162,7 @@ const Transacting = () => {
         </div>
 
         {/* Mobile swiper */}
-        <div className=" w-[100%] h-[620px] mt-10 md:hidden">
+        <div className=" w-[100%] h-[610px] mt-10 md:hidden">
           <div
             id="currencyCarouselmobiletransact"
             className="carousel slide"
