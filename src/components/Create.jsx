@@ -41,7 +41,7 @@ const Create = () => {
           Creating an account{" "}
         </p>
 
-        <div className="hidden md:block w-[100%] md:h-[620px] lg:h-[590px] 2xl:h-[530px] mt-16 md:mt-12 2xl:mt-4 ">
+        <div className="hidden md:block w-[100%] md:h-[600px] lg:h-[590px] 2xl:h-[530px] mt-16 md:mt-12 2xl:mt-4 ">
           <div
             id="currencyCarousel"
             className="carousel slide"
@@ -58,14 +58,14 @@ const Create = () => {
                       <h2
                         className={`flex items-center  text-left gap-2 ${
                           index === 0
-                            ? "md:!text-[17px] lg:!text-[18px] tracking-[-0.6px] leading-[25px] !font-normal"
-                            : "md:!text-[26px] lg:!text-[27px] !font-medium tracking-[-2px] leading-[25px] "
+                            ? "md:!text-[16px] lg:!text-[18px] tracking-[-0.6px] leading-[25px] !font-normal"
+                            : "md:!text-[25px] lg:!text-[27px] !font-medium tracking-[-2px] leading-[25px] "
                         }`}
                       >
                         <img
                           src="https://res.cloudinary.com/dhap3isd2/image/upload/v1744198707/Kriapay%20website/qtifdmgqsmyoxsrysdnb.svg"
                           alt="Kriapay coin"
-                          className="md:w-[45px] md:h-[45px] lg:w-[50px] lg:h-[50px]"
+                          className="md:w-[43px] md:h-[43px] lg:w-[50px] lg:h-[50px]"
                         />
 
                         {index === 0 ? (
@@ -79,40 +79,40 @@ const Create = () => {
                       </h2>
                       <div className="w-full pl-[15px]">
                         {index !== 2 && slide.subTitle && (
-                          <h4 className="md:!text-[20px] lg:!text-[21px] tracking-[-1px] leading-[32px] pt-[30px]">
+                          <h4 className="md:!text-[18px] lg:!text-[21px] tracking-[-1px] leading-[32px] pt-[30px]">
                             {slide.subTitle}
                           </h4>
                         )}
 
                         <p
-                          className={`!text-[17px] lg:text-[18px] tracking-[-0.5px] leading-[32px] ${
+                          className={`!text-[16px] lg:text-[18px] tracking-[-0.5px] leading-[32px] ${
                             index === 2 ? "pt-[45px]" : "pt-[20px]"
                           }`}
                         >
                           {slide.step1}
                         </p>
 
-                        <p className="!text-[17px] lg:text-[18px] tracking-[-0.5px] leading-[32px]">
+                        <p className="!text-[16px] lg:text-[18px] tracking-[-0.5px] leading-[32px]">
                           {slide.step2}
                         </p>
-                        <p className="!text-[17px] lg:text-[18px] tracking-[-0.5px] leading-[32px] ">
+                        <p className="!text-[16px] lg:text-[18px] tracking-[-0.5px] leading-[32px] ">
                           {slide.step3}
                         </p>
                         <p
-                          className={`!text-[17px] lg:text-[18px] tracking-[-0.5px] leading-[32px] ${
+                          className={`!text-[16px] lg:text-[18px] tracking-[-0.5px] leading-[32px] ${
                             index === 0 ? "pt-[0px]" : "pt-[40px]"
                           }`}
                         >
                           {slide.step4}
                         </p>
 
-                        <p className="!text-[17px] lg:text-[18px] tracking-[-0.5px] leading-[32px]">
+                        <p className="!text-[16px] lg:text-[18px] tracking-[-0.5px] leading-[32px]">
                           {slide.step5}
                         </p>
-                        <p className="!text-[17px] lg:text-[18px] tracking-[-0.5px] leading-[32px]">
+                        <p className="!text-[16px] lg:text-[18px] tracking-[-0.5px] leading-[32px]">
                           {slide.step6}
                         </p>
-                        <p className="!text-[17px] lg:text-[18px] tracking-[-0.5px] leading-[32px]">
+                        <p className="!text-[16px] lg:text-[18px] tracking-[-0.5px] leading-[32px]">
                           {slide.step7}
                         </p>
                       </div>
