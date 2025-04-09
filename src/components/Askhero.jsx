@@ -4,41 +4,38 @@ import "./Hero.css"; // Import the CSS file for animations
 
 const Hero = () => {
   return (
-    <div
-      className="py-5 d-flex align-items-center justify-content-center text-center container-fluid"
-      style={{ backgroundColor: "#072a30", height: "655px", overflow: "hidden" }}
-    >
+    <div className=" bg-[#072a30] overflow-hidden w-full ">
       {/* Text Section */}
-      <Container className="text-white d-flex flex-column align-items-center">
-        <div className="mx-auto">
-          {/* <h1
-            style={{
-              fontSize: "44px",
-              fontWeight: "bold",
-              marginBottom: "20px",
-              Width: "700px",
-              marginTop:'200px'
-            }}
-          >
-           Kriapay 101 – Everything You <br/> Need to Know
-          </h1> */}
-          <p style={{ fontSize: "17px", Width: "600px", marginTop:'50px' }}>
-          Questions pertaining sign-up, deposits, transfers or currency swap? We’ve <br/> got all the answers you need.          </p>
+      <div className="text-white flex flex-col items-center  pt-[30px]">
+        <div className="text-center flex flex-col gap-[40px] pt-[30px] w-[85%] md:w-[70%] lg:w-[75%] 2xl:w-full">
+          <h1 className="!text-[27px] md:!text-[30px] lg:!text-[40px] !font-medium tracking-[-1.5px] !leading-[33px] md:!leading-[39px] lg:!leading-[45px] 2xl:!leading-[48px]">
+            Kriapay 101 - Everything You
+            <span className="hidden md:inline">
+              <br />
+            </span>{" "}
+            Need to Know
+          </h1>
 
+          <p className="text-[14px] md:text-[16px] lg:text-[18px] z-20 font-normal tracking-[-0.6px] md:tracking-[-0.7px] opacity-90 ">
+          Questions pertaining sign-up, deposits, transfers or currency swap? We’ve
+            <span className="hidden lg:inline">
+              <br />
+            </span>{" "}
+            got all the answers you need.
+            <span className="hidden lg:inline">
+              <br />
+            </span>{" "}
+          </p>
+        </div>
+
+        <div className="w-full h-[297px] md:h-[327px] lg:h-[347px] flex items-center justify-center relative">
           <img
             src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1742306015/Company_coins_ldrnrh.svg"
-            alt="Payment Illustration"
-            className="img-fluid mt-4"
-            style={{
-              transform: "rotate(7deg)",
-              width: "100%",
-              maxWidth: "640px",
-              height: "430px",
-              marginTop: "160px",
-            }}
+            alt="Kriapay company"
+            className="rotate-[7deg] w-[85%] md:w-[50%] lg:w-[40%] 2xl:w-[38%] absolute bottom-[-55px] md:bottom-[-70px] lg:bottom-[-85px] 2xl:bottom-[-115px] "
           />
         </div>
-      </Container>
+      </div>
     </div>
   );
 };
