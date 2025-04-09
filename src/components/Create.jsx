@@ -85,34 +85,34 @@ const Create = () => {
                         )}
 
                         <p
-                          className={`!text-[16px] lg:text-[18px] tracking-[-0.5px] leading-[32px] ${
+                          className={`md:!text-[16px] lg:!text-[18px] tracking-[-0.5px] leading-[32px] ${
                             index === 2 ? "pt-[45px]" : "pt-[20px]"
                           }`}
                         >
                           {slide.step1}
                         </p>
 
-                        <p className="!text-[16px] lg:text-[18px] tracking-[-0.5px] leading-[32px]">
+                        <p className="md:!text-[16px] lg:!text-[18px] tracking-[-0.5px] leading-[32px]">
                           {slide.step2}
                         </p>
-                        <p className="!text-[16px] lg:text-[18px] tracking-[-0.5px] leading-[32px] ">
+                        <p className="md:!text-[16px] lg:!text-[18px]  tracking-[-0.5px] leading-[32px] ">
                           {slide.step3}
                         </p>
                         <p
-                          className={`!text-[16px] lg:text-[18px] tracking-[-0.5px] leading-[32px] ${
+                          className={`md:!text-[16px] lg:!text-[18px] tracking-[-0.5px] leading-[32px] ${
                             index === 0 ? "pt-[0px]" : "pt-[40px]"
                           }`}
                         >
                           {slide.step4}
                         </p>
 
-                        <p className="!text-[16px] lg:text-[18px] tracking-[-0.5px] leading-[32px]">
+                        <p className="md:!text-[16px] lg:!text-[18px]  tracking-[-0.5px] leading-[32px]">
                           {slide.step5}
                         </p>
-                        <p className="!text-[16px] lg:text-[18px] tracking-[-0.5px] leading-[32px]">
+                        <p className="md:!text-[16px] lg:!text-[18px]  tracking-[-0.5px] leading-[32px]">
                           {slide.step6}
                         </p>
-                        <p className="!text-[16px] lg:text-[18px] tracking-[-0.5px] leading-[32px]">
+                        <p className="md:!text-[16px] lg:!text-[18px]  tracking-[-0.5px] leading-[32px]">
                           {slide.step7}
                         </p>
                       </div>
@@ -178,7 +178,7 @@ const Create = () => {
 
 
         {/* Mobile swiper */}
-        <div className=" w-[100%] h-[630px] mt-10 md:hidden">
+        <div className=" w-[100%] h-[620px] mt-10 md:hidden">
           <div
             id="currencyCarouselmobile"
             className="carousel slide"

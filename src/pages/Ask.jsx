@@ -13,7 +13,7 @@ const Ask = () => {
       <Askhero />
       <Create/>
 
-      {/* <Transacting/> */}
+      <Transacting/>
       {/* <SupportContact/> */}
       <Footer />
     </div>
