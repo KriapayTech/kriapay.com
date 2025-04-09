@@ -258,7 +258,7 @@ const Create = () => {
                 </div>
               ))}
               <img
-                className="md:w-[450px] lg:w-[550px] 2xl:w-[600px] 2xl:h-[600px] absolute right-0 bottom-[-200px] opacity-25 "
+                className="w-[300px] h-[400px] absolute right-0 bottom-[-300px] opacity-25 "
                 src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1741523154/Abuja_Landmark_1_exzagr.svg"
                 alt="Kriapay landmark"
               />
