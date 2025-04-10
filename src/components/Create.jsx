@@ -214,6 +214,11 @@ const Create = () => {
                         )}
                       </h2>
                       <div className="w-full pl-[15px]">
+                      {index !== 2 && slide.subTitle && (
+                          <h4 className="!text-[16px] tracking-[-1px] leading-[32px] pt-[30px]">
+                            {slide.subTitle}
+                          </h4>
+                        )}
 
                         <p
                           className={`!text-[15px] tracking-[-1px] leading-[32px] ${
