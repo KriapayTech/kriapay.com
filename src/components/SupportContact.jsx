@@ -40,7 +40,7 @@ const SupportContact = () => {
                 <h3 className="!text-[22px] md:!text-[24px] lg:!text-[26px] !font-medium tracking-[-2px] !leading-[35px]">
                   Reach out to our support team any time via:
                 </h3>
-                <div className="w-full flex flex-col gap-[7px] md:gap-[15px] mt-[50px] md:mt-[70px]">
+                <div className="w-full flex flex-col gap-[7px] md:gap-[15px] 2xl:gap-[13px] mt-[50px] md:mt-[70px] 2xl:mt-[80px]">
                   <p className="flex items-center gap-[10px] !text-[15px] md:!text-[16px] lg:!text-[18px] tracking-[-0.7px] md:tracking-[-0.6px] leading-[25px] md:leading-[33px]">
                     <span>
                       <img
