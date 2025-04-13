@@ -37,7 +37,7 @@ const slidesData = [
 const Transacting = () => {
   return (
     <div className="w-full flex justify-center mb-[50px] md:mb-0 mt-[50px] md:mt-[100px] lg:mt-[150px]">
-      <div className="w-[85%] bg-[#072a30] rounded-[25px] lg:rounded-[30px] flex flex-col items-center text-center mt-[100px] lg:mb-[70px] md:pb-[20px] lg:pb-[50px] 2xl:pb-[20px] relative overflow-hidden">
+      <div className="w-[85%] bg-[#072a30] rounded-[20px] md:rounded-[25px] lg:rounded-[30px] flex flex-col items-center text-center mt-[100px] lg:mb-[70px] md:pb-[20px] lg:pb-[50px] 2xl:pb-[20px] relative overflow-hidden">
         <p className="text-[26px] md:text-[33px] lg:text-[39px] 2xl:text-[40px] text-white pt-[60px] tracking-[-3px] font-medium  ">
           Transacting on Kriapay{" "}
         </p>

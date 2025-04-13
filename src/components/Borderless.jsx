@@ -5,7 +5,7 @@ const Borderless = () => {
   return (
     // Container div
     <div className="w-full overflow-hidden mt-[100px] mb-[80px]">
-      <div className="bg-[#072a30] rounded-[25px] lg:rounded-[30px] overflow-hidden w-[85%] mx-auto h-fit md:h-[580px]">
+      <div className="bg-[#072a30] rounded-[20px] md:rounded-[25px] lg:rounded-[30px] overflow-hidden w-[85%] mx-auto h-fit md:h-[580px]">
         <div className="flex flex-col md:flex-row gap-[30px] md:gap-4 items-center justify-between lg:justify-center h-full">
           <div className="w-full px-[30px] pt-[60px] md:px-0 md:pt-0 md:w-[75%] lg:w-[44%] h-fit flex flex-col gap-[10px] md:gap-[10px] md:pl-[50px] lg:pl-[70px] 2xl:pl-5 ">
             <p className="text-[23px] md:text-[25px] tracking-[-1.5px] lg:text-[30px] opacity-90 lg:tracking-[-2px] leading-[35px] font-normal text-white ">
