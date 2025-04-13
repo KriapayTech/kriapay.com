@@ -49,8 +49,8 @@ const Testimonials = () => {
   return (
     <>
       {/* Section Title - Shared by both mobile & desktop */}
-      <div className="my-[60px] bg-white">
-        <h2 className="!text-[30px] md:!text-[40px] !text-center lg:!text-[45px] !font-medium !text-[#072A30] !mb-[80px] tracking-[-3px] leading-[46px]">
+      <div className="my-[70px] lg:mb-[100px] bg-white">
+        <h2 className="!text-[30px] md:!text-[40px] !text-center lg:!text-[45px] !font-medium !text-[#072A30] !mb-[80px]  tracking-[-3px] leading-[46px]">
           Real stories. <br />
           Don’t take our word for it.
         </h2>
