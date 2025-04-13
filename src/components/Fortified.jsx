@@ -15,7 +15,7 @@ const Fortified = () => {
   return (
     // Container
     <div className="w-full h-fit mt-[100px]  md:mt-[210px]">
-      <div className="w-[85%] bg-[#072a30] mx-auto rounded-[20px] flex flex-col items-center">
+      <div className="w-[85%] bg-[#072a30] mx-auto rounded-[25px] lg:rounded-[30px] flex flex-col items-center">
         <p className="text-[27px] md:text-[33px] lg:text-[39px] 2xl:text-[40px] w-[90%] md:w-[60%] lg:w-[55%] 2xl:w-[40%] text-[white] tracking-[-3px] md:leading-[46px] font-medium pt-[60px] text-center ">
           Fortified for Safety, Designed <br className="" /> for You
         </p>

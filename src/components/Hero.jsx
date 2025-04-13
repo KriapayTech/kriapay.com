@@ -27,7 +27,7 @@ const Hero = () => {
     {/* Centered Content Wrapper */}
     <div className="mx-auto max-w-[754px]">
       <h1 className="text-white z-20 tracking-[-2px] md:tracking-[-3px] !text-[38px] md:!text-[53px] lg:!text-[62px] !leading-[105%]">
-        You Can Pay Less To Send .
+        You Can Pay Less To Send More.
       </h1>
       <p className="mx-auto text-[14px] w-[83%] md:text-[18px] text-white max-w-[650px] !mt-[45px] z-20 tracking-[-0.7px] md:tracking-[-1px] opacity-80 !leading-[135%]">
         Send and receive money across Africa with ease, low cost, and competitive exchange rates.
@@ -37,7 +37,7 @@ const Hero = () => {
     {/* Wallet Balance Card */}
 <div className="pulsing-wrapper relative">
  
-<div class="absolute w-full h-[500px] bottom-[-0px] flex items-end justify-center overflow-hidden">
+{/* <div class="absolute w-full h-[500px] bottom-[-0px] flex items-end justify-center overflow-hidden">
 
   <div class="absolute bottom-[-30px] flex items-center justify-center">
 
@@ -47,7 +47,7 @@ const Hero = () => {
 
     <div class="w-[400px] h-[400px] outline-circle absolute pulse-large"></div>
   </div>
-</div>
+</div> */}
 
     <Card className="mx-auto p-3 text-dark !w-[80%] !h-[190px] md:!w-[408px] md:!h-[220px] lg:!w-[520px] lg:!h-[280px] mt-[70px] py- px-7 !rounded-[30px] !bg-[#1b4f56] backdrop-opacity-100 overflow-hidden" style={{overlay:'black', // Ensures overflow is hidden
  }}>

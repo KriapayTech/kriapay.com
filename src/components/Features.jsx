@@ -52,7 +52,7 @@ const Features = () => {
       </div>
 
       <div className="w-full">
-        <div className="w-[85%] h-[830px] md:h-[950px] lg:h-[1100px] 2xl:h-[766px] bg-[#072a30] rounded-[20px] overflow-hidden mx-auto "
+        <div className="w-[85%] h-[780px] md:h-[950px] lg:h-[1100px] 2xl:h-[766px] bg-[#072a30] rounded-[25px] lg:rounded-[30px] overflow-hidden mx-auto "
         >
           <div className="h-[766px]">
               <div className="d-flex justify-content-center align-items-center">
@@ -115,7 +115,7 @@ const Features = () => {
         </div>
       </div>
 
-      <div className=" w-[85%] bg-[#072a30] rounded-[20px] fledx flex-col items-center text-center mt-[100px] mb-[100px] "
+      <div className=" w-[85%] bg-[#072a30] rounded-[25px] lg:rounded-[30px] flex flex-col items-center text-center mt-[100px] mb-[100px] "
       >
         <p className="text-[30px] md:text-[40px] 2xl:text-[45px] text-white pt-[60px] tracking-[-3px] font-medium  "
         >

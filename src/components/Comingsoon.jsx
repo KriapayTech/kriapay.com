@@ -4,7 +4,7 @@ const Comingsoon = () => {
   return (
 
     <div className=" w-full flex pt-[20px] md:pt-[100px] mb-[100px] ">
-    <div className="bg-[#072a30] w-[85%] rounded-[20px] overflow-hidden mx-auto">
+    <div className="bg-[#072a30] w-[85%] rounded-[25px] lg:rounded-[30px] overflow-hidden mx-auto">
         <div>
         <div className="flex justify-content-center align-items-center ">
 <h4 className="text-center !leading-[35px] !text-[30px] tracking-[-2.5px] md:!text-[40px] lg:!text-[45px] text-white !mt-[50px] lg:!mt-[70px] !mb-[40px] md:tracking-[-3px] md:!leading-[47px] "> Coming soon <br/>Kriacard.</h4>
