@@ -37,7 +37,7 @@ const Hero = () => {
     {/* Wallet Balance Card */}
 <div className="pulsing-wrapper relative">
  
-{/* <div class="absolute w-full h-[500px] bottom-[-0px] flex items-end justify-center overflow-hidden">
+<div class="absolute w-full h-[500px] bottom-[-0px] flex items-end justify-center overflow-hidden">
 
   <div class="absolute bottom-[-30px] flex items-center justify-center">
 
@@ -47,7 +47,7 @@ const Hero = () => {
 
     <div class="w-[400px] h-[400px] outline-circle absolute pulse-large"></div>
   </div>
-</div> */}
+</div>
 
     <Card className="mx-auto p-3 text-dark !w-[80%] !h-[190px] md:!w-[408px] md:!h-[220px] lg:!w-[520px] lg:!h-[280px] mt-[70px] py- px-7 !rounded-[30px] !bg-[#1b4f56] backdrop-opacity-100 overflow-hidden" style={{overlay:'black', // Ensures overflow is hidden
  }}>
