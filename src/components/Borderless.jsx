@@ -15,9 +15,15 @@ const Borderless = () => {
             <p className="!text-[23px] leading-[35px] md:!text-[29px] tracking-[-1.5px] lg:!text-[36px] text-white lg:tracking-[-2.5px] md:leading-[45px] 2xl:leading-[35px] font-medium ">
               The borderless way with Kriapay.
             </p>
-            <button className="text-white !text-[14px] lg:!text-[17px] tracking-[-0.5px] leading-[35px] font-medium bg-[#1B4F56] w-[116px] h-[39px] md:w-[159px] md:h-[43px] lg:w-[190px] lg:h-[48px] !mt-[25px] md:!mt-[80px] !rounded-[8px] ">
-              Get started
-            </button>
+            <a
+              href="https://kriapay.vercel.app/login"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="text-white !text-[14px] lg:!text-[17px] tracking-[-0.5px] leading-[35px] font-medium bg-[#1B4F56] w-[116px] h-[39px] md:w-[159px] md:h-[43px] lg:w-[190px] lg:h-[48px] !mt-[25px] md:!mt-[80px] !rounded-[8px] ">
+                Get started
+              </button>
+            </a>
           </div>
 
           <div className="overflow-hidden h-[365px] md:h-full w-full md:w-[53%]  2xl:w-[40%] relative 2xl:pl-3">

@@ -15,9 +15,12 @@ const Barriers = () => {
             <p className="!text-[23px] leading-[35px] md:!text-[29px] tracking-[-1.5px] lg:text-[35px] 2xl:!text-[36px] text-white lg:tracking-[-2.5px] md:leading-[45px] 2xl:leading-[45px] font-medium  ">
             Reshaping the financial future for Africa
             </p>
+            <a href="https://kriapay.vercel.app/login" target="_blank" rel="noopener noreferrer">
             <button className="text-white !text-[14px] lg:!text-[17px] tracking-[-0.5px] leading-[35px] font-medium bg-[#1B4F56] w-[116px] h-[39px] md:w-[159px] md:h-[43px] lg:w-[190px] lg:h-[48px] !mt-[25px] md:!mt-[80px] !rounded-[8px] ">
               Get started
             </button>
+            </a>
+            
           </div>
 
           <div className="overflow-visible h-[365px] md:h-full w-full md:w-[53%] lg:w-[45%] justify-center  2xl:w-[40%] relative 2xl:pl-3  flex items-center ">
