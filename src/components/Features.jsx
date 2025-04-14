@@ -57,18 +57,18 @@ const Features = () => {
           <div className="h-[766px]">
               <div className="d-flex justify-content-center align-items-center">
                 <h4
-                  className=" md:w-[70%] lg:w-[50%] text-center 2xl:!ml-[327px] 2xl:!mr-[327px] !mt-[50px] !mb-[35px] md:!mt-[50px] 2xl:!mt-[70px] 2xl:!mb-[60px] !text-[30px] md:!text-[39px] lg:!text-[40px] 2xl:!text-[45px] !text-white 2xl:w-[45%] tracking-[-3px] !font-medium !leading-[35px] md:!leading-[45px]"
+                  className=" md:w-[70%] lg:w-[40%] text-center 2xl:!ml-[327px] 2xl:!mr-[327px] !mt-[50px] !mb-[35px] md:!mt-[50px] 2xl:!mt-[70px] 2xl:!mb-[60px] !text-[30px] md:!text-[39px] lg:!text-[40px] 2xl:!text-[45px] !text-white 2xl:w-[45%] tracking-[-3px] !font-medium !leading-[35px] md:!leading-[45px]"
                 >
                   One wallet, multiple currencies.
                 </h4>
               </div>
 
               <div className="flex flex-col-reverse md:flex-row 2xl:gap-[20px] pt-4 lg:px-[40px]">
-                <div className="overflow-hidden flex justify-center 2xl:block  lg:w-[70%] 2xl:w-fit">
+                <div className="overflow-hidden flex justify-center 2xl:block  lg:w-[55%] 2xl:w-fit">
                   <img
                     src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1742041315/AfricaGlobe_q9y4ub.svg"
                     alt="Abuja Landmark"
-                    className="w-[375px] h-[270px] md:w-[573px] md:h-[390px] lg:w-[570px] lg:h-[450px] 2xl:w-[691px] 2xl:h-[470px] overflow-hidden "
+                    className="w-[375px] h-[270px] md:w-[573px] md:h-[390px] lg:w-[570px] lg:h-[430px] 2xl:w-[691px] 2xl:h-[480px] overflow-hidden "
                   />
                 </div>
                 <div className="flex flex-col mb-10 md:mb-0 md:py-5 2xl:py-0 gap-[40px] h-fit md:mt-14 lg:w-[50%] 2xl:w-fit">
@@ -89,7 +89,7 @@ const Features = () => {
 
       <div className="flex items-center justify-center text-center mt-[100px] mb-5 md:mb-0 md:h-[230px] w-full md:mt-5"
       >
-        <p className="text-[30px] px-[50px] md:text-[40px] md:w-[60%] lg:w-[50%] lg:text-[40px] 2xl:text-[45px] 2xl:w-[40%] tracking-[-3px] leading-[32px] md:leading-[45px] font-medium text-[#072A30] ">
+        <p className="text-[30px] px-[50px] md:text-[40px] md:w-[60%] lg:w-[44%] lg:text-[40px] 2xl:text-[45px] 2xl:w-[40%] tracking-[-3px] leading-[32px] md:leading-[45px] font-medium text-[#072A30] ">
           Affordable transfers, everytime.
         </p>
       </div>
