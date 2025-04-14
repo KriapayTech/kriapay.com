@@ -52,7 +52,7 @@ const Features = () => {
       </div>
 
       <div className="w-full">
-        <div className="w-[85%] h-[780px] md:h-[950px] lg:h-[766px] 2xl:h-[766px] bg-[#072a30] rounded-[20px] md:rounded-[25px] lg:rounded-[30px] overflow-hidden mx-auto "
+        <div className="w-[85%] h-[780px] md:h-[950px] lg:h-[750px] 2xl:h-[766px] bg-[#072a30] rounded-[20px] md:rounded-[25px] lg:rounded-[30px] overflow-hidden mx-auto "
         >
           <div className="h-[766px]">
               <div className="d-flex justify-content-center align-items-center">
@@ -68,7 +68,7 @@ const Features = () => {
                   <img
                     src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1742041315/AfricaGlobe_q9y4ub.svg"
                     alt="Abuja Landmark"
-                    className="w-[375px] h-[270px] md:w-[573px] md:h-[390px] lg:w-[570px] lg:h-[430px] 2xl:w-[691px] 2xl:h-[480px] overflow-hidden "
+                    className="w-[375px] h-[270px] md:w-[573px] md:h-[390px] lg:w-[570px] lg:h-[420px] 2xl:w-[691px] 2xl:h-[480px] overflow-hidden "
                   />
                 </div>
                 <div className="flex flex-col mb-10 md:mb-0 md:py-5 2xl:py-0 gap-[40px] h-fit md:mt-14 lg:w-[50%] 2xl:w-fit">
