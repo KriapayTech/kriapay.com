@@ -38,7 +38,7 @@ const Comingsoon = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="text-white !text-[14px] lg:!text-[15px] 2xl:!text-[16px] bg-[#1B4F56] w-[111px] h-[35px] md:h-[39px] lg:w-[138px] lg:h-[49px] !mt-[53px] md:!mt-[40px] border-0 !rounded-[8px] tracking-[-0.6px] md:tracking-[-0.5px] ">
+                <button className="text-white !text-[14px] lg:!text-[15px] 2xl:!text-[16px] bg-[#1B4F56] w-[111px] h-[35px] md:h-[39px] lg:w-[132px] lg:h-[43px] 2xl:w-[138px] 2xl:h-[49px] !mt-[53px] md:!mt-[40px] border-0 !rounded-[8px] tracking-[-0.6px] md:tracking-[-0.5px] ">
                   Get started
                 </button>
               </a>
