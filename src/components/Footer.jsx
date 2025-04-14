@@ -9,7 +9,7 @@ const Footer = () => {
             {/* Navs */}
             <div className="flex flex-col gap-[15px] md:gap-[30px]">
               <h4 className="!text-[20px] md:!text-[21px]">Legal</h4>
-              <div className="flex !flex-row md:!flex-col gap-[18px] 2xl:!flex-row 2xl:gap-[15px]">
+              <div className="flex !flex-row md:!flex-col gap-[18px] lg:!flex-row 2xl:gap-[15px]">
                 <p className="underline cursor-pointer">Privacy policies</p>
                 <p className="underline cursor-pointer">Terms and conditions</p>
               </div>
