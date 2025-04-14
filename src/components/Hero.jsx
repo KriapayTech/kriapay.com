@@ -37,7 +37,7 @@ const Hero = () => {
     {/* Wallet Balance Card */}
 <div className="pulsing-wrapper relative">
  
-<div class="absolute w-full h-[500px] 2xl:h-[450px] bottom-[-0px] flex items-end justify-center overflow-hidden">
+{/* <div class="absolute w-full h-[500px] 2xl:h-[450px] bottom-[-0px] flex items-end justify-center overflow-hidden">
 
   <div class="absolute bottom-[-30px] 2xl:bottom-[-60px] flex items-center justify-center">
 
@@ -47,9 +47,9 @@ const Hero = () => {
 
     <div class="w-[400px] h-[400px] outline-circle absolute pulse-large"></div>
   </div>
-</div>
+</div> */}
 
-    <Card className="mx-auto p-3 text-dark !w-[80%] !h-[190px] md:!w-[408px] md:!h-[220px] lg:!w-[520px] lg:!h-[280px] mt-[70px] py- px-7 !rounded-[30px] !bg-[#1b4f56] backdrop-opacity-100 overflow-hidden" style={{overlay:'black', // Ensures overflow is hidden
+    <Card className="mx-auto p-3 text-dark !w-[80%] !h-[190px] md:!w-[390px] md:!h-[210px] lg:!w-[520px] lg:!h-[280px] mt-[70px] py- px-7 !rounded-[30px] !bg-[#1b4f56] backdrop-opacity-100 overflow-hidden" style={{overlay:'black', // Ensures overflow is hidden
  }}>
   <Card.Body className="p-0 m-0">
     <div className="flex dflex items-center justify-between gap-[10px] md:py-[7px] md:px-[7px] lg:py-[10px] lg:px-[12px]">
@@ -74,7 +74,7 @@ const Hero = () => {
     {/* Wallet Balance and Abuja Landmark */}
     <div className="flex justify-betweeen items-center mt-[30px] md:mt-[25px] lg:mt-[50px]">
       {/* Left Section: Wallet Balance */}
-      <div className="flex flex-col items-start h-[100px] md:h-[115px] lg:h-[130px] pt-4 px-[5px] md:px-[15px] justify-between">
+      <div className="flex flex-col items-start h-[100px] md:h-[110px] lg:h-[130px] pt-4 px-[5px] md:px-[15px] justify-between">
 
         <div className="flex items-center gap-[8px]">
           <p className="text-[12px] md:text-[16px] lg:text-[18px] text-white m-0 tracking-[-1px] leading-[100%] font-medium">Wallet balance</p>
@@ -107,7 +107,7 @@ const Hero = () => {
 
 {/* CAROUSEL SECTION */}
 <div className="text-center mt-[80px] flex flex-col items-center justify-center">
-        <p className="w-fit h-fit text-[16px] lg:text-[20px] tracking-[-0.5px] text-white mt-[60px] mx-0 my-auto">
+        <p className="w-fit h-fit text-[16px] md:text-[18px] lg:text-[20px] tracking-[-0.5px] text-white mt-[60px] mx-0 my-auto">
           Leading Brands, Proudly Partnered:
         </p>
         {/* Carousel Component */}
