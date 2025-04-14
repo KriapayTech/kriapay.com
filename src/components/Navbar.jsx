@@ -15,7 +15,7 @@ const Navigation = () => {
         {/* Logo */}
         <a
           href="/"
-          className="w-[96px] h-[35px] md:w-[118px] mdh-[43px] lg::w-[130px] lg:h-[48px]"
+          className="w-[96px] h-[35px] md:w-[118px] md:h-[43px] lg::w-[130px] lg:h-[48px]"
         >
           <img
             src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1741440756/Kriapay_Logo_nm8w7f.svg"
@@ -26,25 +26,25 @@ const Navigation = () => {
         {/* Desktop Nav (Hidden on mobile) */}
         <div className="hidden md:flex flex-row gap-8 p-0 font-medium ml-6">
           <Nav.Link
-            className="text-white text-[16px] tracking-[-1px]"
+            className="text-white md:!text-[15px] lg:!text-[16px] tracking-[-1px]"
             href="/kriacard"
           >
             Kriacard
           </Nav.Link>
           <Nav.Link
-            className="text-white text-[16px] tracking-[-1px]"
+            className="text-white md:!text-[15px] lg:!text-[16px] tracking-[-1px]"
             href="/company"
           >
             Company
           </Nav.Link>
           <Nav.Link
-            className="text-white text-[16px] tracking-[-1px]"
+            className="text-white md:!text-[15px] lg:!text-[16px] tracking-[-1px]"
             href="/ask"
           >
             Ask Kriapay
           </Nav.Link>
           <Nav.Link
-            className="text-white text-[16px] tracking-[-1px]"
+            className="text-white md:!text-[15px] lg:!text-[16px] tracking-[-1px]"
             href="https://kriapay.vercel.app/login"
             target="_blank"
             rel="noopener noreferrer"
@@ -60,7 +60,7 @@ const Navigation = () => {
           rel="noopener noreferrer"
           className="!no-underline"
         >
-          <button className="hidden md:block w-[146px] h-[46px] tracking-[-1px] bg-[#1B4F56] text-white font-medium rounded">
+          <button className="hidden md:block w-[146px] h-[46px] tracking-[-1px] bg-[#1B4F56] text-white font-medium rounded md:!text-[15px] lg:!text-[16px]">
             Sign up
           </button>
         </a>
