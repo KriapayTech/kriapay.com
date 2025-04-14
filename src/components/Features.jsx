@@ -52,7 +52,7 @@ const Features = () => {
       </div>
 
       <div className="w-full">
-        <div className="w-[85%] h-[780px] md:h-[950px] lg:h-[1100px] 2xl:h-[766px] bg-[#072a30] rounded-[20px] md:rounded-[25px] lg:rounded-[30px] overflow-hidden mx-auto "
+        <div className="w-[85%] h-[780px] md:h-[950px] lg:h-[766px] 2xl:h-[766px] bg-[#072a30] rounded-[20px] md:rounded-[25px] lg:rounded-[30px] overflow-hidden mx-auto "
         >
           <div className="h-[766px]">
               <div className="d-flex justify-content-center align-items-center">
@@ -63,20 +63,20 @@ const Features = () => {
                 </h4>
               </div>
 
-              <div className="flex flex-col-reverse md:flex-col 2xl:flex-row lg:gap-[20px] pt-4">
-                <div className="overflow-hidden flex justify-center 2xl:block">
+              <div className="flex flex-col-reverse md:flex-row 2xl:gap-[20px] pt-4 lg:px-[40px]">
+                <div className="overflow-hidden flex justify-center 2xl:block  lg:w-[70%] 2xl:w-fit">
                   <img
                     src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1742041315/AfricaGlobe_q9y4ub.svg"
                     alt="Abuja Landmark"
                     className="w-[375px] h-[270px] md:w-[573px] md:h-[390px] lg:w-[580px] lg:h-[480px] 2xl:w-[691px] 2xl:h-[470px] overflow-hidden "
                   />
                 </div>
-                <div className="flex flex-col mb-10 md:mb-0 md:py-5 2xl:py-0 gap-[40px] h-fit md:mt-14">
+                <div className="flex flex-col mb-10 md:mb-0 md:py-5 2xl:py-0 gap-[40px] h-fit md:mt-14 lg:w-[50%] 2xl:w-fit">
                   <p className="text-[23px] md:text-[31px] px-[30px] md:px-14 2xl:pl-0 md:w-[80%] lg:w-[479px] text-white tracking-[-1.5px] leading-[33px] font-medium "
                   >
                     Say goodbye to currency restrictions.
                   </p>
-                  <p className="text-[17px] px-[30px] md:px-14 2xl:pl-0 md:w-[80%] lg:w-[80%] 2xl:w-[410px] text-white tracking-[-1.1px] md:tracking-[-1px] leading-[33px] font-normal opacity-85"
+                  <p className="text-[17px] px-[30px] md:px-14 2xl:pl-0 md:w-[80%] lg:w-full 2xl:w-[450px] text-white tracking-[-1.1px] md:tracking-[-1px] leading-[33px] font-normal opacity-85"
                   >
                     Kriapay’s multi-currency wallet lets you hold, send, and
                     receive money in multiple currencies—all in one place.
