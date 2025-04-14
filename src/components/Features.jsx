@@ -38,7 +38,7 @@ const Features = () => {
     <div className="flex flex-col items-center justify-center w-full">
       <div className="flex flex-col md:flex-row items-center justify-between gap-[20px] px-[15px] md:px-10 lg:px-0 mt-[50px] md:mt-[100px] mb-[80px] md:mb-[100px]">
         <div className="flex-1">
-          <p className="text-[29px] md:text-[36px] lg:text-[41px] tracking-[-3px] leading-[150%] font-medium text-[#072A30] md:pl-[40px] lg:pl-[100px] 2xl:pl-[130px] ">
+          <p className="text-[29px] md:text-[36px] lg:text-[38px] 2xl:text-[41px] tracking-[-3px] leading-[150%] font-medium text-[#072A30] md:pl-[40px] lg:pl-[100px] 2xl:pl-[130px] ">
             Send and receive money on your terms - built for you, and Africa.
           </p>
         </div>
@@ -46,7 +46,7 @@ const Features = () => {
           <img
             src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1741820101/SendAndReceive_m9n8zg.svg"
             alt="Kriapay coins"
-            className="w-[110%] h-[156px] md:w-[145%] md:h-[190px] lg:w-[170%] lg:h-[235px]"
+            className="w-[110%] h-[156px] md:w-[145%] md:h-[190px] lg:w-[155%] lg:h-[220px] 2xl:w-[170%] 2xl:h-[235px]"
           />
         </div>
       </div>
@@ -57,7 +57,7 @@ const Features = () => {
           <div className="h-[766px]">
               <div className="d-flex justify-content-center align-items-center">
                 <h4
-                  className=" md:w-[70%] lg:w-[50%] text-center 2xl:!ml-[327px] 2xl:!mr-[327px] !mt-[50px] !mb-[35px] md:!mt-[50px] 2xl:!mt-[70px] 2xl:!mb-[60px] !text-[30px] md:!text-[39px] lg:!text-[45px] !text-white 2xl:w-[45%] tracking-[-3px] !font-medium !leading-[35px] md:!leading-[45px]"
+                  className=" md:w-[70%] lg:w-[50%] text-center 2xl:!ml-[327px] 2xl:!mr-[327px] !mt-[50px] !mb-[35px] md:!mt-[50px] 2xl:!mt-[70px] 2xl:!mb-[60px] !text-[30px] md:!text-[39px] lg:!text-[40px] 2xl:!text-[45px] !text-white 2xl:w-[45%] tracking-[-3px] !font-medium !leading-[35px] md:!leading-[45px]"
                 >
                   One wallet, multiple currencies.
                 </h4>
@@ -68,7 +68,7 @@ const Features = () => {
                   <img
                     src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1742041315/AfricaGlobe_q9y4ub.svg"
                     alt="Abuja Landmark"
-                    className="w-[375px] h-[270px] md:w-[573px] md:h-[390px] lg:w-[580px] lg:h-[480px] 2xl:w-[691px] 2xl:h-[470px] overflow-hidden "
+                    className="w-[375px] h-[270px] md:w-[573px] md:h-[390px] lg:w-[570px] lg:h-[450px] 2xl:w-[691px] 2xl:h-[470px] overflow-hidden "
                   />
                 </div>
                 <div className="flex flex-col mb-10 md:mb-0 md:py-5 2xl:py-0 gap-[40px] h-fit md:mt-14 lg:w-[50%] 2xl:w-fit">
@@ -89,7 +89,7 @@ const Features = () => {
 
       <div className="flex items-center justify-center text-center mt-[100px] mb-5 md:mb-0 md:h-[230px] w-full md:mt-5"
       >
-        <p className="text-[30px] px-[50px] md:text-[40px] md:w-[60%] lg:w-[50%] lg:text-[45px] 2xl:w-[40%] tracking-[-3px] leading-[32px] md:leading-[45px] font-medium text-[#072A30] ">
+        <p className="text-[30px] px-[50px] md:text-[40px] md:w-[60%] lg:w-[50%] lg:text-[40px] 2xl:text-[45px] 2xl:w-[40%] tracking-[-3px] leading-[32px] md:leading-[45px] font-medium text-[#072A30] ">
           Affordable transfers, everytime.
         </p>
       </div>
@@ -97,18 +97,18 @@ const Features = () => {
       <div className="flex flex-col items-center md:flex-row justify-around w-[85%] mt-12 md:mt-3 2xl:mt-10 mb-[20px] md:mb-[110px] "
       >
         <div className="mb-14 md:mb-0 md:mt-10 w-fit h-fit flex justify-center items-center md:block ">
-          <img className="w-[283px] h-[200px] md:w-[370px] md:h-[260px] lg:w-[440px] lg:h-[300px] rotate-[-9deg]"
+          <img className="w-[283px] h-[200px] md:w-[370px] md:h-[260px] lg:w-[420px] 2xl:w-[440px] lg:h-[280px] 2xl:h-[300px] rotate-[-9deg]"
             src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1741855192/Affordable_transfers_efvv8t.svg"
             alt="Kriapay-transfer-coins"
           />
         </div>
         <div className="w-[100%] mt-5 2xl:!mt-0  md:mt-0 md:w-[480px] px-[25px] flex flex-col gap-[30px] md:gap-5 h-fit md:mx-3 lg:mr-10">
-          <p className=" text-[22px] md:text-[25px] lg:text-[28px] text-[#072A30] tracking-[-1.5px] font-medium "
+          <p className=" text-[22px] md:text-[25px] lg:text-[27px] 2xl:text-[28px] text-[#072A30] tracking-[-1.5px] font-medium "
           >
             From the buzzling streets of Lagos, to the breezy shores of
             Freetown,
           </p>
-          <p className="text-[18px] md:text-[23px] lg:text-[23px] text-[#072A30] tracking-[-1px] lg:tracking-[-1.5px] font-normal "
+          <p className="text-[18px] md:text-[23px] lg:text-[22px] 2xl:text-[23px] text-[#072A30] tracking-[-1px] lg:tracking-[-1.5px] font-normal "
           >
             Kriapay makes sending money across Africa effortless and affordable.
           </p>
@@ -142,7 +142,7 @@ const Features = () => {
                       style={{ textAlign: "left" }}
                     >
                       <div className="col-md-6 text-white">
-                        <h2 className="text-[24] md:text-[29px] 2xl:text-[33px] md:ml-[50px] lg:ml-[100px] 2xl:ml-[150px] tracking-[-2px] font-medium ">
+                        <h2 className="text-[24] md:text-[28px] 2xl:text-[33px] md:ml-[50px] lg:ml-[100px] 2xl:ml-[150px] tracking-[-2px] font-medium ">
                           {slide.title}
                         </h2>
                         <p className="text-[16px] md:text-[17px] tracking-[-0.9px] md:mr-[50px] 2xl:mr-[119px] md:ml-[50px] lg:ml-[100px] 2xl:ml-[150px] !mt-[50px] "
@@ -160,7 +160,7 @@ const Features = () => {
                           alt={slide.title}
                           style={{
                           }}
-                          className="2xl:ml-[62px] md:!w-[450px] md:!h-[320px] lg:!w-[490px] lg:!h-[345px] 2xl:!w-[560px] 2xl:!h-[380px] mt-[50px] "
+                          className="2xl:ml-[62px] md:!w-[450px] md:!h-[320px] lg:!w-[485px] lg:!h-[340px] 2xl:!w-[560px] 2xl:!h-[380px] mt-[50px] "
                         />
                       </div>
                     </div>

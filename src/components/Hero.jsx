@@ -26,7 +26,7 @@ const Hero = () => {
     <div className="text-center py-5 bg-[#072a30]">
     {/* Centered Content Wrapper */}
     <div className="mx-auto max-w-[754px]">
-      <h1 className="text-white z-20 tracking-[-2px] md:tracking-[-3px] !text-[38px] md:!text-[53px] 2xl:!text-[62px] !leading-[105%]">
+      <h1 className="text-white z-20 tracking-[-2px] md:tracking-[-3px] !text-[38px] md:!text-[55px] 2xl:!text-[62px] !leading-[105%]">
         You Can Pay Less To Send More.
       </h1>
       <p className="mx-auto text-[14px] w-[83%] md:text-[18px] text-white max-w-[650px] !mt-[45px] z-20 tracking-[-0.7px] md:tracking-[-1px] opacity-80 !leading-[135%]">

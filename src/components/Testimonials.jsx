@@ -50,7 +50,7 @@ const Testimonials = () => {
     <>
       {/* Section Title - Shared by both mobile & desktop */}
       <div className="my-[70px] lg:mb-[100px] bg-white">
-        <h2 className="!text-[30px] md:!text-[40px] !text-center lg:!text-[45px] !font-medium !text-[#072A30] !mb-[80px]  tracking-[-3px] leading-[46px]">
+        <h2 className="!text-[30px] md:!text-[40px] !text-center lg:!text-[40px] 2xl:!text-[45px] !font-medium !text-[#072A30] !mb-[80px]  tracking-[-3px] leading-[46px]">
           Real stories. <br />
           Don’t take our word for it.
         </h2>
@@ -66,7 +66,7 @@ const Testimonials = () => {
                 }`}
               >
                 {/* Left side: Image */}
-                <div className="hidden md:block relative md:h-[300px] lg:h-[340px] 2xl:h-[350px] ">
+                <div className="hidden md:block relative md:h-[300px] lg:h-[330px] 2xl:h-[350px] ">
                   <img
                     src={t.image}
                     alt={t.name}
@@ -76,7 +76,7 @@ const Testimonials = () => {
                 {/* Right side: Text */}
                 <div className="flex-1 p-8 flex flex-col justify-center">
                   <p
-                    className={`text-[20px] lg:text-[22px] md:text-xl tracking-[-1.1px] leading-[27px] font-medium ${
+                    className={`text-[20px] lg:text-[21px] 2xl:text-[22px] md:text-xl tracking-[-1.1px] leading-[27px] font-medium ${
                       index % 2 === 0 ? "text-[#050505]" : "text-white"
                     }`}
                   >

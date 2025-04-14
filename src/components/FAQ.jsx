@@ -35,12 +35,12 @@ const FAQ = () => {
 
   return (
     <div className="py-5 w-full flex items-center flex-col gap-[80px] ">
-      <h3 className="text-center !text-[30px] md:!text-[40px] lg:!text-[45px] !text-[#072A30] tracking-[-3px] leading-[48px] ">
+      <h3 className="text-center !text-[30px] md:!text-[40px] 2xl:!text-[45px] !text-[#072A30] tracking-[-3px] leading-[48px] ">
         Still not convinced? <br /> We’ve got the answers
       </h3>
 
       <Accordion
-        className="w-[85%] md:w-[70%] lg:w-[69%] 2xl:w-[49%] bg-[#F7F7F7] rounded-[20px] overflow-hidden !border-none px-4 py-2"
+        className="w-[85%] md:w-[70%] lg:w-[62%] 2xl:w-[49%] bg-[#F7F7F7] rounded-[20px] overflow-hidden !border-none px-4 py-2"
         activeKey={activeKey}
       >
         {faqs.map((item, index) => {
