@@ -3,9 +3,9 @@ import React from "react";
 const slidesData = [
   {
     title: "Onyejife Ugochukwu",
-    description: "Founder & Chief Executive Officer (CEO)",
+    description: "Co-Founder & Chief Executive Officer (CEO)",
     image:
-      "https://res.cloudinary.com/dw7w2at8k/image/upload/v1742309741/vecteezy_a-man-in-a-suit-is-holding-something-up_57229250_zndyuu.png",
+      "https://res.cloudinary.com/dhap3isd2/image/upload/v1744927381/Kriapay%20website/f93cz0gkstyi90bepmpp.png",
     socials: {
       linkedin: "https://linkedin.com/in/onyejifeugochukwu",
       twitter: "https://twitter.com/ceoonyejife",
@@ -16,7 +16,7 @@ const slidesData = [
     title: "Atunwa Vincent",
     description: "Co-Founder & Director",
     image:
-      "https://res.cloudinary.com/dw7w2at8k/image/upload/v1742309673/vecteezy_a-smiling-black-man-in-a-green-polo-shirt_57225216_2_uc4z9g.png",
+      "https://res.cloudinary.com/dhap3isd2/image/upload/v1744927381/Kriapay%20website/xnaoexm5jtybcgcakbkx.png",
     socials: {
       linkedin: "https://linkedin.com/in/atunwavincent",
       twitter: "https://twitter.com/atunwa_vincent",
@@ -27,7 +27,7 @@ const slidesData = [
     title: "Nnawuihe Johnkennedy",
     description: "Chief Financial Officer (CFO)",
     image:
-      "https://res.cloudinary.com/dhap3isd2/image/upload/v1744132418/Kriapay%20website/b3aqrhbpdqk3skpqygqm.png",
+      "https://res.cloudinary.com/dhap3isd2/image/upload/v1744927378/Kriapay%20website/s6ny4lgp0rq3lddbzvze.png",
     socials: {
       linkedin: "https://linkedin.com/in/johnkennedycfo",
       twitter: "https://twitter.com/johnkennedy_fin",
@@ -38,7 +38,7 @@ const slidesData = [
     title: "Chiboka Emmanuel",
     description: "Chief Technology Officer (CTO)",
     image:
-      "https://res.cloudinary.com/dw7w2at8k/image/upload/v1742309671/vecteezy_a-smiling-black-man-in-a-suit-holding-a-folder_57230020_amhk7j.png",
+      "https://res.cloudinary.com/dhap3isd2/image/upload/v1744927331/Kriapay%20website/yereejae8ulrq5gxivev.png",
     socials: {
       linkedin: "https://linkedin.com/in/chibokaemmanuel",
       twitter: "https://twitter.com/chiboka_dev",
@@ -49,7 +49,7 @@ const slidesData = [
     title: "Udegbunam Kosisochukwu",
     description: "Head of Operations",
     image:
-      "https://res.cloudinary.com/dw7w2at8k/image/upload/v1742309671/vecteezy_a-smiling-black-man-in-a-blue-shirt_57230023_ycrby3.png",
+      "https://res.cloudinary.com/dhap3isd2/image/upload/v1744927381/Kriapay%20website/btiymgaupynrmahz2t2e.png",
     socials: {
       linkedin: "https://linkedin.com/in/kosisochukwu-udegbunam",
       twitter: "https://twitter.com/kosi_ops",
@@ -95,7 +95,7 @@ const Team = () => {
                         src={slide.image}
                         alt={slide.title}
                         style={{}}
-                        className="md:w-[88%] lg:w-[87%] md:h-[410px] lg:h-[400px] 2xl:h-[410px] object-contain "
+                        className="md:w-[88%] lg:w-[87%] md:h-[410px] lg:h-[400px] 2xl:h-[390px] 2xl:mt-5 object-contain "
                       />
                     </div>
                   </div>
