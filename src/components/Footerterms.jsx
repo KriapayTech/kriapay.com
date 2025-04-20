@@ -11,10 +11,23 @@ const Footerterms = () => {
             <div className="flex flex-col gap-[15px] md:gap-[30px]">
               <h4 className="!text-[20px] md:!text-[21px]">Legal</h4>
               <div className="flex !flex-row md:!flex-col gap-[18px] lg:!flex-row 2xl:gap-[15px]">
-                
-                <Link to="/privacy-policies" className="underline cursor-pointer text-white">Privacy policies</Link>
-                
-                <Link to="/terms-and-conditions" className="underline cursor-pointer text-white">Terms and conditions</Link>
+                <a
+                  href="/privacy-policies"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline cursor-pointer text-white"
+                >
+                  Privacy policies
+                </a>
+
+                <a
+                  href="/terms-and-conditions"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline cursor-pointer text-white"
+                >
+                  Terms and conditions
+                </a>
               </div>
             </div>
             <div className="w-full md:w-fit">
@@ -75,15 +88,19 @@ const Footerterms = () => {
                   </a>
                 </div>
                 <div className="flex gap-[10px]  leading-[20px]">
-                  <a href="https://www.instagram.com/kriapay_ng/" target="_blank" rel="noopener noreferrer" className="flex gap-[10px] text-white">
-                  <img
-                    className="w-[22px] h-[22px] object-cover "
-                    src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1742553804/Instagram_aeil0t.svg"
-                    alt="Kriapay Instagram"
-                  />{" "}
-                  Instagram
+                  <a
+                    href="https://www.instagram.com/kriapay_ng/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex gap-[10px] text-white"
+                  >
+                    <img
+                      className="w-[22px] h-[22px] object-cover "
+                      src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1742553804/Instagram_aeil0t.svg"
+                      alt="Kriapay Instagram"
+                    />{" "}
+                    Instagram
                   </a>
-                  
                 </div>
               </div>
             </div>

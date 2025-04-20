@@ -12,9 +12,23 @@ const Footer = () => {
               <h4 className="!text-[20px] md:!text-[21px]">Legal</h4>
               <div className="flex !flex-row md:!flex-col gap-[18px] lg:!flex-row 2xl:gap-[15px]">
                 
-                <Link to="/privacy-policies" className="underline cursor-pointer text-white">Privacy policies</Link>
-                
-                <Link to="/terms-and-conditions" className="underline cursor-pointer text-white">Terms and conditions</Link>
+              <a
+                  href="/privacy-policies"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline cursor-pointer text-white"
+                >
+                  Privacy policies
+                </a>
+
+                <a
+                  href="/terms-and-conditions"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline cursor-pointer text-white"
+                >
+                  Terms and conditions
+                </a>
               </div>
             </div>
             <div className="w-full md:w-fit">
