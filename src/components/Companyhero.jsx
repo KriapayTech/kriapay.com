@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import "./Hero.css"; // Import the CSS file for animations
 
+
 const Hero = () => {
   return (
     <div className=" bg-[#072a30] overflow-hidden w-full ">
