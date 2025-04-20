@@ -357,10 +357,10 @@ const ConditionsBody = () => {
         {/* User generated contributions */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
+            <h4 className="text-left w-[95%] md:w-[90%] lg:w-[74%]  text-[#072A30] !text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               6. USER GENERATED CONTRIBUTIONS
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               While the Services do not generally solicit user submissions, we
               may offer you the opportunity to create, submit, post, display,
               transmit, perform, publish, distribute, or broadcast content and
@@ -368,7 +368,7 @@ const ConditionsBody = () => {
               may be visible to other users and through third-party platforms.
               By making any Contribution, you represent and warrant that:
             </p>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               Your Contributions, including their creation, distribution,
               transmission, public display, or performance, and the accessing,
               downloading, or copying of them, do not and will not: <br />{" "}
@@ -404,7 +404,7 @@ const ConditionsBody = () => {
               do not otherwise violate these Legal Terms or any applicable law
               or regulation.
             </p>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               Any use of the Services that violates these guidelines constitutes
               a breach of these Legal Terms and may result in termination or
               suspension of your rights to use the Services.
@@ -415,10 +415,10 @@ const ConditionsBody = () => {
         {/* Contribution license */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
+            <h4 className="text-left w-[95%] md:w-[90%] lg:w-[74%]  text-[#072A30] !text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               7. CONTRIBUTION LICENSE
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               By using the Services, you acknowledge or representations within
               your Contributions made on the Services. You are solely liable for
               your Contributions, and you agree not to hold us liable or take
@@ -439,15 +439,15 @@ const ConditionsBody = () => {
         {/* Guidelines for reviews */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
+            <h4 className="text-left w-[95%] md:w-[90%] lg:w-[74%]  text-[#072A30] !text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               8. GUIDELINES FOR REVIEWS
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               You may have the opportunity to post reviews or ratings on
               designated areas of the Services. When submitting a review, you
               must adhere to the following guidelines:
             </p>
-            <ol className="list-decimal list-inside ml-6 text-sm space-y-4 w-[90%] lg:w-[74%] 2xl:w-[72%] text-[19px] tracking-[-0.5px] font-medium pb-2">
+            <ol className="list-decimal list-inside md:ml-6 text-sm space-y-4 w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] tracking-[-0.5px] font-medium pb-2">
               <li className="">
                 You should have personal experience with the individual or
                 entity being reviewed.
@@ -476,7 +476,7 @@ const ConditionsBody = () => {
                 reviews, whether positive or negative.
               </li>
             </ol>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               We reserve the right to accept, reject, or remove reviews at our
               discretion. We are under no obligation to screen or delete
               reviews, even if others find them objectionable or inaccurate.
@@ -495,13 +495,13 @@ const ConditionsBody = () => {
         {/* Mobile application license */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
+            <h4 className="text-left w-[95%] md:w-[90%] lg:w-[74%]  text-[#072A30] !text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold  2xl:w-[72%] pb-[10px] md:pb-[20px]">
               9. MOBILE APPLICATION LICENSE
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               <strong>User License</strong>
             </p>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               By accessing the Services through the App, we grant you a limited,
               non-exclusive, non-transferable, and revocable right to install
               and use the App on wireless electronic devices owned or controlled
@@ -527,10 +527,10 @@ const ConditionsBody = () => {
               devices for use with the App.
             </p>
 
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px] pt-[40px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px] pt-[40px]">
               <strong>Apple and Android Devices</strong>
             </p>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               The license granted to use our App is non-transferable and limited
               to use on devices running Apple iOS or Android operating systems,
               in accordance with the usage rules of the respective App
@@ -557,10 +557,10 @@ const ConditionsBody = () => {
         {/* Services management */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
+            <h4 className="text-left w-[95%] md:w-[90%] lg:w-[74%]  text-[#072A30] !text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold  2xl:w-[72%] pb-[10px] md:pb-[20px]">
               10. SERVICES MANAGEMENT
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               We reserve the right, but not the obligation, to: <br /> <br />{" "}
               (1) monitor the Services for violations of these Legal Terms; (2)
               take appropriate legal action against anyone who, in our sole
@@ -582,10 +582,10 @@ const ConditionsBody = () => {
         {/* Privacy policy */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
+            <h4 className="text-left w-[95%] md:w-[90%] lg:w-[74%]  text-[#072A30] !text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               11. PRIVACY POLICY
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               Ensuring data privacy and security is paramount to us. By using
               the Services, you agree to comply with our Privacy Policy posted
               on the Services, which is an integral part of these Legal Terms.
@@ -607,14 +607,14 @@ const ConditionsBody = () => {
         {/* Term and termination */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
+            <h4 className="text-left w-[95%] md:w-[90%] lg:w-[74%]  text-[#072A30] !text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               12. TERM AND TERMINATION
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               These Legal Terms will remain effective as long as you use the
               Services.
             </p>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               <strong>
                 WITHOUT LIMITING ANY OTHER PROVISION OF THESE LEGAL TERMS, WE
                 RESERVE THE RIGHT, AT OUR SOLE DISCRETION AND WITHOUT NOTICE OR
@@ -628,7 +628,7 @@ const ConditionsBody = () => {
                 WITHOUT WARNING, IN OUR SOLE DISCRETION.
               </strong>
             </p>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               If we terminate or suspend your account for any reason, you are
               prohibited from registering and creating a new account under your
               name, a fictitious name, or the name of any third party, even if
@@ -643,10 +643,10 @@ const ConditionsBody = () => {
         {/* Modifications and Interruptions */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
+            <h4 className="text-left w-[95%] md:w-[90%] lg:w-[74%]  text-[#072A30] !text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               13. MODIFICATIONS AND INTERRUPTIONS
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               We reserve the right, at our sole discretion and without notice,
               to change, modify, or remove the content of the Services for any
               reason. However, we are not obligated to update any information on
@@ -654,7 +654,7 @@ const ConditionsBody = () => {
               any modification, price change, suspension, or discontinuance of
               the Services.
             </p>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               We cannot guarantee uninterrupted availability of the Services. We
               may encounter hardware, software, or other issues or need to
               perform maintenance related to the Services, which may result in
@@ -673,10 +673,10 @@ const ConditionsBody = () => {
         {/* Governing law */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
+            <h4 className="text-left w-[95%] md:w-[90%] lg:w-[74%]  text-[#072A30] !text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold  2xl:w-[72%] pb-[10px] md:pb-[20px]">
               14. GOVERNING LAW
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               These Legal Terms are governed by and construed in accordance with
               the laws of Nigeria. Kria Technologies Limited and you irrevocably
               consent that the courts of Nigeria shall have exclusive
@@ -689,13 +689,13 @@ const ConditionsBody = () => {
         {/* Dispute resolution */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
+            <h4 className="text-left w-[95%] md:w-[90%] lg:w-[74%]  text-[#072A30] !text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               15. DISPUTE RESOLUTION
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               <strong>Informal Negotiations</strong>
             </p>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               To expedite the resolution and manage the costs of any dispute,
               controversy, or claim arising from these Legal Terms (each a
               "Dispute" and collectively, "Disputes") brought by either you or
@@ -706,10 +706,10 @@ const ConditionsBody = () => {
               the other Party.
             </p>
 
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px] pt-[40px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px] pt-[40px]">
               <strong>Binding Arbitration</strong>
             </p>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               Any Dispute arising out of or relating to these Legal Terms,
               including any questions regarding its existence, validity, or
               termination, shall be referred to and finally resolved by
@@ -721,10 +721,10 @@ const ConditionsBody = () => {
               substantive law of Nigeria shall govern these Legal Terms.
             </p>
 
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px] pt-[40px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px] pt-[40px]">
               <strong>Limitations</strong>
             </p>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               The Parties agree that any arbitration shall be limited to the
               Dispute between the Parties individually. To the fullest extent
               permitted by law: (a) no arbitration shall be consolidated with
@@ -735,12 +735,12 @@ const ConditionsBody = () => {
               on behalf of the general public or any other persons.
             </p>
 
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px] pt-[40px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px] pt-[40px]">
               <strong>
                 Exceptions to Informal Negotiations and Arbitration
               </strong>
             </p>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px]font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               The Parties agree that the following Disputes are not subject to
               the above provisions regarding informal negotiations and binding
               arbitration: (a) any Disputes seeking to enforce or protect, or
@@ -759,10 +759,10 @@ const ConditionsBody = () => {
         {/* Corrections */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
+            <h4 className="text-left w-[95%] md:w-[90%] lg:w-[74%]  text-[#072A30] !text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold  2xl:w-[72%] pb-[10px] md:pb-[20px]">
               16. CORRECTIONS
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               There may be instances on the Services where information contains
               typographical errors, inaccuracies, or omissions, including
               descriptions, pricing, availability, and various other details. We
@@ -776,10 +776,10 @@ const ConditionsBody = () => {
         {/* Disclaimer */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
+            <h4 className="text-left w-[95%] md:w-[90%] lg:w-[74%]  text-[#072A30] !text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               17. DISCLAIMER
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               <strong>
                 THE SERVICES ARE PROVIDED ON AN "AS-IS" AND "AS-AVAILABLE"
                 BASIS. YOU ACKNOWLEDGE AND AGREE THAT YOUR USE OF THE SERVICES
@@ -819,10 +819,10 @@ const ConditionsBody = () => {
         {/* Limitation of liabilities */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
+            <h4 className="text-left w-[95%] md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               18. LIMITATIONS OF LIABILITY
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               <strong>
                 IN NO EVENT SHALL WE OR OUR DIRECTORS, EMPLOYEES, OR AGENTS BE
                 LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT,
@@ -848,10 +848,10 @@ const ConditionsBody = () => {
         {/* Indemification */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
+            <h4 className="text-left w-[95%] md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               19. INDEMNIFICATION
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               You agree to defend, indemnify, and hold us harmless, including
               our subsidiaries, affiliates, and all of our respective officers,
               agents, partners, and employees, from and against any loss,
@@ -877,10 +877,10 @@ const ConditionsBody = () => {
         {/* User data*/}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
+            <h4 className="text-left w-[95%] md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               20. USER DATA
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               We will retain certain data that you transmit to the Services for
               the purpose of managing the performance of the Services, as well
               as data related to your use of the Services. While we perform
@@ -897,10 +897,10 @@ const ConditionsBody = () => {
         {/* Electronic communications, transcations, and signatures*/}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
+            <h4 className="text-left w-[95%] md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               21. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               Your visit to the Services, sending us emails, and completing
               online forms constitute electronic communications. By using the
               Services, you consent to receive electronic communications, and
@@ -909,7 +909,7 @@ const ConditionsBody = () => {
               and on the Services, satisfy any legal requirement that such
               communication be in writing.
             </p>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               <strong>
                 YOU HEREBY AGREE TO THE USE OF ELECTRONIC SIGNATURES, CONTRACTS,
                 ORDERS, AND OTHER RECORDS, AND TO ELECTRONIC DELIVERY OF
@@ -917,7 +917,7 @@ const ConditionsBody = () => {
                 COMPLETED BY US OR VIA THE SERVICES.
               </strong>
             </p>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               You also waive any rights or requirements under any statutes,
               regulations, rules, ordinances, or other laws in any jurisdiction
               that require an original signature or delivery or retention of
@@ -930,10 +930,10 @@ const ConditionsBody = () => {
         {/* Miscellaneous*/}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
+            <h4 className="text-left w-[95%] md:w-[90%] lg:w-[74%]  text-[#072A30] !text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               22. MISCELLANEOUS
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               These Legal Terms, along with any policies or operating rules
               posted by us on the Services or in relation to the Services,
               constitute the complete agreement and understanding between you
@@ -962,14 +962,14 @@ const ConditionsBody = () => {
         {/* Contact us*/}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[150px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
+            <h4 className="text-left w-[95%] md:w-[90%] lg:w-[74%]  text-[#072A30] !text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               23. CONTACT US
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               To address a complaint about the Services or to obtain further
               information about their use, please contact us at:
             </p>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               Kria Technologies Limited 16, Onijanikin Street, Alasia, Nigeria
               Alasia, Lagos 102101 Nigeria <br /> <br /> Phone: <a href="tel:+2349057759592" className="text-black">+2349057759592</a>  <br /> <br /> Email: <a href="mailto:info@kriapay.com" className="text-black"> info@kriapay.com</a>
             </p>
