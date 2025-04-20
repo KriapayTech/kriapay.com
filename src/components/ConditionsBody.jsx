@@ -3,18 +3,18 @@ import { Button } from "react-bootstrap";
 
 const ConditionsBody = () => {
   return (
-    <div className="bg-[#F7F7F7] overflow-hidden mt-[70px] md:mt-0 md:pt-[60px] pb-[70px]  md:pb-[100px] lg:pb-0 2xl:mt-0 2xl:pt-[100px] 2xl:mb-0 ">
+    <div className="bg-[#F7F7F7] overflow-hidden pt-[20px] md:pt-[60px] pb-[70px]  md:pb-[100px] lg:pb-0 2xl:mt-0 2xl:pt-[100px] 2xl:mb-0 ">
       <div className="flex flex-col justify-between items-center w-full md:px-[80px] 2xl:px-[100px] gap-[20px]  2xl:gap-[20px] lg:mt-[50px]">
         {/* Introduction */}
         <div className="w-full  px-[37px] md:pl-0 lg:px-0 lg:w-full pt-[70px] md:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-0 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px]  ">
-          <h3 className="text-left md:w-full  flex lg:w-[95%] 2xl:w-[93%] text-[#072A30] text-[23px] md:!text-[25px] lg:!text-[30px] tracking-[-1.5px] lg:tracking-[-3px] leading-[33px] font-medium   ">
+          <h3 className="text-left w-full md:w-full flex lg:w-[95%] 2xl:w-[93%] text-[#072A30] !text-[21px] md:!text-[25px] lg:!text-[30px] tracking-[-1.5px] lg:tracking-[-3px] leading-[33px] font-medium   ">
             Last updated June 25, 2024
           </h3>
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[27px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[20px]">
+            <h4 className="text-left w-[95%] md:w-[90%] lg:w-[74%]  text-[#072A30] !text-[20px] lg:!text-[27px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               Introduction
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               These Terms and Conditions ("Terms") constitute a legal agreement
               between you, as a user of Kriapay's services, and Kria
               Technologies Limited ("Kriapay," "we," "our," or "us"). These
@@ -22,21 +22,21 @@ const ConditionsBody = () => {
               application, website, and other related products and services
               (collectively referred to as the "Services").
             </p>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               By accessing or using any part of the Services, you agree to be
               bound by these Terms in full and without reservation. This
               includes acceptance of our Privacy Policy, which forms an integral
               part of these Terms. If you do not agree with any part of these
               Terms, you must refrain from using the Services.
             </p>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               These Terms outline your rights and responsibilities when using
               Kriapay's platform, so please read them carefully. Your continued
               use of the Services constitutes acceptance of any updates or
               changes to these Terms, which we may make from time to time.
             </p>
 
-            <div className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px] flex flex-col gap-[20px] mt-[40px]">
+            <div className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px] flex flex-col gap-[20px] mt-[40px]">
               <h5 className="!font-semibold !text-[18px]">
                 Who we are and our company information:{" "}
               </h5>
@@ -99,10 +99,10 @@ const ConditionsBody = () => {
         {/* Our services */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px]">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]   text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px]">
+            <h4 className="text-left w-[95%] md:w-[90%] lg:w-[74%]   text-[#072A30] !text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               1. OUR SERVICES
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               The information presented while using our Services is not intended
               for distribution to or utilization by any individual or entity in
               any jurisdiction or country where such distribution or use would
@@ -118,13 +118,13 @@ const ConditionsBody = () => {
         {/* Intellectual properties right */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px]">
+            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] !text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               2. INTELLECTUAL PROPERTY RIGHTS
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               <strong>Our Intellectual Property</strong>
             </p>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               We are the rightful owner or licensee of all intellectual property
               rights associated with our Services, encompassing all source code,
               databases, functionalities, software, website designs, audio,
@@ -132,21 +132,21 @@ const ConditionsBody = () => {
               (collectively, the "Content"), as well as the trademarks, service
               marks, and logos contained therein (the "Marks").
             </p>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               Our Content and Marks are safeguarded by copyright, trademark
               laws, and various other intellectual property rights and unfair
               competition laws in the United States and globally.
             </p>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               The Content and Marks are provided within or through the Services
               "AS IS" solely for your personal, non-commercial use or internal
               business purposes.
             </p>
 
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px] pt-[40px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px] pt-[40px]">
               <strong>Your Use of Our Services</strong>
             </p>
-            <ul className="list-disc list-inside ml-6 text-sm space-y-4 w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] tracking-[-0.5px] font-medium pb-2">
+            <ul className="list-disc list-inside md:ml-6 text-sm space-y-4 w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] tracking-[-0.5px] font-medium pb-2">
               <li className="">Access the Services</li>
               <li>
                 Download or print a copy of any portion of the Content to which
@@ -154,7 +154,7 @@ const ConditionsBody = () => {
                 non-commercial use or internal business purposes.
               </li>
             </ul>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               Except as expressly permitted in this section or elsewhere in our
               Legal Terms, no part of the Services, Content, or Marks may be
               copied, reproduced, aggregated, republished, uploaded, posted,
@@ -162,7 +162,7 @@ const ConditionsBody = () => {
               sold, licensed, or otherwise exploited for any commercial purpose
               without our explicit prior written consent.
             </p>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               If you wish to utilize the Services, Content, or Marks in a manner
               not explicitly permitted in this section or elsewhere in our Legal
               Terms, please direct your request to: info@kriapay.com. Should we
@@ -172,7 +172,7 @@ const ConditionsBody = () => {
               or Marks and ensure that any copyright or proprietary notice
               accompanies such use.
             </p>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               We reserve all rights not explicitly granted to you in relation to
               the Services, Content, and Marks. Any infringement of these
               Intellectual Property Rights will constitute a material breach of
@@ -180,21 +180,21 @@ const ConditionsBody = () => {
               right to utilize our Services.
             </p>
 
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px] pt-[40px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px] pt-[40px]">
               <strong>Your Submissions</strong>
             </p>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               Prior to using our Services, please carefully review this section
               and the "PROHIBITED ACTIVITIES" section to understand:
             </p>
-            <ul className="list-disc list-inside ml-6 text-sm space-y-4 w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] tracking-[-0.5px] font-medium pb-2">
+            <ul className="list-disc list-inside ml-6 text-sm space-y-4 w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] tracking-[-0.5px] font-medium pb-2">
               <li className="">The rights you confer to us; and</li>
               <li>
                 The obligations you undertake when posting or uploading any
                 content through the Services.
               </li>
             </ul>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               <strong>Submissions:</strong> By directly submitting any
               questions, comments, suggestions, ideas, feedback, or other
               information about the Services ("Submissions"), you agree to
@@ -204,11 +204,11 @@ const ConditionsBody = () => {
               for any lawful purpose, commercial or otherwise, without any
               acknowledgment or compensation to you.
             </p>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               <strong>Your Responsibility for Submissions:</strong> By sending
               us Submissions through any part of the Services, you:
             </p>
-            <ul className="list-disc list-inside ml-6 text-sm space-y-4 md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] tracking-[-0.5px] font-medium pb-2">
+            <ul className="list-disc list-inside md:ml-6 text-sm space-y-4 w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] tracking-[-0.5px] font-medium pb-2">
               <li className="">
                 Affirm that you have read and agree with our "PROHIBITED
                 ACTIVITIES" and undertake not to post, send, publish, upload, or
@@ -232,7 +232,7 @@ const ConditionsBody = () => {
                 confidential information.
               </li>
             </ul>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               You bear sole responsibility for your Submissions and expressly
               agree to indemnify us for any and all losses we may incur as a
               result of your breach of (a) this section, (b) any third party’s
@@ -244,13 +244,13 @@ const ConditionsBody = () => {
         {/* User representations */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px]">
+            <h4 className="text-left w-[95%] md:w-[90%] lg:w-[74%]  text-[#072A30] !text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               3. USER REPRESENTATIONS
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               By accessing and using the Services, you affirm and warrant that:
             </p>
-            <ol className="list-decimal list-inside ml-6 text-sm space-y-4 w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] tracking-[-0.5px] font-medium pb-2">
+            <ol className="list-decimal list-inside md:ml-6 text-sm space-y-4 w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] tracking-[-0.5px] font-medium pb-2">
               <li className="">
                 All registration information you provide is truthful, accurate,
                 current, and complete;
@@ -279,7 +279,7 @@ const ConditionsBody = () => {
                 regulations.
               </li>
             </ol>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               If you furnish any information that is false, inaccurate,
               outdated, or incomplete, we reserve the right to suspend or
               terminate your account and deny any current or future access to
@@ -291,10 +291,10 @@ const ConditionsBody = () => {
         {/* User registration */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px]">
+            <h4 className="text-left w-[95%] md:w-[90%] lg:w-[74%]  text-[#072A30] !text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               4. USER REGISTRATION
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               You may need to register to access certain features of the
               Services. You agree to maintain the confidentiality of your
               password and accept responsibility for all activities that occur
@@ -309,10 +309,10 @@ const ConditionsBody = () => {
         {/* Prohibited activities */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px]">
+            <h4 className="text-left w-[95%] md:w-[90%] lg:w-[74%]  text-[#072A30] text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               5. PROHIBITED ACTIVITIES
             </h4>
-            <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
+            <p className="w-[95%] md:w-[90%] lg:w-[74%] 2xl:w-[72%] text-[16px] md:text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
               You agree to use the Services only for their intended purposes and
               may not engage in the following prohibited activities: <br />{" "}
               <br />  (1) Systematically retrieve data or other content from the
@@ -357,7 +357,7 @@ const ConditionsBody = () => {
         {/* User generated contributions */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px]">
+            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               6. USER GENERATED CONTRIBUTIONS
             </h4>
             <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
@@ -415,7 +415,7 @@ const ConditionsBody = () => {
         {/* Contribution license */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px]">
+            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               7. CONTRIBUTION LICENSE
             </h4>
             <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
@@ -439,7 +439,7 @@ const ConditionsBody = () => {
         {/* Guidelines for reviews */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px]">
+            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               8. GUIDELINES FOR REVIEWS
             </h4>
             <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
@@ -495,7 +495,7 @@ const ConditionsBody = () => {
         {/* Mobile application license */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px]">
+            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               9. MOBILE APPLICATION LICENSE
             </h4>
             <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
@@ -557,7 +557,7 @@ const ConditionsBody = () => {
         {/* Services management */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px]">
+            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               10. SERVICES MANAGEMENT
             </h4>
             <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
@@ -582,7 +582,7 @@ const ConditionsBody = () => {
         {/* Privacy policy */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px]">
+            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               11. PRIVACY POLICY
             </h4>
             <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
@@ -607,7 +607,7 @@ const ConditionsBody = () => {
         {/* Term and termination */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px]">
+            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               12. TERM AND TERMINATION
             </h4>
             <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
@@ -643,7 +643,7 @@ const ConditionsBody = () => {
         {/* Modifications and Interruptions */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px]">
+            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               13. MODIFICATIONS AND INTERRUPTIONS
             </h4>
             <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
@@ -673,7 +673,7 @@ const ConditionsBody = () => {
         {/* Governing law */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px]">
+            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               14. GOVERNING LAW
             </h4>
             <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
@@ -689,7 +689,7 @@ const ConditionsBody = () => {
         {/* Dispute resolution */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px]">
+            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               15. DISPUTE RESOLUTION
             </h4>
             <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
@@ -759,7 +759,7 @@ const ConditionsBody = () => {
         {/* Corrections */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px]">
+            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               16. CORRECTIONS
             </h4>
             <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
@@ -776,7 +776,7 @@ const ConditionsBody = () => {
         {/* Disclaimer */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px]">
+            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               17. DISCLAIMER
             </h4>
             <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
@@ -819,7 +819,7 @@ const ConditionsBody = () => {
         {/* Limitation of liabilities */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px]">
+            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               18. LIMITATIONS OF LIABILITY
             </h4>
             <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
@@ -848,7 +848,7 @@ const ConditionsBody = () => {
         {/* Indemification */}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px]">
+            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               19. INDEMNIFICATION
             </h4>
             <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
@@ -877,7 +877,7 @@ const ConditionsBody = () => {
         {/* User data*/}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px]">
+            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               20. USER DATA
             </h4>
             <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
@@ -897,7 +897,7 @@ const ConditionsBody = () => {
         {/* Electronic communications, transcations, and signatures*/}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px]">
+            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               21. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES
             </h4>
             <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
@@ -930,7 +930,7 @@ const ConditionsBody = () => {
         {/* Miscellaneous*/}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[110px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px]">
+            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               22. MISCELLANEOUS
             </h4>
             <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
@@ -962,7 +962,7 @@ const ConditionsBody = () => {
         {/* Contact us*/}
         <div className="w-full px-[37px] md:px-0 lg:px-0 lg:w-full pt-[70px] md:pt-[80px] lg:pt-0 2xl:w-full h-fit  items-start lg:items-end flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px]  2xl:pl-[0px] md:pr-[20px] 2xl:pr-0 pb-[10px] md:pb-[0px] lg:pb-[150px] ">
           <div className="w-full flex flex-col items-center justify-center mt-4 gap-[20px]">
-            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px]">
+            <h4 className="text-left md:w-[90%] lg:w-[74%]  text-[#072A30] text-[17px] md:!text-[20px] lg:!text-[24px] tracking-[-1px] md:tracking-[-1.5px] leading-[30px] !font-semibold   2xl:w-[72%] pb-[10px] md:pb-[20px]">
               23. CONTACT US
             </h4>
             <p className="w-[90%] lg:w-[74%] 2xl:w-[72%] text-[18px] lg:text-[19px] font-medium tracking-[-0.5px]">
