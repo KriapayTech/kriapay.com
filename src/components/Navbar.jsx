@@ -45,7 +45,7 @@ const Navigation = () => {
           </Nav.Link>
           <Nav.Link
             className="text-white md:!text-[15px] lg:!text-[16px] tracking-[-1px]"
-            href="https://kriapay.vercel.app/login"
+            href="https://dashboard.kriapay.com/login"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -55,7 +55,7 @@ const Navigation = () => {
 
         {/* Sign Up Button (Hidden on mobile) */}
         <a
-          href="https://kriapay.vercel.app/signup"
+          href="https://dashboard.kriapay.com/signup"
           target="_blank"
           rel="noopener noreferrer"
           className="!no-underline"
@@ -112,14 +112,14 @@ const Navigation = () => {
             </Nav.Link>
             <Nav.Link
               className="text-white !text-[17px] tracking-[-1px] leading-[19px] !font-medium"
-              href="https://kriapay.vercel.app/login"
+              href="https://dashboard.kriapay.com/login"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setIsSidebarOpen(false)}
             >
               Login
             </Nav.Link>
-            <a href="https://kriapay.vercel.app/signup" target="_blank" rel="noopener noreferrer" className="!no-underline">
+            <a href="https://dashboard.kriapay.com/signup" target="_blank" rel="noopener noreferrer" className="!no-underline">
 
             <button className="w-[146px] h-[46px] tracking-[-1px] bg-[#1B4F56] text-white font-medium leading-[19px] rounded !mt-[6px]" onClick={() => setIsSidebarOpen(false)}>
               

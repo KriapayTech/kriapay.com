@@ -9,20 +9,20 @@ import Borderless from "../components/Borderless";
 import Navigation from "../components/Navbar";
 import Footer from "../components/Footer";
 
-
 const LandingPage = () => {
+  
   return (
-    <div className="bg-white max-w-full" >
-    <Navigation />
+    <div className="bg-white max-w-full">
+      <Navigation />
       <Hero />
       <Features />
       <Testimonials />
       <Comingsoon />
       <FAQ />
-      <Borderless/>
-      <Footer/>
-
-    </ div>
+      <Borderless />
+      <Footer />
+    </div>
+    
   );
 };
 

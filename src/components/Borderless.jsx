@@ -16,7 +16,7 @@ const Borderless = () => {
               The borderless way with Kriapay.
             </p>
             <a
-              href="https://kriapay.vercel.app/login"
+              href="https://dashboard.kriapay.com/login"
               target="_blank"
               rel="noopener noreferrer"
             >
