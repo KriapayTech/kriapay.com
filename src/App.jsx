@@ -1,7 +1,6 @@
 import React from "react";
 import LandingPage from "./pages/Landingpage";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { HelmetProvider } from "react-helmet-async";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Kriacard from "./pages/Kriacard";
 import Company from "./pages/Company";
@@ -16,7 +15,6 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 const App = () => {
   return (
-    <HelmetProvider>
     <Router>
     <div className="div-fluid">
       <Routes>
@@ -29,7 +27,6 @@ const App = () => {
       </Routes>
     </div>
   </Router>
-  </HelmetProvider>
   );
 };
 
