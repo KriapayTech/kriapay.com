@@ -49,7 +49,7 @@ const SupportContact = () => {
                         alt="Kriapay mail"
                       />
                     </span>
-                    support@kriapay.com
+                    <a href="mailto:support@kriapay.com" className="text-white">support@kriapay.com</a>
                   </p>
                   <p className="flex items-center gap-[10px] !text-[15px] md:!text-[16px] lg:!text-[18px] tracking-[-0.7px] md:tracking-[-0.6px] leading-[25px] md:leading-[33px]">
                     <span>
@@ -59,7 +59,7 @@ const SupportContact = () => {
                         alt="Kriapay Whatsapp"
                       />
                     </span>
-                    +234 916 770 2876
+                    <a href="http://wa.link/qaozwz" target="_blank" rel="noopener noreferrer" className="text-white">+234 916 770 2876</a>
                   </p>
                   <p className="flex items-center gap-[10px] !text-[15px] md:!text-[16px] lg:!text-[18px] tracking-[-0.7px] md:tracking-[-0.6px] leading-[33px]">
                     <span>

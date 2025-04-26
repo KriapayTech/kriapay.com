@@ -47,7 +47,7 @@ const Footer = () => {
                   </p>
                 </a>
                 <a
-                  href="https://kriapay.vercel.app/login"
+                  href="https://dashboard.kriapay.com/login"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
