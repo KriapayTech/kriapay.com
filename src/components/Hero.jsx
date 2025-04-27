@@ -36,7 +36,7 @@ const Hero = () => {
 
       {/* Wallet Balance Card */}
       <div className="pulsing-wrapper relative">
-        <div class="absolute w-full h-[500px] 2xl:h-[40px] bottom-[-0px] flex items-end justify-center overflow-hidden">
+        <div class="absolute w-full h-[500px] 2xl:h-[450px] bottom-[-0px] flex items-end justify-center overflow-hidden">
 
   <div class="absolute bottom-[-30px] 2xl:bottom-[-60px] flex items-center justify-center">
 
