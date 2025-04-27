@@ -2,9 +2,13 @@
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
   ],
-  "build": {
-    "env": {
-      "NPM_FLAGS": "--legacy-peer-deps"
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node",
+      "config": {
+        "buildCommand": "npm install --legacy-peer-deps && npm run build"
+      }
     }
-  }
+  ]
 }
