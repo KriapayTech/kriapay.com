@@ -63,7 +63,7 @@ const Features = () => {
                 </h4>
               </div>
 
-              <div className="flex flex-col-reverse md:flex-row 2xl:gap-[20px] pt-4 lg:px-[40px]">
+              <div className="flex flex-col-reverse md:flex-col lg:flex-row 2xl:gap-[20px] pt-4 lg:px-[40px]">
                 <div className="overflow-hidden flex justify-center 2xl:block  lg:w-[55%] 2xl:w-fit">
                   <img
                     src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1742041315/AfricaGlobe_q9y4ub.svg"
