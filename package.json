@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "install": "npm install --legacy-peer-deps",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -41,3 +42,4 @@
     "vite": "^6.2.0"
   }
 }
+
