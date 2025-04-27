@@ -9,12 +9,14 @@ import Termsandconditions from "./pages/Termsandconditions.jsx";
 import Privacypolicies from "./pages/Privacypolicies.jsx";
 
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import { HelmetProvider } from 'react-helmet-async';
 
 
 
 
 const App = () => {
   return (
+    <HelmetProvider>
     <Router>
     <div className="div-fluid">
       <Routes>
@@ -27,6 +29,7 @@ const App = () => {
       </Routes>
     </div>
   </Router>
+  </HelmetProvider>
   );
 };
 
