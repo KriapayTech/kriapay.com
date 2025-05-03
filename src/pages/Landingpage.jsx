@@ -19,7 +19,7 @@ const LandingPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute(
         "content",
-        "Experience affordable, secure, and effortless cross-border money transfers across Africa. Send, receive, and convert currencies with ease using Kriapay. Pay less to send more."
+        "Experience affordable, secure, and effortless cross-border money transfers across Africa. Send, receive, and convert currencies with ease with Kriapay. Pay less to send more."
       );
     }
 
@@ -33,7 +33,7 @@ const LandingPage = () => {
     if (ogDescription) {
       ogDescription.setAttribute(
         "content",
-        "Experience affordable, secure, and effortless cross-border money transfers across Africa. Send, receive, and convert currencies with ease using Kriapay. Pay less to send more."
+        "Experience affordable, secure, and effortless cross-border money transfers across Africa. Send, receive, and convert currencies with ease with Kriapay. Pay less to send more."
       );
     }
 
