@@ -14,8 +14,6 @@ const Footer = () => {
                 
               <a
                   href="/privacy-policies"
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="underline cursor-pointer text-white"
                 >
                   Privacy policies
@@ -23,8 +21,6 @@ const Footer = () => {
 
                 <a
                   href="/terms-and-conditions"
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="underline cursor-pointer text-white"
                 >
                   Terms and conditions
